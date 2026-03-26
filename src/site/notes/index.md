@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"title":"🚀 TRẠM DỮ LIỆU WEB KHOTOT.VN","dg-note-properties":{"title":"🚀 TRẠM DỮ LIỆU WEB KHOTOT.VN"}}
+{"dg-publish":true,"permalink":"/index/","title":"🚀 TRẠM DỮ LIỆU KHOTOT.VN","dg-note-properties":{"permalink":"/","title":"🚀 TRẠM DỮ LIỆU KHOTOT.VN"}}
 ---
+
 
 
 # 🤖 KHOTOT.VN - DATA STATION
