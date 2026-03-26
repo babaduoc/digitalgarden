@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"🚀 TRẠM DỮ LIỆU WEB KHOTOT.VN","dg-note-properties":{"title":"🚀 TRẠM DỮ LIỆU WEB KHOTOT.VN"}}
+{"dg-publish":true,"title":"🚀 TRẠM DỮ LIỆU WEB KHOTOT.VN","dg-note-properties":{"title":"🚀 TRẠM DỮ LIỆU WEB KHOTOT.VN"}}
 ---
 
 
