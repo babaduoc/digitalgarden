@@ -1,32 +1,47 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"🏠 TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","tags":["gardenEntry"],"dg-note-properties":{"title":"🏠 TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN"}}
+{"dg-publish":true,"permalink":"/index/","title":"🏛️ TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","tags":["gardenEntry"],"dg-note-properties":{"title":"🏛️ TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN"}}
 ---
 
-# 🏠 TRANG CHỦ QUẢN LÝ DỰ ÁN WEB ETZ
+# 🏛️ TRANG CHỦ QUẢN LÝ DỰ ÁN WEB ETZ
 
-Hệ thống đã tự động hóa việc liệt kê tệp tin cho từng phòng ban. Sếp chỉ cần nhấn vào để xem danh sách hồ sơ bên trong.
-
----
-
-## 🏛️ DANH PHÁP PHÒNG BAN QUẢN LÝ
-
-| STT | PHÒNG BAN VẬN HÀNH | TRUY CẬP DANH MỤC FILE |
-| :-- | :--- | :--- |
-| 1 | **1. CHIẾN LƯỢC (STRATEGY)** | [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/00_DANH_MUC_CHIEN_LUOC\|📍 Xem Danh Mục Tệp Tin]] |
-| 2 | **2. VẬN HÀNH (OPERATIONS)** | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/00_DANH_MUC_VAN_HANH\|📍 Xem Danh Mục Tệp Tin]] |
-| 3 | **3. PHÁP CHẾ (LEGAL)** | [[01_TONG_HANH_DINH_QUAN_LY/3_PHONG_PHAP_CHE/00_DANH_MUC_PHAP_CHE\|📍 Xem Danh Mục Tệp Tin]] |
-| 4 | **4. MARKETING** | [[01_TONG_HANH_DINH_QUAN_LY/4_PHONG_MARKETING/00_DANH_MUC_MARKETING\|📍 Xem Danh Mục Tệp Tin]] |
-| 5 | **5. TÀI CHÍNH (FINANCE)** | [[01_TONG_HANH_DINH_QUAN_LY/5_PHONG_TAI_CHINH/00_DANH_MUC_TAI_CHINH\|📍 Xem Danh Mục Tệp Tin]] |
-| 6 | **6. NHÂN SỰ (HR)** | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/00_DANH_MUC_NHAN_SU\|📍 Xem Danh Mục Tệp Tin]] |
-| 7 | **7. KỸ THUẬT (TECH)** | [[01_TONG_HANH_DINH_QUAN_LY/7_PHONG_KY_THUAT/00_DANH_MUC_KY_THUAT\|📍 Xem Danh Mục Tệp Tin]] |
-| 8 | **8. BIỂU MẪU (FORMS)** | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/00_DANH_MUC_MAU_CHECKLISTS\|📍 Xem Danh Mục Tệp Tin]] |
-| 9 | **9. LƯU TRỮ (ARCHIVE)** | [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/00_DANH_MUC_TRU_TIEN_DO\|📍 Xem Danh Mục Tệp Tin]] |
+Hệ thống đã được cập nhật để hiển thị toàn bộ hồ sơ trực tiếp. Sếp có thể truy cập ngay vào từng tài liệu mà không cần qua danh mục trung gian.
 
 ---
 
-## 🔍 QUY ĐỊNH BẢO MẬT & VẬN HÀNH
-- **Tài liệu hướng dẫn (README_HE_THONG):** Chỉ xem được Locally (tại máy sếp). File nằm ở thư mục: `01_TONG_HANH_DINH_QUAN_LY/00_Dashboard`.
-- **Cơ chế tự động:** Mọi file sếp mới thêm vào thư mục dự án sẽ được AI tự động đưa vào danh mục này sau mỗi lần cập nhật.
+## 🏗️ 1. PHÒNG CHIẾN LƯỢC (STRATEGY)
+- [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|🏗️ Tài liệu Dự án Chuẩn (Main Spec)]]
+
+## 📦 2. PHÒNG VẬN HÀNH (OPERATIONS)
+- [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|📋 SOP Xử lý Đơn hàng Kho ETZ (G1)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|📊 Phân tích Rủi ro & Hiệu quả SOP]]
+- [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|📋 SOP Điều phối Đơn hàng MD Tỉnh]]
+
+## ⚖️ 3. PHÒNG PHÁP CHẾ (LEGAL)
+- [[01_TONG_HANH_DINH_QUAN_LY/3_PHONG_PHAP_CHE/DANH_MUC_PHAP_CHE\|🛡️ Hồ sơ Pháp lý & Hợp đồng Freelance]]
+
+## 🎨 4. PHÒNG MARKETING & THƯƠNG HIỆU
+- [[01_TONG_HANH_DINH_QUAN_LY/4_PHONG_MARKETING/DANH_MUC_MARKETING\|🖼️ Tài nguyên Thương hiệu & Content mẫu]]
+
+## 💰 5. PHÒNG TÀI CHÍNH (FINANCE)
+- [[01_TONG_HANH_DINH_QUAN_LY/5_PHONG_TAI_CHINH/DANH_MUC_TAI_CHINH\|🧾 Quản lý Thanh toán & Cổng SePay]]
+
+## 👥 6. PHÒNG NHÂN SỰ (HR)
+- [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/DANH_MUC_NHAN_SU\|👤 Mô tả Công việc (JD) & KPIs Nhân sự]]
+
+## 🛡️ 7. PHÒNG KỸ THUẬT (TECH)
+- [[01_TONG_HANH_DINH_QUAN_LY/7_PHONG_KY_THUẬT/DANH_MUC_KY_THUẬT\|🌐 Quản lý Server, Domain & Security]]
+
+## 📑 8. BIỂU MẪU & CHECKLISTS (FORMS)
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|📑 Mẫu Phiếu Soạn Hàng (Pick list)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|🚚 Mẫu Biên Bản Bàn Giao Shipper]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|📦 Mẫu Phiếu Xuất Kho / Cảm ơn]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|✅ Checklist Vận hành Kho G1]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|🌐 Checklist Vận hành Website]]
+
+## 🕒 9. LƯU TRỮ & TIẾN ĐỘ (ARCHIVE)
+- [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/2026-03-27_BaoCaoHop_NoiBo_KhongIT\|🕒 Biên bản họp Nội bộ (2026-03-27)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/2026-03-10_BienBanHop_Lan6\|🕒 Biên bản họp lần 6 (2026-03-10)]]
 
 ---
-_Cập nhật bởi Antigravity AI Agent: 2026-03-28_
+_Mọi file mới tạo sẽ được AI tự động cập nhật vào danh sách này._
+_Sếp có thể xem file README hướng dẫn tại máy local (folder 00_Dashboard)._
