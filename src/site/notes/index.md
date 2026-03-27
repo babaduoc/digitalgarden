@@ -17,41 +17,40 @@
 
 > [!ABSTRACT] 🤖 TRẠNG THÁI CỖ MÁY (SYSTEM STATUS)
 > **Antigravity AI Agent** đang trực tuyến. Luồng dữ liệu **Lark ↔️ PC ↔️ Web** đã được đồng bộ hóa hỏa tốc.
-> - [[Workspace/00_Dashboard/README_HE_THONG\|🤖 BẮT ĐẦU VẬN HÀNH (READ ME)]]
+> - [[01_TONG_HANH_DINH_QUAN_LY/00_Dashboard/README_HE_THONG\|👉 CLICK ĐỂ XEM HƯỚNG DẪN VẬN HÀNH]]
 
 ---
 
 ### 📋 DANH MỤC PHÒNG BAN (CORPORATE DEPARTMENTS)
 
-> [!INFO] 📂 01. PHÒNG CHIẾN LƯỢC (STRATEGY)
-> - [[Workspace/Strategy/Tai_Lieu_Du_An_Chuan\|🏗️ TÀI LIỆU DỰ ÁN CHUẨN (MAIN SPEC)]]
+> [!INFO] 📂 1. PHÒNG CHIẾN LƯỢC (STRATEGY)
+> - [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|🏗️ TÀI LIỆU DỰ ÁN CHUẨN (MAIN SPEC)]]
 
-> [!PACKAGE] 📦 02. PHÒNG VẬN HÀNH (OPERATIONS)
-> - [[Workspace/Operations/SOP_Kho_ETZ_Giai_Doan_1\|📋 SOP XỬ LÝ ĐƠN HÀNG KHO ETZ (G1)]]
-> - [[Workspace/Operations/SOP_Analysis_Web_ETZ\|📊 PHÂN TÍCH RỦI RO & HIỆU QUẢ SOP]]
+> [!PACKAGE] 📦 2. PHÒNG VẬN HÀNH (OPERATIONS)
+> - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|📋 SOP XỬ LÝ ĐƠN HÀNG KHO ETZ (G1)]]
+> - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|📊 PHÂN TÍCH RỦI RO & HIỆU QUẢ SOP]]
 
-> [!QUOTE] ⚖️ 03. PHÒNG PHÁP CHẾ (LEGAL)
-> - [[Workspace/Legal/DANH_MUC_PHAP_CHE\|🛡️ DANH MỤC HỒ SƠ PHÁP CHẾ]]
+> [!QUOTE] ⚖️ 3. PHÒNG PHÁP CHẾ (LEGAL)
+> - [[01_TONG_HANH_DINH_QUAN_LY/3_PHONG_PHAP_CHE/DANH_MUC_PHAP_CHE\|🛡️ DANH MỤC HỒ SƠ PHÁP CHẾ]]
 
-> [!NOTE] 🎨 04. PHÒNG MARKETING & THƯƠNG HIỆU
-> - [[Workspace/Marketing/DANH_MUC_MARKETING\|🖼️ TÀI NGUYÊN THƯƠNG HIỆU & CONTENT]]
+> [!NOTE] 🎨 4. PHÒNG MARKETING & THƯƠNG HIỆU
+> - [[01_TONG_HANH_DINH_QUAN_LY/4_PHONG_MARKETING/DANH_MUC_MARKETING\|🖼️ TÀI NGUYÊN THƯƠNG HIỆU & CONTENT]]
 
-> [!SUCCESS] 💰 05. PHÒNG TÀI CHÍNH (FINANCE)
-> - [[Workspace/Finance/DANH_MUC_TAI_CHINH\|🧾 QUẢN LÝ THANH TOÁN & DOANH THU]]
+> [!SUCCESS] 💰 5. PHÒNG TÀI CHÍNH (FINANCE)
+> - [[01_TONG_HANH_DINH_QUAN_LY/5_PHONG_TAI_CHINH/DANH_MUC_TAI_CHINH\|🧾 QUẢN LÝ THANH TOÁN & DOANH THU]]
 
-> [!TIP] 👥 06. PHÒNG NHÂN SỰ (HR)
-> - [[Workspace/HR/DANH_MUC_NHAN_SU\|👤 MÔ TẢ CÔNG VIỆC & KPIS]]
+> [!TIP] 👥 6. PHÒNG NHÂN SỰ (HR)
+> - [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/DANH_MUC_NHAN_SU\|👤 MÔ TẢ CÔNG VIỆC & KPIS]]
 
-> [!DANGER] 🛡️ 07. PHÒNG KỸ THUẬT (TECH)
-> - [[Workspace/Tech/DANH_MUC_KY_THUẬT\|🌐 QUẢN LÝ SERVER & TÊN MIỀN]]
+> [!DANGER] 🛡️ 7. PHÒNG KỸ THUẬT (TECH)
+> - [[01_TONG_HANH_DINH_QUAN_LY/7_PHONG_KY_THUAT/DANH_MUC_KY_THUẬT\|🌐 QUẢN LÝ SERVER & TÊN MIỀN]]
 
 ---
 
 ### 📑 TIỆN ÍCH QUẢN TRỊ (ADMIN TOOLS)
-- [[Workspace/Forms/01_Phieu_Soan_Hang_ETZ\|📑 MẪU PHIẾU SOẠN HÀNG (PICK LIST)]]
-- [[Workspace/Forms/02_Bien_Ban_Ban_Giao_Shipper\|🚚 MẪU BIÊN BẢN BÀN GIAO SHIPPER]]
-- [[Workspace/Forms/03_Phieu_Xuat_Kho_Kem_Hang\|📦 MẪU PHIẾU XUẤT KHO / CẢM ƠN]]
-- [[Workspace/Archive/2026-03-27_BaoCaoHop_NoiBo_KhongIT\|🕒 LỊCH SỬ BIÊN BẢN HỌP (MOM)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|📑 MẪU PHIẾU SOẠN HÀNG (PICK LIST)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|🚚 MẪU BIÊN BẢN BÀN GIAO SHIPPER]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|📦 MẪU PHIẾU XUẤT KHO / CẢM ƠN]]
 
 ---
 <div align="center">
