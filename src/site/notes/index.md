@@ -14,7 +14,7 @@ Hệ thống được thiết kế tối giản để tập trung vào nội dun
 - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|Phân tích Rủi ro & Hiệu quả SOP]]
 - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP Điều phối Đơn hàng MD]]
 
-## 3. PHÒNG PHÁP CHẾ (LEGAL)
+## 3. PHÒNG PHÁP CHẾ 
 - [[01_TONG_HANH_DINH_QUAN_LY/3_PHONG_PHAP_CHE/00_DANH_MUC_PHAP_CHE\|Danh mục Hồ sơ Pháp lý]]
 
 ## 4. PHÒNG MARKETING & THƯƠNG HIỆU
