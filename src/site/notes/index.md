@@ -3,7 +3,7 @@
 ---
 
 
-![Hero_Banner.png\|100%](/img/user/assets/Hero_Banner.png)
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/babaduoc/digitalgarden/main/assets/Logo_Khotot_01.png" width="180px" style="margin-top: -50px; border: 5px solid white; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2); background: white;">
