@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"🏠 TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","dg-note-properties":{"title":"🏠 TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN"}}
+{"dg-publish":true,"permalink":"/index/","title":"🏠 TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","tags":["gardenEntry"],"dg-note-properties":{"title":"🏠 TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN"}}
 ---
 
 # 🏠 TRANG CHỦ QUẢN LÝ DỰ ÁN WEB ETZ
