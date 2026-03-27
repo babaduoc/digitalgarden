@@ -1,50 +1,35 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"],"dg-note-properties":{"permalink":"/index/"}}
+{"dg-publish":true,"permalink":"/index/","title":"🏠 TRUNG TÂM ĐIỀU PHỐI DỰ ÁN WEB ETZ","dg-note-properties":{"title":"🏠 TRUNG TÂM ĐIỀU PHỐI DỰ ÁN WEB ETZ"}}
 ---
 
+# 🏠 TRUNG TÂM ĐIỀU PHỐI DỰ ÁN WEB ETZ
 
-# 🤖 KHOTOT.VN - DATA STATION
-*Hệ thống quản lý dự án & Tri thức số được vận hành bởi AI Antigravity*
+Chào mừng sếp và Team đã đến với hệ thống quản trị tri thức tập trung của dự án **Web ETZ**. Tài liệu được phân loại theo cấu trúc chuyên nghiệp để tối ưu hóa vận hành.
 
 ---
 
-## 📂 DANH MỤC DỰ ÁN 1
-*Chọn một danh mục bên dưới để truy cập nhanh các tệp tin đã xuất bản:*
+## 📂 01. VÙNG THỰC THI (PROJECT VAULT)
+*Tài liệu dành cho team vận hành và đối tác.*
 
-- [x] **01. Tài Liệu Dự Án** (Chiến lược & Yêu cầu)
-- [ ] **02. Sản Phẩm** (Thông số & Danh mục)
-- [ ] **03. Thiết Kế & Thương Hiệu** (Giao diện & UI/UX)
-- [ ] **04. Nhân Sự** (Team & Phân vai)
-- [ ] **05. Hợp Đồng** (Pháp lý & Cam kết)
-- [ ] **06. Pháp Lý & Hệ Thống** (Hạ tầng & Quy định)
+- [[01_PROJECT_VAULT/Tai_Lieu_Du_An_Chuan\|🏗️ Tài Liệu Dự Án Chuẩn (Main Spec)]]
+- [[01_PROJECT_VAULT/SOP_Kho_ETZ_Giai_Doan_1\|📋 SOP Xử lý Đơn hàng (Giai đoạn 1)]]
+- [[01_PROJECT_VAULT/Checklist_Giai_Doan_1_Kho_ETZ\|🚀 Checklist Vận Hành Kho ETZ]]
+- [[01_PROJECT_VAULT/Checklist_Van_Hanh_Web_ETZ\|✅ Checklist Tổng Thể Phát Triển]]
+- [[01_PROJECT_VAULT/SOP_Analysis_Web_ETZ\|📊 Báo cáo Phân tích SOP & Rủi ro]]
+
+---
+
+## 📦 02. DỮ LIỆU NGUỒN (SOURCE DATA)
+*Lưu trữ các file gốc, hình ảnh và chứng từ.*
+
+- [Thư mục Dữ liệu thô](file:///D:/01%20Google%20DahuaDSS/01%20DSS%20CLUB/18%20Web%20b%C3%A1n%20h%C3%A0ng%20SD/02_SOURCE_DATA)
 
 ---
 
 ## 📄 BIÊN BẢN HỌP GẦN NHẤT (MOM)
-- [[2026-03-10_BienBanHop_Lan6\|Biên bản họp lần 6 - Tiến độ Web bán hàng]] ⏱️ *Cập nhật 10/03*
-[[2026-03-10_BienBanHop_Lan6\|2026-03-10_BienBanHop_Lan6]]
+- [[2026-03-27_BaoCaoHop_NoiBo_KhongIT\|2026-03-27 - Báo Cáo Họp Nội Bộ]]
+- [[2026-03-10_BienBanHop_Lan6\|2026-03-10 - Biên Bản Họp Lần 6]]
 
 ---
-
-## 📋 QUY TRÌNH VẬN HÀNH (SOP)
-- [[2026-03-27_SOP_XuLyDonHang_KhoMD\|SOP Xử Lý Đơn Hàng Kho MD]] ⏱️ *Cập nhật 27/03*
-[[SOP_XuLyDonHang_KhoMD_copy\|SOP_XuLyDonHang_KhoMD_copy]]
----
-
-## 🛠️ TRẠNG THÁI HỆ THỐNG
-> [!TIP] Mẹo làm việc
-> Mọi báo cáo ở đây đều được Antigravity tự động tổng hợp trực tiếp từ Excel Checklist và Lark Tasks. Link web này luôn là **bản mới nhất**.
-
-- **Tình trạng:** 🟢 Đang vận hành (Online)
-- **Tốc độ cập nhật:** ⚡ Hoả tốc (Real-time)
-- **Phụ trách:** Team khotot.vn & AI Antigravity
-
----
-*© 2026 khotot.vn - Trạm trung chuyển thông tin thông minh.*
-
-- [[SOP_Analysis_Web_ETZ\| Báo cáo Phân tích SOP & Vận hành Web ETZ]]
-- [[Checklist_Van_Hanh_Web_ETZ\| Checklist Vận Hành & Tối Ưu Website ETZ]]
-- [[Checklist_Giai_Doan_1_Kho_ETZ\| Checklist Giai Đoạn 1: Vận Hành Kho Nội Bộ ETZ]]
-- [[SOP_Kho_ETZ_Giai_Doan_1\| SOP Xử lý Đơn hàng - Kho Nội bộ ETZ (Giai đoạn 1)]]
-- [[Tai_Lieu_Du_An_Chuan\| Tài Liệu Dự Án Chuẩn: DSS WEB SALE PLATFORM]]
-- [[DAI_TU_DIEN_SOP_ETZ\| ĐẠI TỪ ĐIỂN SOP & VẬN HÀNH WEB ETZ]]
+> [!NOTE]
+> Hệ thống được hỗ trợ bởi **Antigravity AI Agent**. Mọi thay đổi về quy trình sẽ được tự động cập nhật vào **AI_BRAIN** (Vùng bảo mật) để Claude luôn nắm bắt kịp thời.
