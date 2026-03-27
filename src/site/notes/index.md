@@ -37,5 +37,3 @@ Hệ thống được thiết kế tối giản để tập trung vào nội dun
 ## 9. LƯU TRỮ & TIẾN ĐỘ (ARCHIVE)
 - [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/00_DANH_MUC_TRU_TIEN_DO\|Lịch sử Biên bản họp & Tiến độ]]
 
----
-_Thiết kế tối giản bởi Antigravity AI_
