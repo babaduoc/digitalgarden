@@ -29,7 +29,7 @@ Hệ thống được thiết kế tối giản để tập trung vào nội dun
 ## 7. PHÒNG KỸ THUẬT (TECH)
 - [[01_TONG_HANH_DINH_QUAN_LY/7_PHONG_KY_THUẬT/00_DANH_MUC_KY_THUẬT\|Quản lý hệ thống Tech]]
 
-## 8. BIỂU MẪU & CHECKLISTS (FORMS)
+## 8. BIỂU MẪU & CHECKLISTS 
 - [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|Phiếu Soạn Hàng (Pick list)]]
 - [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|Biên Bản Bàn Giao Shipper]]
 - [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|Phiếu Xuất Kho / Cảm ơn]]
