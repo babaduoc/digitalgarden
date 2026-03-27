@@ -34,6 +34,6 @@ Hệ thống được thiết kế tối giản để tập trung vào nội dun
 - [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|Biên Bản Bàn Giao Shipper]]
 - [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|Phiếu Xuất Kho / Cảm ơn]]
 
-## 9. LƯU TRỮ & TIẾN ĐỘ (ARCHIVE)
+## 9. LƯU TRỮ & TIẾN ĐỘ 
 - [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/00_DANH_MUC_TRU_TIEN_DO\|Lịch sử Biên bản họp & Tiến độ]]
 
