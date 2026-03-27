@@ -43,3 +43,5 @@
 *© 2026 khotot.vn - Trạm trung chuyển thông tin thông minh.*
 
 - [[SOP_Analysis_Web_ETZ\| Báo cáo Phân tích SOP & Vận hành Web ETZ]]
+- [[Checklist_Van_Hanh_Web_ETZ\| Checklist Vận Hành & Tối Ưu Website ETZ]]
+- [[Checklist_Giai_Doan_1_Kho_ETZ\| Checklist Giai Đoạn 1: Vận Hành Kho Nội Bộ ETZ]]
