@@ -8,7 +8,7 @@ Hệ thống đã được cập nhật để hiển thị toàn bộ hồ sơ t
 
 ---
 
-## 🏗️ 1. PHÒNG CHIẾN LƯỢC (STRATEGY)
+## 🏗️ 1. PHÒNG CHIẾN LƯỢC 
 - [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|🏗️ Tài liệu Dự án Chuẩn (Main Spec)]]
 
 ## 📦 2. PHÒNG VẬN HÀNH (OPERATIONS)
