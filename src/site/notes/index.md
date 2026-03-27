@@ -50,4 +50,4 @@
 - [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/00_DAN_MUC_TRU_TIEN_DO\|🕒 Toàn bộ Biên bản họp & MOM]]
 
 ---
-_Hệ thống đồng bộ tự động 24/7 bởi Antigravity AI_
+
