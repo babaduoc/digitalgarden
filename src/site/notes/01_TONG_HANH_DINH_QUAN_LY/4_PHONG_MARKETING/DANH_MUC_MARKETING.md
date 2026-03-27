@@ -12,3 +12,7 @@ Lưu trữ bộ nhận diện thương hiệu Kholink & Khotot.
 
 ---
 [🏠 Trở về Dashboard chính](../../index)
+
+
+---
+[🏠 Trang chủ](../../index)

@@ -32,3 +32,7 @@ Dựa trên bản phân tích hiện trạng thư mục Web ETZ, đây là toàn
 ---
 > [!TIP]
 > **Ưu tiên:** Hãy bắt đầu từ mục **1. Hoàn thiện SOP Kho** và **3. Tách biệt Luồng tiền** để bảo vệ hệ thống ngay lập tức trước khi chạy Marketing lớn.
+
+
+---
+[🏠 Trang chủ](../../index)

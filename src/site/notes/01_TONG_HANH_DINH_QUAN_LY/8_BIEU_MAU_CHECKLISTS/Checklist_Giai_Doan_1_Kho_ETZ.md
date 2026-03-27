@@ -36,3 +36,7 @@ Dưới đây là các đầu việc đã được đối soát với tài liệ
 ---
 > [!IMPORTANT]
 > **Nhận xét:** Sếp đã hoàn thành tốt phần **Khung nhân sự (JD)** và **Chính sách (Policy)**. Hiện tại cần tập trung "vũ trang" cho nhân viên bằng các **Mẫu biểu (Template)**: Phiếu soạn hàng, Phiếu xuất kho và Biên bản bàn giao.
+
+
+---
+[🏠 Trang chủ](../../index)

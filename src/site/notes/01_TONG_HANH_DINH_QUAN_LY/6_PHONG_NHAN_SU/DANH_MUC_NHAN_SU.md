@@ -12,3 +12,7 @@ Quản lý mô tả công việc (JD) và KPIs cho các thành viên.
 
 ---
 [🏠 Trở về Dashboard chính](../../index)
+
+
+---
+[🏠 Trang chủ](../../index)

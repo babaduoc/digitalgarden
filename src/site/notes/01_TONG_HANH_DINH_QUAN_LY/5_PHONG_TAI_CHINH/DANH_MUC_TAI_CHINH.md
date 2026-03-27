@@ -12,3 +12,7 @@ Quản lý cổng thanh toán SePay và khảo sát tài chính.
 
 ---
 [🏠 Trở về Dashboard chính](../../index)
+
+
+---
+[🏠 Trang chủ](../../index)

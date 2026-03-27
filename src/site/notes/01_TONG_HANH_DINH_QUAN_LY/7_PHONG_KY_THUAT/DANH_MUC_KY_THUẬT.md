@@ -12,3 +12,7 @@ Quản lý tên miền, hosting và cấu hình hệ thống.
 
 ---
 [🏠 Trở về Dashboard chính](../../index)
+
+
+---
+[🏠 Trang chủ](../../index)

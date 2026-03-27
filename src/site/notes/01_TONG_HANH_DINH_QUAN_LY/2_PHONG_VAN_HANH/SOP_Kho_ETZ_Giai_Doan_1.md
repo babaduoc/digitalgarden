@@ -33,3 +33,7 @@ Quy trình này áp dụng cho nhân viên kho ETZ để xử lý các đơn hà
 ---
 > [!TIP]
 > **Quy tắc 5S tại kho:** Giữ khu vực đóng gói sạch sẽ, luôn kiểm tra băng keo và vật liệu chống sốc trước khi bắt đầu ca làm việc.
+
+
+---
+[🏠 Trang chủ](../../index)
