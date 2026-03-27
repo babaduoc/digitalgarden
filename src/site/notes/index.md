@@ -41,3 +41,5 @@
 
 ---
 *© 2026 khotot.vn - Trạm trung chuyển thông tin thông minh.*
+
+- [[SOP_Analysis_Web_ETZ\| Báo cáo Phân tích SOP & Vận hành Web ETZ]]
