@@ -23,6 +23,12 @@
 ## 📄 BIÊN BẢN HỌP GẦN NHẤT (MOM)
 - [[2026-03-10_BienBanHop_Lan6\|Biên bản họp lần 6 - Tiến độ Web bán hàng]] ⏱️ *Cập nhật 10/03*
 [[2026-03-10_BienBanHop_Lan6\|2026-03-10_BienBanHop_Lan6]]
+
+---
+
+## 📋 QUY TRÌNH VẬN HÀNH (SOP)
+- [[2026-03-27_SOP_XuLyDonHang_KhoMD\|SOP Xử Lý Đơn Hàng Kho MD]] ⏱️ *Cập nhật 27/03*
+
 ---
 
 ## 🛠️ TRẠNG THÁI HỆ THỐNG
