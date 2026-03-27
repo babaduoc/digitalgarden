@@ -1,38 +1,53 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"TỔNG HÀNH DINH QUẢN LÝ — WEB ETZ","tags":["gardenEntry"],"dg-note-properties":{"title":"TỔNG HÀNH DINH QUẢN LÝ — WEB ETZ"}}
+{"dg-publish":true,"permalink":"/index/","title":"🏛️ TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","tags":["gardenEntry"],"dg-note-properties":{"title":"🏛️ TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN"}}
 ---
 
-# TỔNG HÀNH DINH QUẢN LÝ — WEB ETZ
 
-<font color="#8B4513">**Dự án:** KHOTOT.VN — Dự án Web ETZ</font>
-<font color="#8B4513">**Phiên bản:** 3.0 (Cập nhật 28/03/2026)</font>
-<font color="#8B4513">**Người soạn:** Antigravity AI Agent</font>
-<font color="#8B4513">**Hệ thống:** Phân cấp 9 Phòng ban Vận hành</font>
+![Hero_Banner.png\|100%](/img/user/assets/Hero_Banner.png)
 
----
-
-## PHẦN A — DANH MỤC PHÒNG BAN CHIẾN LƯỢC
-
-1. **Phòng Chiến Lược**
-	- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]]</font> — Tài liệu Dự án Chuẩn (Main Spec)
-
-2. **Phòng Vận Hành**
-	- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]]</font> — Quy trình Vận hành Kho Giai đoạn 1
-	- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|SOP_Analysis_Web_ETZ]]</font> — Phân tích Hiệu quả & Rủi ro SOP
-	- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]</font> — Quy trình Điều phối Đơn hàng MD
-
-## PHẦN B — QUẢN LÝ HỒ SƠ PHÒNG BAN
-
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/3_PHONG_PHAP_CHE/00_DANH_MUC_PHAP_CHE\|00_DANH_MUC_PHAP_CHE]]</font> — Hồ sơ Pháp lý & Hợp đồng
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/4_PHONG_MARKETING/00_DANH_MUC_MARKETING\|00_DANH_MUC_MARKETING]]</font> — Tài nguyên Marketing & Content
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/5_PHONG_TAI_CHINH/00_DANH_MUC_TAI_CHINH\|00_DANH_MUC_TAI_CHINH]]</font> — Thanh toán & Cổng SePay
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/00_DANH_MUC_NHAN_SU\|00_DANH_MUC_NHAN_SU]]</font> — Mô tả Công việc & KPIs
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/7_PHONG_KY_THUẬT/00_DANH_MUC_KY_THUẬT\|00_DANH_MUC_KY_THUẬT]]</font> — Quản lý Kỹ thuật & Server
-
-## PHẦN C — BIỂU MẪU & LƯU TRỮ TRỰC TUYẾN
-
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/00_DANH_MUC_MAU_CHECKLISTS\|00_DANH_MUC_MAU_CHECKLISTS]]</font> — Tổng hợp Biểu mẫu Pick-list & Shipper
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/00_DANH_MUC_TRU_TIEN_DO\|00_DANH_MUC_TRU_TIEN_DO]]</font> — Lịch sử Biên bản họp & Báo cáo Tiến độ
+<div align="center">
+  <img src="https://raw.githubusercontent.com/babaduoc/digitalgarden/main/assets/Logo_Khotot_01.png" width="180px" style="margin-top: -50px; border: 5px solid white; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2); background: white;">
+  <h1 style="margin-top: 10px; font-variant: small-caps;">🏢 KHOTOT.VN - HỆ THỐNG ĐIỀU PHỐI WEB ETZ</h1>
+  <p style="color: #8B4513; font-style: italic;">"Quy chuẩn - Tốc độ - Bền vững"</p>
+</div>
 
 ---
-_Văn bản được trình bày theo quy chuẩn Digital Garden — 2026_
+
+## 🏛️ DANH PHÁP PHÒNG BAN QUẢN LÝ (FULL SITEMAP)
+
+### 🏗️ 1. PHÒNG CHIẾN LƯỢC (STRATEGY)
+- [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|🏗️ Tài liệu Dự án Chuẩn (Main Spec)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/00_DAN_MUC_CHIEN_LUOC\|📍 Xem Danh mục File Chiến lược]]
+
+### 📦 2. PHÒNG VẬN HÀNH (OPERATIONS)
+- [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|📋 SOP Xử lý Đơn hàng Kho ETZ (G1)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|📊 Phân tích Rủi ro & Hiệu quả SOP]]
+- [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|📋 SOP Điều phối Đơn hàng MD Tỉnh]]
+
+### ⚖️ 3. PHÒNG PHÁP CHẾ (LEGAL)
+- [[01_TONG_HANH_DINH_QUAN_LY/3_PHONG_PHAP_CHE/00_DAN_MUC_PHAP_CHE\|🛡️ Hồ sơ Pháp lý & Hợp đồng Freelance]]
+
+### 🎨 4. PHÒNG MARKETING & THƯƠNG HIỆU
+- [[01_TONG_HANH_DINH_QUAN_LY/4_PHONG_MARKETING/00_DAN_MUC_MARKETING\|🖼️ Tài nguyên Thương hiệu & Content mẫu]]
+
+### 💰 5. PHÒNG TÀI CHÍNH (FINANCE)
+- [[01_TONG_HANH_DINH_QUAN_LY/5_PHONG_TAI_CHINH/00_DAN_MUC_TAI_CHINH\|🧾 Quản lý Thanh toán & Cổng SePay]]
+
+### 👥 6. PHÒNG NHÂN SỰ (HR)
+- [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/00_DAN_MUC_NHAN_SU\|👤 Mô tả Công việc (JD) & KPIs Nhân sự]]
+
+### 🛡️ 7. PHÒNG KỸ THUẬT (TECH)
+- [[01_TONG_HANH_DINH_QUAN_LY/7_PHONG_KY_THUẬT/00_DAN_MUC_KY_THUẬT\|🌐 Quản lý Server, Domain & Security]]
+
+### 📑 8. BIỂU MẪU & CHECKLISTS (FORMS)
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|📑 Mẫu Phiếu Soạn Hàng (Pick list)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|🚚 Mẫu Biên Bản Bàn Giao Shipper]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|📦 Mẫu Phiếu Xuất Kho / Cảm ơn]]
+- [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|✅ Checklist Vận hành Kho G1]]
+
+### 🕒 9. LƯU TRỮ & TIẾN ĐỘ (ARCHIVE)
+- [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/2026-03-27_BaoCaoHop_NoiBo_KhongIT\|🕒 Biên bản họp Nội bộ (2026-03-27)]]
+- [[01_TONG_HANH_DINH_QUAN_LY/9_LUU_TRU_TIEN_DO/00_DAN_MUC_TRU_TIEN_DO\|🕒 Toàn bộ Biên bản họp & MOM]]
+
+---
+_Hệ thống đồng bộ tự động 24/7 bởi Antigravity AI_
