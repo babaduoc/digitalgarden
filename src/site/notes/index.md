@@ -28,7 +28,7 @@
 
 ## 📋 QUY TRÌNH VẬN HÀNH (SOP)
 - [[2026-03-27_SOP_XuLyDonHang_KhoMD\|SOP Xử Lý Đơn Hàng Kho MD]] ⏱️ *Cập nhật 27/03*
-
+[[SOP_XuLyDonHang_KhoMD_copy\|SOP_XuLyDonHang_KhoMD_copy]]
 ---
 
 ## 🛠️ TRẠNG THÁI HỆ THỐNG
