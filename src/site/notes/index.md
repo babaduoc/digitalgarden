@@ -9,7 +9,7 @@ Hệ thống được thiết kế tối giản để tập trung vào nội dun
 ## 1. PHÒNG CHIẾN LƯỢC (STRATEGY)
 - [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tài liệu Dự án Chuẩn]]
 
-## 2. PHÒNG VẬN HÀNH (OPERATIONS)
+## 2. PHÒNG VẬN HÀNH 
 - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP Xử lý Đơn hàng Kho ETZ]]
 - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|Phân tích Rủi ro & Hiệu quả SOP]]
 - [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP Điều phối Đơn hàng MD]]
