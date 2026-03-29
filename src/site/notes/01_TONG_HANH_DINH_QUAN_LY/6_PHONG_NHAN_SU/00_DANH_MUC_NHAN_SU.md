@@ -1,25 +1,34 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-hanh-dinh-quan-ly/6-phong-nhan-su/00-danh-muc-nhan-su/","title":"DANH MỤC PHONG NHAN SU — WEB ETZ","dg-note-properties":{"title":"DANH MỤC PHONG NHAN SU — WEB ETZ"}}
+{"dg-publish":true,"permalink":"/01-tong-hanh-dinh-quan-ly/6-phong-nhan-su/00-danh-muc-nhan-su/","title":"DANH MỤC NHAN SU — WEB ETZ","tags":["gateway","nhan_su"],"dg-note-properties":{"title":"DANH MỤC NHAN SU — WEB ETZ","cssclasses":"dashboard","tags":["gateway","nhan_su"]}}
 ---
 
-# DANH MỤC PHONG NHAN SU — WEB ETZ
+[🏠 Quay lại Tổng hành dinh](../../index)
 
-<font color="#8B4513">**Dự án:** Web ETZ - Khotot.vn</font>
-<font color="#8B4513">**Phòng ban:** PHONG NHAN SU</font>
-<font color="#8B4513">**Cập nhật:** 28/03/2026</font>
-<font color="#8B4513">**Trạng thái:** Vận hành chuẩn hóa</font>
+# DANH MỤC NHAN SU — WEB ETZ
 
----
-
-## PHẦN I — TÀI LIỆU VĂN BẢN (.MD)
-- _Hiện chưa có tài liệu văn bản._
-
-## PHẦN II — HỒ SƠ & TỆP TIN ĐÍNH KÈM
-- **MTCV_Duoc_247.docx** — Tệp tin gốc hệ thống
-- **MTCV_Duoc_DSSClub.docx** — Tệp tin gốc hệ thống
-- **MTCV_Duoc_Khotot.docx** — Tệp tin gốc hệ thống
-- **MTCV_Tuyet_Chinh.docx** — Tệp tin gốc hệ thống
-
+> [!INFO] **BẢNG ĐIỀU KHIỂN (DASHBOARD)**
+> **Dự án:** Web ETZ - Khotot.vn
+> **Phòng ban:** NHAN SU
+> **Trạng thái:** Vận hành chuẩn hóa Dataview
+> **Cập nhật lần cuối:** 29/03/2026
 
 ---
-[🏠 Trang chủ](../../index)
+
+## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
+Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
+
+| File | Ngày cập nhật gần nhất |
+| ---- | ---------------------- |
+
+{ .block-language-dataview}
+
+## 📎 II. HỒ SƠ & TỆP TIN ĐÍNH KÈM KHÁC
+Danh sách các file thô (Word, Excel, PDF, Images...):
+
+| File | Định dạng |
+| ---- | --------- |
+
+{ .block-language-dataview}
+
+---
+[🏠 Quay lại Tổng hành dinh](../../index)

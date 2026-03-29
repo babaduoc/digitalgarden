@@ -1,22 +1,35 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-hanh-dinh-quan-ly/00-dashboard/00-danh-muc-dashboard/","title":"DANH MỤC DASHBOARD — WEB ETZ","dg-note-properties":{"title":"DANH MỤC DASHBOARD — WEB ETZ"}}
+{"dg-publish":true,"permalink":"/01-tong-hanh-dinh-quan-ly/00-dashboard/00-danh-muc-dashboard/","title":"DANH MỤC Dashboard — WEB ETZ","tags":["gateway","dashboard"],"dg-note-properties":{"title":"DANH MỤC Dashboard — WEB ETZ","cssclasses":"dashboard","tags":["gateway","dashboard"]}}
 ---
 
-# DANH MỤC DASHBOARD — WEB ETZ
+[🏠 Quay lại Tổng hành dinh](../../index)
 
-<font color="#8B4513">**Dự án:** Web ETZ - Khotot.vn</font>
-<font color="#8B4513">**Phòng ban:** DASHBOARD</font>
-<font color="#8B4513">**Cập nhật:** 28/03/2026</font>
-<font color="#8B4513">**Trạng thái:** Vận hành chuẩn hóa</font>
+# DANH MỤC Dashboard — WEB ETZ
 
----
-
-## PHẦN I — TÀI LIỆU VĂN BẢN (.MD)
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/00_Dashboard/README_HE_THONG\|README_HE_THONG]]</font> — README HE THONG
-
-## PHẦN II — HỒ SƠ & TỆP TIN ĐÍNH KÈM
-- _Hiện chưa có tệp tin đính kèm._
-
+> [!INFO] **BẢNG ĐIỀU KHIỂN (DASHBOARD)**
+> **Dự án:** Web ETZ - Khotot.vn
+> **Phòng ban:** Dashboard
+> **Trạng thái:** Vận hành chuẩn hóa Dataview
+> **Cập nhật lần cuối:** 29/03/2026
 
 ---
-[🏠 Trang chủ](../../index)
+
+## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
+Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
+
+| File                                                                           | Ngày cập nhật gần nhất |
+| ------------------------------------------------------------------------------ | ---------------------- |
+| [[01_TONG_HANH_DINH_QUAN_LY/00_Dashboard/README_HE_THONG\|README_HE_THONG]] | March 28, 2026         |
+
+{ .block-language-dataview}
+
+## 📎 II. HỒ SƠ & TỆP TIN ĐÍNH KÈM KHÁC
+Danh sách các file thô (Word, Excel, PDF, Images...):
+
+| File | Định dạng |
+| ---- | --------- |
+
+{ .block-language-dataview}
+
+---
+[🏠 Quay lại Tổng hành dinh](../../index)

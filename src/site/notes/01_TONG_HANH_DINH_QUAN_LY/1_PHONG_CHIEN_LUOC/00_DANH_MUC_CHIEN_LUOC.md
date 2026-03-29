@@ -1,22 +1,35 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-hanh-dinh-quan-ly/1-phong-chien-luoc/00-danh-muc-chien-luoc/","title":"DANH MỤC PHONG CHIEN LUOC — WEB ETZ","dg-note-properties":{"title":"DANH MỤC PHONG CHIEN LUOC — WEB ETZ"}}
+{"dg-publish":true,"permalink":"/01-tong-hanh-dinh-quan-ly/1-phong-chien-luoc/00-danh-muc-chien-luoc/","title":"DANH MỤC CHIEN LUOC — WEB ETZ","tags":["gateway","chien_luoc"],"dg-note-properties":{"title":"DANH MỤC CHIEN LUOC — WEB ETZ","cssclasses":"dashboard","tags":["gateway","chien_luoc"]}}
 ---
 
-# DANH MỤC PHONG CHIEN LUOC — WEB ETZ
+[🏠 Quay lại Tổng hành dinh](../../index)
 
-<font color="#8B4513">**Dự án:** Web ETZ - Khotot.vn</font>
-<font color="#8B4513">**Phòng ban:** PHONG CHIEN LUOC</font>
-<font color="#8B4513">**Cập nhật:** 28/03/2026</font>
-<font color="#8B4513">**Trạng thái:** Vận hành chuẩn hóa</font>
+# DANH MỤC CHIEN LUOC — WEB ETZ
 
----
-
-## PHẦN I — TÀI LIỆU VĂN BẢN (.MD)
-- <font color="#D2691E">[[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]]</font> — Tai Lieu Du An Chuan
-
-## PHẦN II — HỒ SƠ & TỆP TIN ĐÍNH KÈM
-- _Hiện chưa có tệp tin đính kèm._
-
+> [!INFO] **BẢNG ĐIỀU KHIỂN (DASHBOARD)**
+> **Dự án:** Web ETZ - Khotot.vn
+> **Phòng ban:** CHIEN LUOC
+> **Trạng thái:** Vận hành chuẩn hóa Dataview
+> **Cập nhật lần cuối:** 29/03/2026
 
 ---
-[🏠 Trang chủ](../../index)
+
+## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
+Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
+
+| File                                                                                           | Ngày cập nhật gần nhất |
+| ---------------------------------------------------------------------------------------------- | ---------------------- |
+| [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]] | March 29, 2026         |
+
+{ .block-language-dataview}
+
+## 📎 II. HỒ SƠ & TỆP TIN ĐÍNH KÈM KHÁC
+Danh sách các file thô (Word, Excel, PDF, Images...):
+
+| File | Định dạng |
+| ---- | --------- |
+
+{ .block-language-dataview}
+
+---
+[🏠 Quay lại Tổng hành dinh](../../index)
