@@ -13,7 +13,7 @@
 
 ---
 
-## 🏛️ DANH PHÁP PHÒNG BAN QUẢN LÝ 
+## 🏛️ DANH PHÁP PHÒNG BAN QUẢN LÝ.
 
 ### 🏗️ 1. PHÒNG CHIẾN LƯỢC 
 - [[01_TONG_HANH_DINH_QUAN_LY/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|🏗️ Tài liệu Dự án Chuẩn (Main Spec)]]
