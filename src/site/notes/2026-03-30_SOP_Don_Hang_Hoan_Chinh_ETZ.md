@@ -28,6 +28,44 @@
 
 ---
 
+## 🔄 QUY TRÌNH TỔNG QUAN
+
+```mermaid
+graph TD
+    %% Định nghĩa các lớp màu %
+    classDef purple fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef blue fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef green fill:#bfb,stroke:#333,stroke-width:2px;
+    classDef yellow fill:#fff4dd,stroke:#333,stroke-width:2px;
+
+    Start((Bắt đầu)) --> SD_Order[SD đặt hàng trên App/Web]
+    SD_Order --> CS_Check{CS/MD xác nhận?}
+    
+    CS_Check -- Hủy/Sai --> SD_Order
+    CS_Check -- OK --> Pay_Check{Thanh toán?}
+    
+    Pay_Check -- COD --> Stock_Check
+    Pay_Check -- CK --> CK_Verify[Chờ xác nhận CK]
+    CK_Verify --> Stock_Check{Kiểm tra tồn?}
+    
+    Stock_Check -- Hết hàng --> CS_Change[Báo KH đổi SP]
+    Stock_Check -- Còn hàng --> Packing[Đóng gói & Tạo vận đơn]
+    
+    Packing --> Delivery[Bàn giao ĐVVC]
+    Delivery --> Shipp_Check{Giao thành công?}
+    
+    Shipp_Check -- Thất bại --> Return_Step[Hoàn kho & CS gọi lại]
+    Shipp_Check -- Thành công --> Final[Đối soát & Hoàn tất]
+    
+    Return_Step --> Final
+    Final --> End((KẾT THÚC))
+
+    class SD_Order purple;
+    class CS_Check,Pay_Check,CK_Verify,CS_Change blue;
+    class Stock_Check,Packing,Return_Step green;
+    class Delivery,Shipp_Check yellow;
+```
+
 ## 🔄 QUY TRÌNH CHI TIẾT
 
 ### GIAI ĐOẠN 1 — KHÁCH ĐẶT HÀNG
@@ -63,10 +101,13 @@
 
 **Bước 2.3 — Phân nhánh thanh toán**
 
-```
-Thanh toán trước?
-├── COD → Xác nhận đơn ngay, giao hàng thu tiền sau
-└── Chuyển khoản → Kiểm tra CK → Xác nhận CK → mới duyệt đơn
+```mermaid
+graph LR
+    A[Phương thức?] --> B{Lựa chọn}
+    B -->|COD| C[Xác nhận đơn ngay]
+    B -->|Chuyển khoản| D[Chờ xác nhận tiền về]
+    D --> E[Xác nhận duyệt đơn]
+    C --> F[Giao hàng thu tiền]
 ```
 
 | Phương thức | Hành động |
@@ -92,11 +133,12 @@ Thanh toán trước?
 
 **Bước 3.2 — Phân nhánh tồn kho**
 
-```
-Còn hàng?
-├── Có → Tiến hành đóng gói
-└── Hết hàng → CS báo hết hàng → hỏi KH đổi SP
-               └── SD xem lại / đổi sản phẩm khác
+```mermaid
+graph TD
+    A{Còn hàng?} -->|Có| B[Tiến hành đóng gói]
+    A -->|Hết hàng| C[CS báo SD]
+    C --> D[SD đổi sản phẩm khác]
+    D --> A
 ```
 
 **Bước 3.3 — Đóng gói hàng — Dán tem, kiểm tra**
@@ -125,10 +167,12 @@ Còn hàng?
 
 **Bước 4.4 — Phân nhánh kết quả giao hàng**
 
-```
-Giao thành công?
-├── Thành công → Giao thành công → Xác nhận giao / COD
-└── Giao thất bại → Hàng hoàn kho → CS liên hệ lại → GH lại / hoàn tiền
+```mermaid
+graph TD
+    A{Giao thành công?} -->|Thành công| B[Cập nhật Đã Giao]
+    A -->|Thất bại| C[Hàng hoàn kho]
+    C --> D[CS liên hệ lại]
+    B --> E[Đối soát tiền]
 ```
 
 > ⏱️ **KPI:** Bàn giao ĐVVC trong ngày với đơn xác nhận trước 15:00.
