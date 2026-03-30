@@ -56,10 +56,10 @@
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                | Ngày cập nhật  |
 > | ------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|Checklist_Giai_Doan_1_Kho_ETZ]] | March 30, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|01_Phieu_Soan_Hang_ETZ]]               | March 28, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|02_Bien_Ban_Ban_Giao_Shipper]]   | March 28, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|03_Phieu_Xuat_Kho_Kem_Hang]]       | March 28, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|Checklist_Giai_Doan_1_Kho_ETZ]] | March 28, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|Checklist_Van_Hanh_Web_ETZ]]       | March 28, 2026 |
 > 
 { .block-language-dataview}
@@ -78,3 +78,4 @@
 { .block-language-dataview}
 
 ---
+[[2026-03-30_SOP_Don_Hang_Hoan_Chinh_ETZ\|2026-03-30_SOP_Don_Hang_Hoan_Chinh_ETZ]]

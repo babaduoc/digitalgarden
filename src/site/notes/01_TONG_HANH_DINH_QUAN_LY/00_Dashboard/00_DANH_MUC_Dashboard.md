@@ -19,7 +19,7 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 
 | File                                                                           | Ngày cập nhật gần nhất |
 | ------------------------------------------------------------------------------ | ---------------------- |
-| [[01_TONG_HANH_DINH_QUAN_LY/00_Dashboard/README_HE_THONG\|README_HE_THONG]] | March 28, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/00_Dashboard/README_HE_THONG\|README_HE_THONG]] | March 29, 2026         |
 
 { .block-language-dataview}
 

@@ -39,7 +39,7 @@
 ## 3. CHECKLIST TÍNH NĂNG TRỌNG YẾU
 
 ### 🔐 Xác thực & Bảo mật
-- [ ] Đăng nhập số điện thoại + OTP Zalo OA.
+- [x] Đăng nhập số điện thoại + OTP Zalo OA.
 - [ ] Kiểm duyệt tài khoản SD thủ công từ Admin trước khi cho phép đặt hàng.
 - [ ] Ghi Log toàn bộ thao tác thêm/xóa/sửa của Admin và MD.
 
@@ -62,7 +62,7 @@
 
 ## 4. KỸ THUẬT & TÍCH HỢP
 - **Nền tảng:** Web-based (Dark/Light mode), giao diện chuẩn TMĐT.
-- **Thanh toán:** 9Pay (QR, ATM, Credit Card).
+- **Thanh toán:** Sepay.
 - **Vận chuyển:** API Viettel Post, GHTK.
 - **Giao tiếp:** Zalo OA API.
 
