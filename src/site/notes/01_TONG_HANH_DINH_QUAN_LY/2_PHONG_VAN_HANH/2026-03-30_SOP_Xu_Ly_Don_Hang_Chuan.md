@@ -33,6 +33,7 @@ graph TD
     SD_Order --> Admin_Check{Admin kiểm tra hàng}
     
     Admin_Check -- "HẾT HÀNG" --> OutOfStock[[SOP 02: Hủy đơn hết hàng]]
+    click OutOfStock "2026-03-30_SOP_Huy_Don_Het_Hang"
     Admin_Check -- "CÒN HÀNG" --> Set_Prep[Chuyển trạng thái: Chuẩn bị hàng]
     
     Set_Prep --> Ship_Type{Loại vận chuyển?}
@@ -70,7 +71,7 @@ graph TD
 ### 2. GIAI ĐOẠN 2: ADMIN ĐIỀU PHỐI (GATEKEEPER)
 - Tiếp nhận thông tin đơn hàng từ Dashboard.
 - Kiểm tra tồn kho vật lý và khớp lệnh.
-- **Tình huống Hết hàng:** Chuyển ngay sang quy trình xử lý tại [SOP 02: Hủy đơn hết hàng](2026-03-30_SOP_Huy_Don_Het_Hang.md).
+- **Tình huống Hết hàng:** Chuyển ngay sang quy trình xử lý tại [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/2026-03-30_SOP_Huy_Don_Het_Hang\|SOP 02: Hủy đơn hết hàng]].
 - **Tình huống Còn hàng:** Đổi trạng thái đơn sang **"Chuẩn bị hàng"**.
 
 ### 3. GIAI ĐOẠN 3: PHÂN LUỒNG HÓA ĐƠN & VẬN CHUYỂN

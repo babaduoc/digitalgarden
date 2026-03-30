@@ -29,6 +29,7 @@ graph TD
     classDef highlight fill:#FFF9C4,stroke:#FBC02D,stroke-width:1px,color:#F57F17;
 
     Start[[SOP 01: Bước Kiểm tra hết hàng]] --> Admin_Call[Admin gọi điện tư vấn SD]
+    click Start "2026-03-30_SOP_Xu_Ly_Don_Hang_Chuan"
     
     Admin_Call --> SD_Choice{SD lựa chọn?}
     
