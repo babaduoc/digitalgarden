@@ -54,7 +54,7 @@ graph TD
 
 ---
 
-## 👁️ CHI TIẾT CÁC BƯỚCH THỰC HIỆN
+## 👁️ CHI TIẾT CÁC BƯỚC THỰC HIỆN
 
 ### 1. CHẾ ĐỘ 1: ĐĂNG KÝ DỄ DÀNG (Admin set Duyệt = TẮT)
 *   **Đối với SD:** Chỉ cần nhập các thông tin cơ bản (**Số điện thoại, Email, Thông tin cá nhân**). **Không cần** CCCD hay Chứng chỉ hành nghề.
@@ -88,4 +88,3 @@ Admin phải làm 1 trong 2 việc tùy theo chiến lược kinh doanh:
 - `index.md` — Dashboard quản trị.
 
 ---
-*📅 Cập nhật: 2026-03-30 | Soạn bởi: Antigravity AI*
