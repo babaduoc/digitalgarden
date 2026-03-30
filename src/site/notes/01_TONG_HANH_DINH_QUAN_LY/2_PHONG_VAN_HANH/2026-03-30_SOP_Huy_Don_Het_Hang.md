@@ -3,7 +3,7 @@
 ---
 
 
-# 📦 SOP 02 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
+# 📦 SOP 02 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 1.0 | **Cập nhật:** 2026-03-30
@@ -82,4 +82,3 @@ graph TD
 - **Mong muốn tương lai:** Ưu tiên phát triển API kết nối trực tiếp tồn kho thực tế từ ERP lên Web để giảm thiểu quy trình hủy đơn này xuống **< 1%**.
 
 ---
-*📅 Cập nhật: 2026-03-30 | Soạn bởi: Antigravity AI*
