@@ -27,11 +27,12 @@
 👉 [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/00_DANH_MUC_VAN_HANH\|Truy cập chi tiết thư mục >>]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
->  | File                                                                                               | Ngày cập nhật  |
-> | -------------------------------------------------------------------------------------------------- | -------------- |
-> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|SOP_Analysis_Web_ETZ]]       | March 29, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]] | March 29, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]     | March 29, 2026 |
+>  | File                                                                                                                                         | Ngày cập nhật  |
+> | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/2026-03-30_SOP_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|2026-03-30_SOP_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]] | March 30, 2026 |
+> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|SOP_Analysis_Web_ETZ]]                                                 | March 29, 2026 |
+> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]]                                           | March 29, 2026 |
+> | [[01_TONG_HANH_DINH_QUAN_LY/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                                               | March 29, 2026 |
 > 
 { .block-language-dataview}
 
