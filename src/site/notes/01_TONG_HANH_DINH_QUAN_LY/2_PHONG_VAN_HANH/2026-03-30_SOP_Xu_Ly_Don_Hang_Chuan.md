@@ -33,7 +33,7 @@ graph TD
     SD_Order --> Admin_Check{Admin kiểm tra hàng}
     
     Admin_Check -- "HẾT HÀNG" --> OutOfStock[[SOP 02: Hủy đơn hết hàng]]
-    click OutOfStock "2026-03-30_SOP_Huy_Don_Het_Hang"
+    click OutOfStock "/01-tong-hanh-dinh-quan-ly/2-phong-van-hanh/2026-03-30-sop-huy-don-het-hang/"
     Admin_Check -- "CÒN HÀNG" --> Set_Prep[Chuyển trạng thái: Chuẩn bị hàng]
     
     Set_Prep --> Ship_Type{Loại vận chuyển?}
