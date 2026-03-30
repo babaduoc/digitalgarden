@@ -39,9 +39,11 @@ graph TD
     Set_Prep --> Ship_Type{Loại vận chuyển?}
 
     %% Nhánh Chành xe %%
-    Ship_Type -- Chành xe --> Acc_Inv_1[Kế toán xuất hóa đơn]
+    Ship_Type -- "Chành xe (SD trả cước)" --> Acc_Inv_1[Kế toán xuất hóa đơn]
     Acc_Inv_1 --> WH_Pack_1[Kho đóng gói kèm Hóa đơn]
     WH_Pack_1 --> WH_Check[Kho kiểm hàng & Giao Chành]
+    WH_Check --> WH_Photo[Shipper chụp ảnh Biên nhận & Kiện hàng]
+    WH_Photo --> Admin_Upload[Admin Upload ảnh lên Web & Báo SD]
 
     %% Nhánh Tại kho %%
     Ship_Type -- Khách lấy tại kho --> WH_Pack_2[Kho chuẩn bị hàng]
@@ -89,3 +91,17 @@ graph TD
 - **Kho:** Đơn Chành xe không được xuất kho nếu thiếu hóa đơn kèm theo.
 
 ---
+---
+
+## 👁️ IV. CHI TIẾT GIAO HÀNG CHÀNH XE (ĐẶC THÙ)
+
+Đối với các đơn hàng SD yêu cầu gửi qua nhà xe/xe khách:
+
+1.  **Hồ sơ đi đường:** Kế toán phải hoàn tất hóa đơn/chứng từ trước khi hàng rời kho để đảm bảo tính pháp lý khi lưu thông.
+2.  **Đóng gói & Nhãn:** Kho dán nhãn khổ lớn ghi rõ: *Tên SD - SĐT SD - Tên Chành - Nơi đến*.
+3.  **Xác thực giao hàng (Bằng chứng):**
+    - Shipper nội bộ lấy **Biên nhận (Vận đơn)** từ nhà xe.
+    - Chụp ảnh thùng hàng đã đặt tại văn phòng Chành và ảnh Biên nhận rõ mã số liên hệ.
+4.  **Thông báo & Thanh toán cước:**
+    - Admin upload ảnh bằng chứng lên Web để SD yên tâm.
+    - **Lưu ý thanh toán:** SD (Người nhận) có trách nhiệm tự thanh toán tiền cước vận chuyển trực tiếp cho nhà xe khi nhận hàng.
