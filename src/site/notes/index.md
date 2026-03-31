@@ -34,8 +34,8 @@
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                           | March 30, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong]]       | March 30, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tuyen_Dung_Van_Hanh_He_Thong\|SOP_5_Tuyen_Dung_Van_Hanh_He_Thong]]   | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]]                         | March 29, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|SOP_Analysis_Web_ETZ]]                               | March 29, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]]                         | March 29, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                             | March 29, 2026 |
 > 
 { .block-language-dataview}
@@ -57,8 +57,8 @@
 > | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Admin_VanHanh_2026-03-30\|BCDG_Admin_VanHanh_2026-03-30]]                     | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Ung_Vien_VanHanhWebsite_2026-03-30\|BCDG_Ung_Vien_VanHanhWebsite_2026-03-30]] | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_30.03.2026_Nguyen_Thi_Thao_Nguyen\|CV_30.03.2026_Nguyen_Thi_Thao_Nguyen]]       | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/HSUV_Thu_Huyen_Detail\|HSUV_Thu_Huyen_Detail]]                                     | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Nhan_Vien_Van_Hanh_Website_ETZ\|MTCV_Nhan_Vien_Van_Hanh_Website_ETZ]]                        | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_27.03.2026_Huynh_Thi_Minh_Tam\|CV_27.03.2026_Huynh_Thi_Minh_Tam]]               | March 30, 2026 |
