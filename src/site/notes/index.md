@@ -86,7 +86,7 @@
 > 
 { .block-language-dataview}
 
-### 🕒 9. LƯU TRỮ & TIẾN ĐỘ (ARCHIVE)
+### 🕒 9. LƯU TRỮ & TIẾN ĐỘ 
 👉 [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/00_DANH_MUC_LUU_TRU_TIEN_DO\|Truy cập chi tiết thư mục >>]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
