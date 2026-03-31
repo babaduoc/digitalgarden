@@ -40,7 +40,7 @@
 > 
 { .block-language-dataview}
 
-### ⚖️ 3. PHÒNG PHÁP CHẾ 
+### ⚖️ 3. PHÒNG PHÁP CHẾ.
 👉 [[01_TONG_QUAN_LY_DU_AN/3_PHONG_PHAP_CHE/00_DANH_MUC_PHAP_CHE\|Truy cập chi tiết thư mục >>]]
 
 ### 🎨 4. PHÒNG MARKETING & THƯƠNG HIỆU
