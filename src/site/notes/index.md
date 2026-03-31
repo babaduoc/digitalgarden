@@ -25,6 +25,11 @@
 
 ### 📦 2. PHÒNG VẬN HÀNH 
 👉 [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/00_DANH_MUC_VAN_HANH\|Truy cập chi tiết thư mục >>]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|🛍️ SOP-MD-01: Quản lý Sản phẩm MD (md.khotot.vn)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLyKho\|🏭 SOP-MD-02: Quản lý Kho hàng MD (md.khotot.vn)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|🛒 SOP-MD-03: Xử lý Đơn hàng MD (md.khotot.vn)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_MaGiamGia\|🎟️ SOP-MD-04: Mã Giảm Giá & Khuyến Mãi MD (md.khotot.vn)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|💳 SOP-MD-05: Thiết Lập Thanh Toán SePay (md.khotot.vn)]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                   | Ngày cập nhật  |
@@ -37,6 +42,11 @@
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tuyen_Dung_Van_Hanh_He_Thong\|SOP_5_Tuyen_Dung_Van_Hanh_He_Thong]]   | March 30, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|SOP_Analysis_Web_ETZ]]                               | March 29, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]]                         | March 29, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_MaGiamGia\|SOP_MD_KHOTOT_MaGiamGia]]                         | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLyKho\|SOP_MD_KHOTOT_QuanLyKho]]                         | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|SOP_MD_KHOTOT_QuanLySanPham]]                 | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|SOP_MD_KHOTOT_ThietLapThanhToan]]         | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|SOP_MD_KHOTOT_XuLyDonHang]]                     | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                             | March 29, 2026 |
 > 
 { .block-language-dataview}
@@ -92,6 +102,8 @@
 
 ### 🕒 9. LƯU TRỮ & TIẾN ĐỘ 
 👉 [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/00_DANH_MUC_LUU_TRU_TIEN_DO\|Truy cập chi tiết thư mục >>]]
+- [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/UAT_CHECKLIST_KHOTOT_2026-03-31\|📋 KẾT QUẢ KIỂM THỬ UAT — KHOTOT.VN (31/03/2026)]]
+- [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/UAT_CHECKLIST_MD_KHOTOT_2026-03-31\|📋 KẾT QUẢ KIỂM THỬ UAT — MD.KHOTOT.VN (31/03/2026)]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                  | Ngày cập nhật  |
@@ -100,6 +112,8 @@
 > | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-27_BaoCaoHop_NoiBo_KhongIT\|2026-03-27_BaoCaoHop_NoiBo_KhongIT]] | March 28, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-29_Bao_Cao_Tuan_W5\|2026-03-29_Bao_Cao_Tuan_W5]]                 | March 29, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/TIEN_DO_WEB_ETZ\|TIEN_DO_WEB_ETZ]]                                       | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/UAT_CHECKLIST_KHOTOT_2026-03-31\|UAT_CHECKLIST_KHOTOT_2026-03-31]]       | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/UAT_CHECKLIST_MD_KHOTOT_2026-03-31\|UAT_CHECKLIST_MD_KHOTOT_2026-03-31]] | March 31, 2026 |
 > 
 { .block-language-dataview}
 
