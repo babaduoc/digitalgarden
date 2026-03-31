@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"🏛️ TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","tags":["gardenEntry"],"dg-note-properties":{"title":"🏛️ TỔNG HÀNH DINH WEB ETZ - KHOTOT.VN","cssclasses":"dashboard"}}
+{"dg-publish":true,"permalink":"/index/","title":"🏛️ WEB ETZ - KHOTOT.VN","tags":["gardenEntry"],"dg-note-properties":{"title":"🏛️ WEB ETZ - KHOTOT.VN","cssclasses":"dashboard"}}
 ---
 
 
