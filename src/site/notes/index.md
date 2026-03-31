@@ -23,7 +23,7 @@
 > 
 { .block-language-dataview}
 
-### 📦 2. PHÒNG VẬN HÀNH (OPERATIONS)
+### 📦 2. PHÒNG VẬN HÀNH 
 👉 [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/00_DANH_MUC_VAN_HANH\|Truy cập chi tiết thư mục >>]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
