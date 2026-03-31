@@ -4,7 +4,7 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/babaduoc/digitalgarden/main/assets/Logo_Khotot_01.png" width="180px" style="margin-top: -50px; border: 5px solid white; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2); background: white;">
+
   <h1 style="margin-top: 10px; font-variant: small-caps;">🏢 KHOTOT.VN - HỆ THỐNG ĐIỀU PHỐI WEB ETZ</h1>
   <p style="color: #8B4513; font-style: italic;">"Quy chuẩn - Tốc độ - Bền vững"</p>
 </div>
