@@ -49,7 +49,7 @@
 ### 💰 5. PHÒNG TÀI CHÍNH 
 👉 [[01_TONG_QUAN_LY_DU_AN/5_PHONG_TAI_CHINH/00_DANH_MUC_TAI_CHINH\|Truy cập chi tiết thư mục >>]]
 
-### 👥 6. PHÒNG NHÂN SỰ (HR)
+### 👥 6. PHÒNG NHÂN SỰ 
 👉 [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/00_DANH_MUC_NHAN_SU\|Truy cập chi tiết thư mục >>]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
