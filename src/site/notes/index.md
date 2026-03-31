@@ -11,7 +11,7 @@
 
 ---
 
-## 🏛️ DANH PHÁP PHÒNG BAN QUẢN LÝ (TỰ ĐỘNG DATAVIEW)
+## 🏛️ DANH PHÁP PHÒNG BAN QUẢN LÝ 
 
 ### 🏗️ 1. PHÒNG CHIẾN LƯỢC
 👉 [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/00_DANH_MUC_CHIEN_LUOC\|Truy cập chi tiết thư mục >>]]
