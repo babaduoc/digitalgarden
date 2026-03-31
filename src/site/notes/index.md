@@ -72,6 +72,9 @@
 ### 🛡️ 7. PHÒNG KỸ THUẬT 
 👉 [[01_TONG_QUAN_LY_DU_AN/7_PHONG_KY_THUAT/00_DANH_MUC_KY_THUAT\|Truy cập chi tiết thư mục >>]]
 
+> [!important] 🎯 TIẾN ĐỘ CODE WEB ETZ (MỚI)
+> 👉 [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/TIEN_DO_WEB_ETZ\|🚀 BẢNG THEO DÕI & NGHIỆM THU TIẾN ĐỘ IT (CLICK VÀO ĐÂY)]]
+
 ### 📑 8. BIỂU MẪU & CHECKLISTS 
 👉 [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/00_DANH_MUC_BIEU_MAU_CHECKLISTS\|Truy cập chi tiết thư mục >>]]
 
@@ -92,10 +95,10 @@
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                  | Ngày cập nhật  |
 > | --------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/TIEN_DO_WEB_ETZ\|TIEN_DO_WEB_ETZ]]                                       | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-10_BienBanHop_Lan6\|2026-03-10_BienBanHop_Lan6]]                 | March 29, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-29_Bao_Cao_Tuan_W5\|2026-03-29_Bao_Cao_Tuan_W5]]                 | March 29, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-27_BaoCaoHop_NoiBo_KhongIT\|2026-03-27_BaoCaoHop_NoiBo_KhongIT]] | March 28, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/Untitled\|Untitled]]                                                     | March 28, 2026 |
 > 
 { .block-language-dataview}
 
