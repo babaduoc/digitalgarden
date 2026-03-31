@@ -55,17 +55,15 @@
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                                             | Ngày cập nhật  |
 > | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- |
+> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Admin_VanHanh_2026-03-30\|BCDG_Admin_VanHanh_2026-03-30]]                     | March 31, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Ung_Vien_VanHanhWebsite_2026-03-30\|BCDG_Ung_Vien_VanHanhWebsite_2026-03-30]] | March 31, 2026 |
+> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 31, 2026 |
+> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_30.03.2026_Nguyen_Thi_Thao_Nguyen\|CV_30.03.2026_Nguyen_Thi_Thao_Nguyen]]       | March 31, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/MTCV_Nhan_Vien_Van_Hanh_Website_ETZ\|MTCV_Nhan_Vien_Van_Hanh_Website_ETZ]]                        | March 31, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/2026-03-30_HSUV_Tran_Khanh_Loc\|2026-03-30_HSUV_Tran_Khanh_Loc]]                   | March 30, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Admin_VanHanh_2026-03-30\|BCDG_Admin_VanHanh_2026-03-30]]                     | March 30, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_27.03.2026_Huynh_Thi_Minh_Tam\|CV_27.03.2026_Huynh_Thi_Minh_Tam]]               | March 30, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_27.03.2026_Vo_Thi_Yen_Nhung\|CV_27.03.2026_Vo_Thi_Yen_Nhung]]                   | March 30, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_28.03.2026_Tran_Ngoc_Thao\|CV_28.03.2026_Tran_Ngoc_Thao]]                       | March 30, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 30, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_30.03.2026_Nguyen_Thi_Thao_Nguyen\|CV_30.03.2026_Nguyen_Thi_Thao_Nguyen]]       | March 30, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/BAO_CAO_UNG_VIEN\|BAO_CAO_UNG_VIEN]]                                                              | March 30, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/HSUV_Tran_Khanh_Loc_Detail\|HSUV_Tran_Khanh_Loc_Detail]]                                          | March 30, 2026 |
+> | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/HSUV_Tran_Khanh_Loc_Detail\|HSUV_Tran_Khanh_Loc_Detail]]                           | March 30, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | March 30, 2026 |
 > 
 { .block-language-dataview}
@@ -79,11 +77,11 @@
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                | Ngày cập nhật  |
 > | ------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|02_Bien_Ban_Ban_Giao_Shipper]]   | March 31, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|Checklist_Giai_Doan_1_Kho_ETZ]] | March 30, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|03_Phieu_Xuat_Kho_Kem_Hang]]       | March 28, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|Checklist_Van_Hanh_Web_ETZ]]       | March 28, 2026 |
 > | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|01_Phieu_Soan_Hang_ETZ]]               | March 28, 2026 |
-> | [[01_TONG_HANH_DINH_QUAN_LY/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|02_Bien_Ban_Ban_Giao_Shipper]]   | March 28, 2026 |
 > 
 { .block-language-dataview}
 

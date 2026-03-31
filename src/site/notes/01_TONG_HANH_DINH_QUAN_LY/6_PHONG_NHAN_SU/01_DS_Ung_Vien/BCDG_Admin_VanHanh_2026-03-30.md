@@ -25,14 +25,14 @@ xychart-beta
     bar [9.2, 8.6, 6.5, 6.3, 5.7, 4.5]
 ```
 
-| Hạng | Ứng viên | Điện thoại | Điểm | Khuyến nghị |
-|:---:|---|---|:---:|---|
-| 🥇 1 | **Trần Khánh Lộc** | 0353 603 453 | **9.2/10** | ✅ Mời phỏng vấn ngay |
-| 🥈 2 | **Trần Ngọc Thảo** | 0356 944 595 | **8.6/10** | ✅ Mời phỏng vấn ngay |
-| 🥉 3 | **Mai Thị Kim Loan** | 0379 063 217 | **6.5/10** | ⚠️ Dự phòng — tiềm năng tốt |
-| 4 | Nguyễn Thị Thảo Nguyên | 077 892 2296 | **6.3/10** | ⚠️ Dự phòng — cần định hướng lại |
-| 5 | Võ Thị Yến Nhung | 0388 394 658 | **5.7/10** | 🔄 Lưu hồ sơ |
-| 6 | Huỳnh Thị Minh Tâm | 09355634111 | **4.5/10** | ❌ Chưa phù hợp |
+| Hạng | Ứng viên | Điện thoại | Kinh nghiệm / Tuổi | Điểm | Khuyến nghị |
+|:---:|---|---|---|:---:|---|
+| 🥇 1 | **Trần Khánh Lộc** | 0353 603 453 | **9 năm** thực chiến / (—) | **9.2/10** | ✅ Mời phỏng vấn ngay |
+| 🥈 2 | **Trần Ngọc Thảo** | 0356 944 595 | **Dày dặn** (BPO quốc tế) / (—) | **8.6/10** | ✅ Mời phỏng vấn ngay |
+| 🥉 3 | **Mai Thị Kim Loan** | 0379 063 217 | Sàn TMĐT cơ bản / (~22t) | **6.5/10** | ⚠️ Dự phòng — tiềm năng tốt |
+| 4 | Nguyễn Thị Thảo Nguyên| 077 892 2296 | Admin Marketing, SEO / Trẻ | **6.3/10** | ⚠️ Dự phòng — cần định hướng lại |
+| 5 | Võ Thị Yến Nhung | 0388 394 658 | **9 tháng** Admin / Trẻ | **5.7/10** | 🔄 Lưu hồ sơ |
+| 6 | Huỳnh Thị Minh Tâm | 09355634111 | Chưa có KN quy trình / (2003 - 23t)| **4.5/10** | ❌ Chưa phù hợp |
 
 ---
 
@@ -203,24 +203,24 @@ Phù hợp hơn với: **Content / Kiểm duyệt nội dung sàn TMĐT**.
 
 ## 📊 VI. BẢNG SO SÁNH KỸ NĂNG THEO YÊU CẦU ADMIN
 
-| Kỹ năng yêu cầu                  | Khánh Lộc | Ngọc Thảo | Kim Loan | Thảo Nguyên | Yến Nhung | Minh Tâm |     |
-| -------------------------------- | :-------: | :-------: | :------: | :---------: | :-------: | :------: | --- |
-| Xử lý đơn hàng trực tiếp         |    ✅✅     |     ✅     |    ✅     |      ❌      |    ⚠️     |    ❌     |     |
-| Duyệt tài khoản / Quản lý đại lý |    ✅✅     |    ⚠️     |    ❌     |      ❌      |     ❌     |    ❌     |     |
-| Phối hợp Kho – Kế toán           |    ✅✅     |     ✅     |    ⚠️    |     ⚠️      |     ✅     |    ❌     |     |
-| Xử lý hủy đơn / hoàn tiền        |    ✅✅     |    ⚠️     |    ✅     |      ❌      |    ⚠️     |    ❌     |     |
-| Hỗ trợ bảo hành sau bán          |     ✅     |    ⚠️     |    ✅     |      ❌      |     ❌     |    ❌     |     |
-| Quản lý dữ liệu sản phẩm         |    ✅✅     |    ✅✅     |    ✅     |     ⚠️      |     ✅     |    ⚠️    |     |
-| Sapo / Haravan                   |    ✅✅     |     ❌     |    ❌     |      ❌      |     ❌     |    ❌     |     |
-| Shopify / Wayfair Backend        |     ❌     |    ✅✅     |    ❌     |      ❌      |     ❌     |    ❌     |     |
-| Excel / Google Sheet             |    ✅✅     |    ✅✅     |    ✅     |      ✅      |     ✅     |    ✅     |     |
-| Công cụ AI                       |     ✅     |     ✅     |    ❌     |     ✅✅      |     ❌     |    ✅     |     |
-| Tiếng Anh đọc dashboard          |    ⚠️     |    ✅✅     |    ❌     |      ❌      |    ✅✅     |    ❌     |     |
-| Báo cáo số liệu hàng ngày        |    ✅✅     |    ✅✅     |    ✅     |      ✅      |    ⚠️     |    ⚠️    |     |
-| Kỷ luật SOP / quy trình          |    ✅✅     |    ✅✅     |    ✅     |      ✅      |    ⚠️     |    ⚠️    |     |
-| Chịu áp lực cao điểm đơn         |    ✅✅     |     ✅     |    ✅     |     ⚠️      |    ⚠️     |    ❌     |     |
+| Kỹ năng yêu cầu                  | Khánh Lộc | Ngọc Thảo | Kim Loan | Thảo Nguyên | Yến Nhung | Minh Tâm |
+| -------------------------------- | :-------: | :-------: | :------: | :---------: | :-------: | :------: |
+| Xử lý đơn hàng trực tiếp         |  **XS**   |    Tốt    |   Tốt    |      —      |    ⚠️     |    —     |
+| Duyệt tài khoản / Quản lý đại lý |  **XS**   |    ⚠️     |    —     |      —      |     —     |    —     |
+| Phối hợp Kho – Kế toán           |  **XS**   |    Tốt    |    ⚠️    |     ⚠️      |    Tốt    |    —     |
+| Xử lý hủy đơn / hoàn tiền        |  **XS**   |    ⚠️     |   Tốt    |      —      |    ⚠️     |    —     |
+| Hỗ trợ bảo hành sau bán          |    Tốt    |    ⚠️     |   Tốt    |      —      |     —     |    —     |
+| Quản lý dữ liệu sản phẩm         |  **XS**   |  **XS**   |   Tốt    |     ⚠️      |    Tốt    |    ⚠️    |
+| Sapo / Haravan                   |  **XS**   |     —     |    —     |      —      |     —     |    —     |
+| Shopify / Wayfair Backend        |     —     |  **XS**   |    —     |      —      |     —     |    —     |
+| Excel / Google Sheet             |  **XS**   |  **XS**   |   Tốt    |     Tốt     |    Tốt    |   Tốt    |
+| Công cụ AI                       |    Tốt    |    Tốt    |    —     |   **XS**    |     —     |   Tốt    |
+| Tiếng Anh đọc dashboard          |    ⚠️     |  **XS**   |    —     |      —      |  **XS**   |    —     |
+| Báo cáo số liệu hàng ngày        |  **XS**   |  **XS**   |   Tốt    |     Tốt     |    ⚠️     |    ⚠️    |
+| Kỷ luật SOP / quy trình          |  **XS**   |  **XS**   |   Tốt    |     Tốt     |    ⚠️     |    ⚠️    |
+| Chịu áp lực cao điểm đơn         |  **XS**   |    Tốt    |   Tốt    |     ⚠️      |    ⚠️     |    —     |
 
-*✅✅ Xuất sắc | ✅ Tốt | ⚠️ Cơ bản / Cần xác nhận | ❌ Chưa có*
+***XS** = Xuất sắc | Tốt | ⚠️ Cơ bản / Cần xác nhận | — Chưa có*
 
 ---
 
