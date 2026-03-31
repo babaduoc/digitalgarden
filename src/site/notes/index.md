@@ -72,7 +72,7 @@
 ### 🛡️ 7. PHÒNG KỸ THUẬT 
 👉 [[01_TONG_QUAN_LY_DU_AN/7_PHONG_KY_THUAT/00_DANH_MUC_KY_THUAT\|Truy cập chi tiết thư mục >>]]
 
-### 📑 8. BIỂU MẪU & CHECKLISTS (FORMS)
+### 📑 8. BIỂU MẪU & CHECKLISTS 
 👉 [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/00_DANH_MUC_BIEU_MAU_CHECKLISTS\|Truy cập chi tiết thư mục >>]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
