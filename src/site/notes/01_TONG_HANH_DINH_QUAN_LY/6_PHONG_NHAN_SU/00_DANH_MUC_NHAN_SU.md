@@ -17,9 +17,20 @@
 ## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
 Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
 
-| File                                                                                                                      | Ngày cập nhật gần nhất |
-| ------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/Interview_Trần_Khanh_Loc_2026-03-27\|Interview_Trần_Khanh_Loc_2026-03-27]] | March 29, 2026         |
+| File                                                                                                                                             | Ngày cập nhật gần nhất |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/2026-03-30_HSUV_Tran_Khanh_Loc\|2026-03-30_HSUV_Tran_Khanh_Loc]]                   | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/BAO_CAO_UNG_VIEN\|BAO_CAO_UNG_VIEN]]                                                              | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Admin_VanHanh_2026-03-30\|BCDG_Admin_VanHanh_2026-03-30]]                     | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Ung_Vien_VanHanhWebsite_2026-03-30\|BCDG_Ung_Vien_VanHanhWebsite_2026-03-30]] | March 31, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_27.03.2026_Huynh_Thi_Minh_Tam\|CV_27.03.2026_Huynh_Thi_Minh_Tam]]               | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_27.03.2026_Vo_Thi_Yen_Nhung\|CV_27.03.2026_Vo_Thi_Yen_Nhung]]                   | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_28.03.2026_Tran_Ngoc_Thao\|CV_28.03.2026_Tran_Ngoc_Thao]]                       | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_30.03.2026_Nguyen_Thi_Thao_Nguyen\|CV_30.03.2026_Nguyen_Thi_Thao_Nguyen]]       | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/HSUV_Tran_Khanh_Loc_Detail\|HSUV_Tran_Khanh_Loc_Detail]]                                          | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | March 30, 2026         |
+| [[01_TONG_HANH_DINH_QUAN_LY/6_PHONG_NHAN_SU/MTCV_Nhan_Vien_Van_Hanh_Website_ETZ\|MTCV_Nhan_Vien_Van_Hanh_Website_ETZ]]                        | March 31, 2026         |
 
 { .block-language-dataview}
 
