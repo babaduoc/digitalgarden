@@ -29,6 +29,7 @@
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                   | Ngày cập nhật  |
 > | ---------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian\|SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian]] | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]] | March 30, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                   | March 30, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                           | March 30, 2026 |
