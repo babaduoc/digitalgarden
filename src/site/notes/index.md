@@ -46,7 +46,7 @@
 ### 🎨 4. PHÒNG MARKETING & THƯƠNG HIỆU
 👉 [[01_TONG_QUAN_LY_DU_AN/4_PHONG_MARKETING/00_DANH_MUC_MARKETING\|Truy cập chi tiết thư mục >>]]
 
-### 💰 5. PHÒNG TÀI CHÍNH (FINANCE)
+### 💰 5. PHÒNG TÀI CHÍNH 
 👉 [[01_TONG_QUAN_LY_DU_AN/5_PHONG_TAI_CHINH/00_DANH_MUC_TAI_CHINH\|Truy cập chi tiết thư mục >>]]
 
 ### 👥 6. PHÒNG NHÂN SỰ (HR)
