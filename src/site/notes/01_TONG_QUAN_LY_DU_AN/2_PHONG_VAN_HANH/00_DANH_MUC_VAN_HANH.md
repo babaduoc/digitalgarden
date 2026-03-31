@@ -32,6 +32,10 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|SOP_MD_KHOTOT_QuanLySanPham]]                 | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|SOP_MD_KHOTOT_ThietLapThanhToan]]         | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|SOP_MD_KHOTOT_XuLyDonHang]]                     | March 31, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_DangKyDangNhap\|SOP_SD_KHOTOT_DangKyDangNhap]]               | March 31, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_QuanLyDonHang\|SOP_SD_KHOTOT_QuanLyDonHang]]                 | March 31, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_ThanhToan\|SOP_SD_KHOTOT_ThanhToan]]                         | March 31, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_TimKiemMuaHang\|SOP_SD_KHOTOT_TimKiemMuaHang]]               | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                             | March 29, 2026         |
 
 { .block-language-dataview}

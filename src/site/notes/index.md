@@ -25,11 +25,19 @@
 
 ### 📦 2. PHÒNG VẬN HÀNH 
 👉 [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/00_DANH_MUC_VAN_HANH\|Truy cập chi tiết thư mục >>]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|🛍️ SOP-MD-01: Quản lý Sản phẩm MD (md.khotot.vn)]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLyKho\|🏭 SOP-MD-02: Quản lý Kho hàng MD (md.khotot.vn)]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|🛒 SOP-MD-03: Xử lý Đơn hàng MD (md.khotot.vn)]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_MaGiamGia\|🎟️ SOP-MD-04: Mã Giảm Giá & Khuyến Mãi MD (md.khotot.vn)]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|💳 SOP-MD-05: Thiết Lập Thanh Toán SePay (md.khotot.vn)]]
+
+**— SOP Nhà Phân Phối (MD · md.khotot.vn) —**
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|🛍️ SOP-MD-01: Quản lý Sản phẩm MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLyKho\|🏭 SOP-MD-02: Quản lý Kho hàng MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|🛒 SOP-MD-03: Xử lý Đơn hàng MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_MaGiamGia\|🎟️ SOP-MD-04: Mã Giảm Giá & Khuyến Mãi MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|💳 SOP-MD-05: Thiết Lập Thanh Toán SePay]]
+
+**— SOP Đại Lý Lẻ / Khách Hàng (SD · khotot.vn) —**
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_DangKyDangNhap\|🔐 SOP-SD-01: Đăng Ký & Đăng Nhập SD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_TimKiemMuaHang\|🔍 SOP-SD-02: Tìm Kiếm & Mua Hàng]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_ThanhToan\|💳 SOP-SD-03: Thanh Toán (Checkout)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_QuanLyDonHang\|📦 SOP-SD-04: Quản Lý Đơn Hàng SD]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                   | Ngày cập nhật  |
@@ -47,6 +55,10 @@
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|SOP_MD_KHOTOT_QuanLySanPham]]                 | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|SOP_MD_KHOTOT_ThietLapThanhToan]]         | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|SOP_MD_KHOTOT_XuLyDonHang]]                     | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_DangKyDangNhap\|SOP_SD_KHOTOT_DangKyDangNhap]]               | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_QuanLyDonHang\|SOP_SD_KHOTOT_QuanLyDonHang]]                 | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_ThanhToan\|SOP_SD_KHOTOT_ThanhToan]]                         | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_TimKiemMuaHang\|SOP_SD_KHOTOT_TimKiemMuaHang]]               | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                             | March 29, 2026 |
 > 
 { .block-language-dataview}
