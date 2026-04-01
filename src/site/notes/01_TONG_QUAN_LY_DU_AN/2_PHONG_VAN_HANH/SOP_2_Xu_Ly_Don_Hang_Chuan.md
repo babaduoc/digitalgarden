@@ -39,15 +39,19 @@ graph TD
     Set_Prep --> Ship_Type{Loại vận chuyển?}
 
     %% Nhánh Chành xe %%
-    Ship_Type -- "Chành xe (SD trả cước)" --> Acc_Inv_1[Kế toán xuất hóa đơn]
-    Acc_Inv_1 --> WH_Pack_1[Kho đóng gói kèm Hóa đơn]
+    Ship_Type -- "Chành xe (SD trả cước)" --> Acc_Inv_1[Kế toán xuất Hóa đơn & Phiếu xuất kho]
+    Acc_Inv_1 --> WH_Pack_1[Kho đóng gói kèm HĐ & Phiếu xuất kho]
     WH_Pack_1 --> WH_Check[Kho kiểm hàng & Giao Chành]
     WH_Check --> WH_Photo[Shipper chụp ảnh Biên nhận & Kiện hàng]
     WH_Photo --> Admin_Upload[Admin Upload ảnh lên Web & Báo SD]
+    Admin_Upload --> WH_Confirm[Kho/Shipper báo Admin đã giao xong]
+    WH_Confirm --> Admin_Finish_1[Admin hoàn tất đơn thủ công]
 
     %% Nhánh Tại kho %%
     Ship_Type -- Khách lấy tại kho --> WH_Pack_2[Kho chuẩn bị hàng]
     WH_Pack_2 --> SD_Pick[Khách nhận hàng]
+    SD_Pick --> WH_Confirm_2[Kho báo Admin khách đã lấy hàng]
+    WH_Confirm_2 --> Admin_Finish_2[Admin hoàn tất đơn thủ công]
     SD_Pick --> Acc_Inv_2[Kế toán xuất hóa đơn trong ngày]
 
     %% Nhánh Viettel Post %%
@@ -56,9 +60,9 @@ graph TD
     API_Delivered -- OK --> Acc_Inv_3[Kế toán xuất HĐ trước 17:00]
 
     class SD_Order,SD_Pick sd;
-    class Admin_Check,Set_Prep admin;
+    class Admin_Check,Set_Prep,Admin_Upload,Admin_Finish_1,Admin_Finish_2 admin;
     class Acc_Inv_1,Acc_Inv_2,Acc_Inv_3 acc;
-    class WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check wh;
+    class WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check,WH_Confirm,WH_Confirm_2 wh;
     class OutOfStock error;
 ```
 
@@ -78,17 +82,18 @@ graph TD
 
 ### 3. GIAI ĐOẠN 3: PHÂN LUỒNG HÓA ĐƠN & VẬN CHUYỂN
 
-| Hình thức | Kế toán (Hóa đơn) | Kho (Đóng gói & Giao) |
-|---|---|---|
-| **Chành xe** | Xuất ngay sau khi Admin duyệt đơn. Gửi thông tin cho Kho. | **Bắt buộc** đóng gói kèm Hóa đơn chứng từ. Kiểm tra đủ mới bàn giao vận chuyển. |
-| **Lấy tại kho** | Xuất linh hoạt bất kỳ lúc nào trong ngày (trong cùng ngày SD lấy hàng). | Chuẩn bị hàng sẵn chờ SD đến lấy. |
-| **Viettel Post** | Cuối ngày (trước 17:00), kiểm tra API báo *Đã giao thành công* để xuất HĐ hàng loạt. | Đóng gói theo chuẩn, dán vận đơn và gửi hàng cho bưu tá. |
+| Hình thức | Kế toán (Hóa đơn) | Kho (Đóng gói & Giao) | Admin (Hoàn tất đơn) |
+|---|---|---|---|
+| **Chành xe** | Xuất HĐ & Phiếu xuất kho ngay sau khi Admin duyệt đơn. | **Bắt buộc** kèm HĐ & Phiếu xuất kho. Giao xong phải chụp ảnh + báo ngay cho Admin. | **Thủ công:** Admin kiểm tra thông báo từ Kho/Shipper -> Hoàn tất đơn trên Web. |
+| **Lấy tại kho** | Xuất linh hoạt bất kỳ lúc nào trong ngày. | Chuẩn bị hàng sẵn. Khách lấy xong phải báo ngay cho Admin. | **Thủ công:** Admin kiểm tra xác nhận từ Kho -> Hoàn tất đơn trên Web. |
+| **Viettel Post** | Cuối ngày (trước 17:00), kiểm tra API báo *Đã giao thành công*. | Đóng gói theo chuẩn, gửi hàng cho bưu tá. | **Tự động:** Hệ thống tự đổi trạng thái dựa theo API nhà vận chuyển. |
 
 ---
 
 ## 📊 KPI THEO DÕI
 - **Kế toán:** Mọi đơn Viettel Post thành công phải được xuất HĐ trước 17:00 hàng ngày.
-- **Kho:** Đơn Chành xe không được xuất kho nếu thiếu hóa đơn kèm theo.
+- **Kho:** Đơn Chành xe và Tại kho phải báo cáo Admin ngay sau khi hàng rời kho/khách lấy hàng.
+- **Admin:** Chịu trách nhiệm theo dõi thông tin từ Kho để hoàn tất đơn hàng thủ công (tránh đơn treo treo trên Dashboard).
 
 ---
 ---
@@ -97,7 +102,7 @@ graph TD
 
 Đối với các đơn hàng SD yêu cầu gửi qua nhà xe/xe khách:
 
-1.  **Hồ sơ đi đường:** Kế toán phải hoàn tất hóa đơn/chứng từ trước khi hàng rời kho để đảm bảo tính pháp lý khi lưu thông.
+1.  **Hồ sơ đi đường:** Kế toán phải hoàn tất **Hóa đơn** và **Phiếu xuất kho** trước khi hàng rời kho để đảm bảo tính pháp lý và đối soát sản phẩm khi nhà xe giao hàng.
 2.  **Đóng gói & Nhãn:** Kho dán nhãn khổ lớn ghi rõ: *Tên SD - SĐT SD - Tên Chành - Nơi đến*.
 3.  **Xác thực giao hàng (Bằng chứng):**
     - Shipper nội bộ lấy **Biên nhận (Vận đơn)** từ nhà xe.
