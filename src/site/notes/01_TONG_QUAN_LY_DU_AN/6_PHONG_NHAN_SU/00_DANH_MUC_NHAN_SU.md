@@ -19,6 +19,7 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 
 | File                                                                                                                                         | Ngày cập nhật gần nhất |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/Bai_Tuyen_Dung\|Bai_Tuyen_Dung]]                                                                  | April 01, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Admin_VanHanh_2026-03-30\|BCDG_Admin_VanHanh_2026-03-30]]                     | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/BCDG_Ung_Vien_VanHanhWebsite_2026-03-30\|BCDG_Ung_Vien_VanHanhWebsite_2026-03-30]] | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_27.03.2026_Huynh_Thi_Minh_Tam\|CV_27.03.2026_Huynh_Thi_Minh_Tam]]               | March 30, 2026         |
