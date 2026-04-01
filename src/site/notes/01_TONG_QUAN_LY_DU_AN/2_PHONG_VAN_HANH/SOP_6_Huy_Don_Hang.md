@@ -7,7 +7,6 @@
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 1.0 | **Cập nhật:** 2026-04-01
-> **Tác giả:** Antigravity AI
 > **Phòng ban:** Phòng Vận Hành / Kế Toán
 > **Vùng dữ liệu:** Zone 01 — Tổng Hành Dinh
 
