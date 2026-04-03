@@ -43,8 +43,8 @@ graph TD
     SD_Send_ETZ --> ETZ_Check[Kho ETZ nhận & Kiểm tra vật lý]
     ETZ_Check --> ETZ_Send_Hang[ETZ gom hàng gửi sang Hãng]
     ETZ_Send_Hang --> Hang_Process_2[Hãng sửa chữa & Trả ETZ]
-    Hang_Process_2 --> ETZ_Return[ETZ gửi hàng về cho SD]
-    ETZ_Return --> End
+    Hang_Process_2 --> Hang_Return[Hãng gửi trả hàng thẳng cho SD]
+    Hang_Return --> End
 
     class SD_Check_Info,SD_Send_Hang,SD_Call_ETZ,SD_Send_ETZ sd;
     class ETZ_Check,ETZ_Send_Hang,ETZ_Return etz;

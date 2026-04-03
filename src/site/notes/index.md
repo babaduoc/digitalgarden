@@ -27,40 +27,46 @@
 👉 [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/00_DANH_MUC_VAN_HANH\|Truy cập chi tiết thư mục >>]]
 
 **— SOP Nhà Phân Phối (MD · md.khotot.vn) —**
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|🛍️ SOP-MD-01: Quản lý Sản phẩm MD]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLyKho\|🏭 SOP-MD-02: Quản lý Kho hàng MD]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|🛒 SOP-MD-03: Xử lý Đơn hàng MD]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_MaGiamGia\|🎟️ SOP-MD-04: Mã Giảm Giá & Khuyến Mãi MD]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|💳 SOP-MD-05: Thiết Lập Thanh Toán SePay]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_QuanLySanPham\|🛍️ SOP-MD-01: Quản lý Sản phẩm MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_QuanLyKho\|🏭 SOP-MD-02: Quản lý Kho hàng MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_XuLyDonHang\|🛒 SOP-MD-03: Xử lý Đơn hàng MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_MaGiamGia\|🎟️ SOP-MD-04: Mã Giảm Giá & Khuyến Mãi MD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_ThietLapThanhToan\|💳 SOP-MD-05: Thiết Lập Thanh Toán SePay]]
 
 **— SOP Đại Lý Lẻ / Khách Hàng (SD · khotot.vn) —**
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_DangKyDangNhap\|🔐 SOP-SD-01: Đăng Ký & Đăng Nhập SD]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_TimKiemMuaHang\|🔍 SOP-SD-02: Tìm Kiếm & Mua Hàng]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_ThanhToan\|💳 SOP-SD-03: Thanh Toán (Checkout)]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_QuanLyDonHang\|📦 SOP-SD-04: Quản Lý Đơn Hàng SD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_DangKyDangNhap\|🔐 SOP-SD-01: Đăng Ký & Đăng Nhập SD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_TimKiemMuaHang\|🔍 SOP-SD-02: Tìm Kiếm & Mua Hàng]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_ThanhToan\|💳 SOP-SD-03: Thanh Toán (Checkout)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_QuanLyDonHang\|📦 SOP-SD-04: Quản Lý Đơn Hàng SD]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|🚀 SOP 2.2: Quy trình vận hành Web thực tế (Ưu tiên)]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra\|🛡️ SOP 07: Quy trình xử lý Khiếu nại & Hoàn trả]]
+- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong\|📝 SOP 2.1: Quy trình mua hàng truyền thống (Dự phòng)]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
->  | File                                                                                                                   | Ngày cập nhật  |
-> | ---------------------------------------------------------------------------------------------------------------------- | -------------- |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]] | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                   | April 01, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                           | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong]]       | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian\|SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian]] | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tuyen_Dung_Van_Hanh_He_Thong\|SOP_5_Tuyen_Dung_Van_Hanh_He_Thong]]   | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_6_Huy_Don_Hang\|SOP_6_Huy_Don_Hang]]                                   | April 01, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Analysis_Web_ETZ\|SOP_Analysis_Web_ETZ]]                               | March 29, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_Kho_ETZ_Giai_Doan_1\|SOP_Kho_ETZ_Giai_Doan_1]]                         | March 29, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_MaGiamGia\|SOP_MD_KHOTOT_MaGiamGia]]                         | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLyKho\|SOP_MD_KHOTOT_QuanLyKho]]                         | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_QuanLySanPham\|SOP_MD_KHOTOT_QuanLySanPham]]                 | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_ThietLapThanhToan\|SOP_MD_KHOTOT_ThietLapThanhToan]]         | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_MD_KHOTOT_XuLyDonHang\|SOP_MD_KHOTOT_XuLyDonHang]]                     | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_DangKyDangNhap\|SOP_SD_KHOTOT_DangKyDangNhap]]               | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_QuanLyDonHang\|SOP_SD_KHOTOT_QuanLyDonHang]]                 | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_ThanhToan\|SOP_SD_KHOTOT_ThanhToan]]                         | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_SD_KHOTOT_TimKiemMuaHang\|SOP_SD_KHOTOT_TimKiemMuaHang]]               | April 01, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                             | March 29, 2026 |
+>  | File                                                                                                                                                       | Ngày cập nhật  |
+> | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra\|SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra]]                                             | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]]                                     | March 30, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                       | April 01, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong\|SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong]]                             | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te]]                               | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet\|SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet]] | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                                                               | March 30, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong]]                                           | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian\|SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian]]                                     | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tuyen_Dung_Van_Hanh_He_Thong\|SOP_5_Tuyen_Dung_Van_Hanh_He_Thong]]                                       | March 30, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_6_Huy_Don_Hang\|SOP_6_Huy_Don_Hang]]                                                                       | April 01, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_MaGiamGia\|SOP_MD_KHOTOT_MaGiamGia]]                                                          | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_QuanLyKho\|SOP_MD_KHOTOT_QuanLyKho]]                                                          | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_QuanLySanPham\|SOP_MD_KHOTOT_QuanLySanPham]]                                                  | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_ThietLapThanhToan\|SOP_MD_KHOTOT_ThietLapThanhToan]]                                          | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_XuLyDonHang\|SOP_MD_KHOTOT_XuLyDonHang]]                                                      | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_DangKyDangNhap\|SOP_SD_KHOTOT_DangKyDangNhap]]                                                | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_DieuKhoanFlowchart_Cham_Lam\|SOP_SD_KHOTOT_DieuKhoanFlowchart_Cham_Lam]]                      | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_QuanLyDonHang\|SOP_SD_KHOTOT_QuanLyDonHang]]                                                  | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_ThanhToan\|SOP_SD_KHOTOT_ThanhToan]]                                                          | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_TimKiemMuaHang\|SOP_SD_KHOTOT_TimKiemMuaHang]]                                                | April 01, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_XuLyDonHang_KhoMD\|SOP_XuLyDonHang_KhoMD]]                                                              | March 29, 2026 |
 > 
 { .block-language-dataview}
 
@@ -70,8 +76,7 @@
 ### 🎨 4. PHÒNG MARKETING & THƯƠNG HIỆU
 👉 [[01_TONG_QUAN_LY_DU_AN/4_PHONG_MARKETING/00_DANH_MUC_MARKETING\|Truy cập chi tiết thư mục >>]]
 
-### 💰 5. PHÒNG TÀI CHÍNH 
-👉 [[01_TONG_QUAN_LY_DU_AN/5_PHONG_TAI_CHINH/00_DANH_MUC_TAI_CHINH\|Truy cập chi tiết thư mục >>]]
+
 
 ### 👥 6. PHÒNG NHÂN SỰ 
 👉 [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/00_DANH_MUC_NHAN_SU\|Truy cập chi tiết thư mục >>]]
@@ -106,12 +111,9 @@
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                            | Ngày cập nhật  |
 > | --------------------------------------------------------------------------------------------------------------- | -------------- |
-> | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|01_Phieu_Soan_Hang_ETZ]]               | March 28, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|02_Bien_Ban_Ban_Giao_Shipper]]   | March 31, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|03_Phieu_Xuat_Kho_Kem_Hang]]       | March 28, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/04_Bien_Ban_Thu_Hoi_Hoa_Don\|04_Bien_Ban_Thu_Hoi_Hoa_Don]]     | April 01, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|Checklist_Giai_Doan_1_Kho_ETZ]] | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|Checklist_Van_Hanh_Web_ETZ]]       | March 28, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|Checklist_Van_Hanh_Web_ETZ]]       | April 02, 2026 |
 > 
 { .block-language-dataview}
 

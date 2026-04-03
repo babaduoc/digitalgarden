@@ -19,12 +19,9 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 
 | File                                                                                                            | Ngày cập nhật gần nhất |
 | --------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/01_Phieu_Soan_Hang_ETZ\|01_Phieu_Soan_Hang_ETZ]]               | March 28, 2026         |
-| [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/02_Bien_Ban_Ban_Giao_Shipper\|02_Bien_Ban_Ban_Giao_Shipper]]   | March 31, 2026         |
-| [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/03_Phieu_Xuat_Kho_Kem_Hang\|03_Phieu_Xuat_Kho_Kem_Hang]]       | March 28, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/04_Bien_Ban_Thu_Hoi_Hoa_Don\|04_Bien_Ban_Thu_Hoi_Hoa_Don]]     | April 01, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/Checklist_Giai_Doan_1_Kho_ETZ\|Checklist_Giai_Doan_1_Kho_ETZ]] | March 30, 2026         |
-| [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|Checklist_Van_Hanh_Web_ETZ]]       | March 28, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/8_BIEU_MAU_CHECKLISTS/Checklist_Van_Hanh_Web_ETZ\|Checklist_Van_Hanh_Web_ETZ]]       | April 02, 2026         |
 
 { .block-language-dataview}
 
