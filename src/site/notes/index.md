@@ -38,8 +38,6 @@
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_TimKiemMuaHang\|🔍 SOP-SD-02: Tìm Kiếm & Mua Hàng]]
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_ThanhToan\|💳 SOP-SD-03: Thanh Toán (Checkout)]]
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_QuanLyDonHang\|📦 SOP-SD-04: Quản Lý Đơn Hàng SD]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|🚀 SOP 2.2: Quy trình vận hành Web thực tế (Ưu tiên)]]
-- [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra\|🛡️ SOP 07: Quy trình xử lý Khiếu nại & Hoàn trả]]
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong\|📝 SOP 2.1: Quy trình mua hàng truyền thống (Dự phòng)]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
@@ -50,7 +48,7 @@
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                       | April 01, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong\|SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong]]                             | April 02, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te]]                               | April 02, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet\|SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet]] | April 02, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet\|SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet]] | April 06, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                                                               | March 30, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong]]                                           | April 02, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian\|SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian]]                                     | March 31, 2026 |

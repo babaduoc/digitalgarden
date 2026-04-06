@@ -32,41 +32,57 @@ Tài liệu này mô tả toàn bộ quy trình xử lý đơn hàng từ lúc *
 
 ```mermaid
 flowchart TD
-    A([🛒 Khách báo đơn qua Zalo]) --> B{Check tồn kho\ntrên MISA?}
+    subgraph Sale ["Bộ phận SALE / ADMIN"]
+        A([🛒 Khách báo đơn qua Zalo])
+        B{Check tồn kho\ntrên MISA?}
+        C[Báo giá & Lên đơn\nkhách chốt]
+        D[Báo Khách: Đổi mã\nhoặc Không lấy]
+        E([🔚 Kết thúc: Hủy đơn])
+        F[/Tạo đơn trên hệ thống\nTrạng thái chờ: Mã DH../]
+        H[Đứng đơn\nBáo Sale Admin\nhối khách TT]
+    end
 
-    B -->|✅ Còn hàng| C[Báo giá & Lên đơn\nkhách chốt]
-    B -->|❌ Hết hàng| D[Báo Khách: Đổi mã\nhoặc Không lấy]
-    D --> E([🔚 Kết thúc: Hủy đơn])
+    subgraph KeToan ["Bộ phận KẾ TOÁN"]
+        G{Kiểm tra\nThanh toán / Công nợ}
+        J[/Thực hiện Xuống đơn\nTrạng thái chạy: Mã BH../]
+        K[Tiến hành xuất hóa đơn\n100% các đơn]
+        L[Gửi bản điện tử vào Group Zalo\nGửi Email ZIP cho khách]
+        M[Báo Kho in HĐ giấy\nKèm vào kiện hàng]
+    end
 
-    C --> F[/Tạo đơn trên hệ thống\nTrạng thái chờ: Mã DH../]
-
-    F --> G{Kiểm tra\nThanh toán / Công nợ}
-
-    G -->|⛔ Nợ quá hạn /\nKhách lẻ chưa TT| H[Đứng đơn\nBáo Sale Admin\nhối khách TT]
+    subgraph KhoGiaoHang ["Bộ phận KHO & GIAO HÀNG"]
+        N{Check trạng thái\ntrên MISA}
+        O[🚫 Tuyệt đối không xuất\nChờ K.Toán duyệt lệnh]
+        P[Tiến hành xuất kho & Lấy hàng\nĐóng gói kiện hàng]
+        Q{Bộ phận Giao hàng\nXác định Giá trị đơn}
+        R[Kho dùng xe nội bộ\ngiao trực tiếp tận nơi]
+        S{Xác định\nKhoảng cách}
+        T[Book Grab\nhoặc Khách tự tới lấy]
+        U[Kho mang hàng\nra gửi Chành xe]
+    end
+    
+    A --> B
+    B -->|✅ Còn hàng| C
+    B -->|❌ Hết hàng| D
+    D --> E
+    C --> F
+    F --> G
+    G -->|⛔ Nợ quá hạn /\nKhách lẻ chưa TT| H
     H -->|Khách giải quyết xong| G
-
-    G -->|✅ Công nợ hợp lệ /\nĐã TT xong| J[/Thực hiện Xuống đơn\nTrạng thái chạy: Mã BH../]
-
-    J --> K[Tiến hành xuất hóa đơn\n100% các đơn]
-
-    K --> L[Gửi bản điện tử vào Group Zalo\nGửi Email ZIP cho khách]
-    K -->|Khách yêu cầu HĐ giấy| M[Báo Kho in HĐ giấy\nKèm vào kiện hàng]
-
-    L --> N{Check trạng thái\ntrên MISA}
+    G -->|✅ Công nợ hợp lệ /\nĐã TT xong| J
+    J --> K
+    K --> L
+    K -->|Khách yêu cầu HĐ giấy| M
+    L --> N
     M --> N
-
-    N -->|🔴 Vẫn là Mã DH..| O[🚫 Tuyệt đối không xuất\nChờ K.Toán duyệt lệnh]
+    N -->|🔴 Vẫn là Mã DH..| O
     O --> N
-    N -->|🟢 Đã sang Mã BH..| P[Tiến hành xuất kho & Lấy hàng\nĐóng gói kiện hàng]
-
-    P --> Q{Bộ phận Giao hàng\nXác định Giá trị đơn}
-
-    Q -->|≥ 5 triệu| R[Kho dùng xe nội bộ\ngiao trực tiếp tận nơi]
-    Q -->|< 5 triệu| S{Xác định\nKhoảng cách}
-
-    S -->|≤ 15–17 km| T[Book Grab\nhoặc Khách tự tới lấy]
-    S -->|> 17 km| U[Kho mang hàng\nra gửi Chành xe]
-
+    N -->|🟢 Đã sang Mã BH..| P
+    P --> Q
+    Q -->|≥ 5 triệu| R
+    Q -->|< 5 triệu| S
+    S -->|≤ 15–17 km| T
+    S -->|> 17 km| U
     R --> V([✅ Hoàn thành đơn hàng])
     T --> V
     U --> W([✅ EndDone])
@@ -87,12 +103,12 @@ flowchart TD
 
 ### GIAI ĐOẠN 1 — TIẾP NHẬN & KIỂM TRA TỒN KHO
 
-**Bước 1.1 — Khách đặt hàng qua Zalo**
+**Bước 1.1 — [SALE] Khách đặt hàng qua Zalo**
 - Khách gửi yêu cầu đặt hàng qua kênh Zalo chính thức.
 - Sale/Admin tiếp nhận và ghi nhận thông tin: tên hàng, số lượng, địa chỉ giao.
 
-**Bước 1.2 — Kiểm tra tồn kho trên MISA**
-- Kho hoặc Sale kiểm tra tồn kho thực tế trên phần mềm MISA.
+**Bước 1.2 — [SALE] Kiểm tra tồn kho trên MISA**
+- Sale/Admin chủ động kiểm tra tồn kho thực tế trên phần mềm MISA trước khi báo giá.
 
 | Kết quả | Hành động tiếp theo |
 |---|---|
@@ -103,11 +119,11 @@ flowchart TD
 
 ### GIAI ĐOẠN 2 — TẠO ĐƠN HÀNG TRÊN HỆ THỐNG
 
-**Bước 2.1 — Tạo đơn trên hệ thống**
+**Bước 2.1 — [SALE] Tạo đơn trên hệ thống**
 - Sau khi khách chốt, Sale/Admin tạo đơn trên hệ thống MISA.
 - Trạng thái đơn lúc này: **Mã DH..** (Đơn hàng — trạng thái chờ).
 
-> ⚠️ **Lưu ý:** Khi đơn còn ở Mã DH.. tuyệt đối KHÔNG được xuất kho. Phải chờ Kế toán duyệt.
+> ⚠️ **Lưu ý (QUAN TRỌNG):** Khi đơn còn ở Mã DH.. tuyệt đối KHÔNG được xuất kho. Sale chịu trách nhiệm theo dõi cho đến khi Kế toán duyệt.
 
 ---
 
@@ -121,8 +137,9 @@ flowchart TD
 | ↩️ **Khách đã giải quyết xong** | Quay lại kiểm tra lại trạng thái công nợ |
 | ✅ **Công nợ hợp lệ / Đã thanh toán xong** | Thực hiện **Xuống đơn** → Sang Giai đoạn 4 |
 
-**Bước 3.2 — Xuống đơn (khi được duyệt)**
+**Bước 3.2 — [KẾ TOÁN] Xuống đơn (khi được duyệt)**
 - Kế toán xác nhận, đơn được chuyển sang trạng thái: **Mã BH..** (Bán hàng — trạng thái chạy).
+- Đây là "lệnh" cho phép Kho bắt đầu chuẩn bị hàng.
 
 ---
 
@@ -148,10 +165,10 @@ flowchart TD
 | 🔴 **Vẫn là Mã DH..** | **Tuyệt đối KHÔNG xuất** — Chờ Kế toán duyệt lệnh |
 | 🟢 **Đã sang Mã BH..** | Tiến hành **xuất kho & lấy hàng** |
 
-**Bước 5.2 — Xuất kho và đóng gói**
-- Kho tiến hành lấy hàng theo đơn đã được duyệt.
-- In HĐ giấy (nếu có yêu cầu) và kèm vào kiện hàng.
-- Bàn giao kiện hàng cho bộ phận Giao hàng.
+**Bước 5.2 — [KHO] Xuất kho và đóng gói**
+- Kho tiến hành lấy hàng theo đơn đã được duyệt (Mã BH..).
+- In HĐ giấy (nếu có yêu cầu từ Kế toán) và kèm vào kiện hàng.
+- Bàn giao kiện hàng cho bộ phận Giao hàng (thuộc nhóm Kho).
 
 ---
 

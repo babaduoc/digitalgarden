@@ -24,7 +24,7 @@ Các chính sách và lộ trình hoạt động chung:
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                       | April 01, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong\|SOP_2.1_Quy_Trinh_Mua_Hang_Truyen_Thong]]                             | April 02, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|SOP_2.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te]]                               | April 02, 2026 |
-| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet\|SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet]] | April 02, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet\|SOP_2.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet]] | April 06, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                                                               | March 30, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong]]                                           | April 02, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian\|SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian]]                                     | March 31, 2026 |
@@ -32,7 +32,6 @@ Các chính sách và lộ trình hoạt động chung:
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_6_Huy_Don_Hang\|SOP_6_Huy_Don_Hang]]                                                                       | April 01, 2026 |
 
 { .block-language-dataview}
-
 ## 📑 II. QUY TRÌNH DÀNH CHO ĐẠI LÝ & KHÁCH HÀNG (SD)
 Các tài liệu hướng dẫn trên Website `khotot.vn`:
 
