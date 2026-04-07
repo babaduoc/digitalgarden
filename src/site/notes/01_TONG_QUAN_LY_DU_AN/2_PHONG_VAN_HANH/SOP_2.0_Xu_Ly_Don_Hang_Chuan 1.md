@@ -53,19 +53,25 @@ graph TD
     WH_Pack_1 --> WH_Check[Kho kiểm hàng & Giao Chành]
     WH_Check --> WH_Photo[Shipper chụp ảnh Biên nhận & Kiện hàng]
     WH_Photo --> Admin_Upload[Sale Admin Upload ảnh lên Web & Báo SD]
-    Admin_Upload --> WH_Confirm[Kho/Shipper báo Admin đã giao xong]
-    WH_Confirm --> Admin_Finish_1[Sale Admin hoàn tất đơn thủ công]
+    Admin_Upload --> Rule_2D{Sau 2 ngày không phản hồi?}
+    Rule_2D -- "Tự động/Admin" --> Admin_Finish_1[Hoàn tất đơn hàng]
 
     %% Nhánh Tại kho %%
-    Ship_Type -- Khách lấy tại kho --> WH_Pack_2[Kho chuẩn bị hàng]
+    Ship_Type -- "Khách lấy tại kho" --> WH_Print_PXK_2[Kho tự in Phiếu xuất kho từ MISA]
+    WH_Print_PXK_2 --> WH_Pack_2[Kho đóng gói kèm Phiếu xuất kho]
     WH_Pack_2 --> SD_Pick[Khách nhận hàng]
-    SD_Pick --> WH_Confirm_2[Kho báo Admin khách đã lấy hàng]
-    WH_Confirm_2 --> Admin_Finish_2[Sale Admin hoàn tất đơn thủ công]
-    SD_Pick --> Acc_Inv_2[Kế toán xuất hóa đơn trong ngày]
+    SD_Pick --> WH_Verify[Kho gọi check SĐT người mua]
+    WH_Verify --> SD_Sign[Khách ký & ghi họ tên vào PXK]
+    SD_Sign --> WH_Finish_Web[Kho hoàn tất đơn trên WEB Khotot.vn]
+    WH_Finish_Web --> Admin_Check[Admin rà soát đơn treo]
+    Admin_Check --> Acc_Inv_2[Kế toán kiểm tra & Xuất HĐ trước 17:00]
 
     %% Nhánh Viettel Post %%
-    Ship_Type -- Viettel Post --> WH_Pack_3[Kho đóng gói & Gửi hàng]
-    WH_Pack_3 --> API_Delivered{Web báo: Đã giao?}
+    Ship_Type -- Viettel Post --> WH_Print_PXK[Kho tự in Phiếu xuất kho từ MISA/Web]
+    WH_Print_PXK --> WH_Pack_3[Kho đóng gói kèm Phiếu xuất kho]
+    WH_Pack_3 --> WH_Print_VT[In vận đơn: Web Viettel Post hoặc dss.khotot.vn]
+    WH_Print_VT --> WH_Call_VT[Gọi bưu tá lấy hàng]
+    WH_Call_VT --> API_Delivered{Web báo: Đã giao?}
     API_Delivered -- OK --> Acc_Inv_3[Kế toán kiểm tra và xuất HĐ hàng ngày trước 17:00]
 
     class SD_Order,SD_Pick sd;
@@ -103,9 +109,9 @@ graph TD
 
 | Hình thức | Kế toán (Hóa đơn) | Kho (Đóng gói & Giao) | Sale Admin (Hoàn tất đơn) |
 |---|---|---|---|
-| **Chành xe** | Sau khi tạo mã BH, xuất HĐ & Phiếu xuất kho ngay. | **Bắt buộc** kèm HĐ & Phiếu xuất kho. Giao xong phải chụp ảnh + báo ngay cho Admin. | **Thủ công:** Upload ảnh lên Web -> Hoàn tất đơn trên Web. |
-| **Lấy tại kho** | Xuất linh hoạt bất kỳ lúc nào trong ngày. | Chuẩn bị hàng sẵn. Khách lấy xong phải báo ngay cho Admin. | **Thủ công:** Xác nhận từ Kho -> Hoàn tất đơn trên Web. |
-| **Viettel Post** | Cuối ngày (trước 17:00), kiểm tra API báo *Đã giao thành công*. | Đóng gói theo chuẩn, gửi hàng cho bưu tá. | **Tự động:** Hệ thống tự đổi trạng thái dựa theo API nhà vận chuyển. |
+| **Chành xe** | Sau khi tạo mã BH, xuất HĐ & Phiếu xuất kho ngay. | **Bắt buộc** kèm HĐ & Phiếu xuất kho. Giao xong phải chụp ảnh biên nhận báo ngay cho Admin. | **Thủ công:** Upload ảnh lên Web. **Quy tắc 2 ngày:** Tự động hoàn tất nếu khách không khiếu nại. |
+| **Lấy tại kho** | Kiểm tra tình trạng, xuất HĐ trước 17:00 cho đơn hoàn thành. | **Tự in Phiếu xuất kho.** Đóng gói, gọi check SĐT khách, **Khách ký & ghi họ tên**, Hoàn tất trên Web. | **Rà soát:** Kiểm tra đơn khách chưa lấy, báo Kho đối chiếu (tránh quên đơn). |
+| **Viettel Post** | Cuối ngày (trước 17:00), kiểm tra API báo *Đã giao thành công*. | **Tự in Phiếu xuất kho.** Đóng gói, In vận đơn & Gọi bưu tá (Web VT/Khotot). | **Tự động:** Hệ thống tự đổi trạng thái dựa theo API nhà vận chuyển. |
 
 ---
 
@@ -129,3 +135,42 @@ graph TD
 4.  **Thông báo & Thanh toán cước:**
     - Sale Admin upload ảnh bằng chứng lên Web để SD yên tâm.
     - **Lưu ý thanh toán:** SD (Người nhận) có trách nhiệm tự thanh toán tiền cước vận chuyển trực tiếp cho nhà xe khi nhận hàng.
+5.  **Quy tắc hoàn tất & Miễn trừ trách nhiệm:**
+    - Sau **02 ngày** kể từ khi Kho xác nhận đã gửi hàng (upload biên nhận), nếu khách hàng không phản hồi, đơn hàng được xem là đã nhận thành công.
+    - Khotot sẽ **không chịu trách nhiệm** về bất kỳ khiếu nại nào liên quan đến hàng hóa sau thời hạn 02 ngày này.
+    - Hệ thống sẽ tự động chuyển trạng thái hoặc Sale Admin thực hiện cập nhật thủ công thành "Hoàn thành".
+
+---
+
+## 👁️ V. CHI TIẾT GIAO HÀNG VIETTEL POST (THỰC TẾ)
+
+Quy trình xử lý cho các đơn hàng vận chuyển qua bưu cục Viettel Post:
+
+1.  **Chuẩn bị hồ sơ:** Ngay khi có mã **BH** trên MISA/Web, Kho chủ động in **Phiếu xuất kho** từ hệ thống nội bộ.
+2.  **Đóng gói:** 
+    - Kiểm tra hàng hóa đúng chủng loại, số lượng.
+    - Đặt Phiếu xuất kho vào bên trong kiện hàng trước khi đóng băng keo.
+3.  **Tạo vận đơn:**
+    - Truy cập vào **Web Viettel Post** hoặc **dss.khotot.vn** (tùy chọn tiện lợi).
+    - Nhập thông tin đơn hàng, chọn dịch vụ và **In vận đơn (Waybill)**.
+    - Dán vận đơn chắc chắn lên mặt ngoài thùng hàng.
+4.  **Bàn giao vận chuyển:**
+    - Sử dụng chức năng "Gọi bưu tá" trên Web hoặc liên hệ Hotline bưu tá khu vực để lấy hàng.
+    - Ký nhận bàn giao (nếu có) và theo dõi trạng thái "Đang vận chuyển" trên hệ thống.
+
+---
+
+## 👁️ VI. CHI TIẾT KHÁCH LẤY TẠI KHO (THỰC TẾ)
+
+Quy trình xử lý cho các đơn hàng Khách hàng (SD) trực tiếp đến nhận tại kho:
+
+1.  **Chuẩn bị hàng:** Ngay khi có mã **BH**, Kho chủ động in **Phiếu xuất kho** từ hệ thống MISA và đóng gói hàng sẵn.
+2.  **Xác minh khách hàng:** 
+    - Khi khách tới nhận, Kho yêu cầu cung cấp mã đơn hàng.
+    - **Bắt buộc:** Kho thực hiện cuộc gọi vào số điện thoại người mua ghi trên đơn để xác nhận đúng người hoặc đúng đối tượng được ủy quyền nhận hàng.
+3.  **Hoàn tất tại chỗ:**
+    - Sau khi verify SĐT, Kho yêu cầu khách hàng **ký và ghi rõ họ tên** vào Phiếu xuất kho để làm bằng chứng đối soát.
+    - Giao hàng xong, Kho truy cập **Web Khotot.vn** để chuyển trạng thái "Hoàn thành" cho đơn hàng ngay lập tức.
+4.  **Kiểm soát & Hóa đơn:**
+    - **Sale Admin:** Cuối buổi rà soát danh sách đơn "Chờ nhận hàng". Nếu còn đơn treo quá lâu, phải báo ngay cho Kho để kiểm tra xem khách chưa tới hay Kho quên cập nhật trên Web.
+    - **Kế toán:** Kiểm tra danh sách đơn đã "Hoàn thành" (bao gồm cả Viettel Post và Lấy tại kho) để thực hiện xuất hóa đơn điện tử hàng loạt trước 17:00 hàng ngày.
