@@ -17,7 +17,7 @@
 
 ---
 
-## 🔄 SƠ ĐỒ PHỐI HỢP (SWIMLANE FLOWCHART)
+## 🔄 SƠ ĐỒ PHỐI HỢP 
 
 ```mermaid
 graph TD
