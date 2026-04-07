@@ -31,7 +31,7 @@ graph TD
     Start((Bắt đầu)) --> SD_Order[SD đặt hàng & Chọn kho ETZ]
     
     %% Vai trò Sale Admin %%
-    SD_Order --> SaleAdmin_Check{Sale Admin kiểm hàng trên MISA}
+    SD_Order --> SaleAdmin_Check{Sale Admin kiểm hàng trên MISA, vì hiện tại chưa kết nối misa}
     
     SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock[["SOP 03: Hủy đơn hết hàng"]]
     click OutOfStock "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/"
