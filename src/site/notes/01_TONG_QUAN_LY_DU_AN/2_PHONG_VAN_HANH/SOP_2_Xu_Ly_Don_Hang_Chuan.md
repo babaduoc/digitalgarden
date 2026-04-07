@@ -3,7 +3,7 @@
 ---
 
 
-# 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)
+# 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 2.0 | **Cập nhật:** 2026-04-06
