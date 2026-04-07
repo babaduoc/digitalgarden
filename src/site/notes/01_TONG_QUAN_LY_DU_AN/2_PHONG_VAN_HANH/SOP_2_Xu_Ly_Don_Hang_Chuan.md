@@ -2,9 +2,15 @@
 {"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
 ---
 
-
+  
 <style>
-.mermaid, .mermaid svg, .mermaid-container { background: #1a1a1a !important; }
+
+/* Xóa khung trắng Mermaid trên Web */
+
+.mermaid, .mermaid svg, .mermaid-container { background: transparent !important; background-color: transparent !important; }
+
+svg[id^="mermaid-"] { background: transparent !important; }
+
 </style>
 
 # 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
@@ -24,7 +30,6 @@
 ## 🔄 SƠ ĐỒ PHỐI HỢP 
 
 ```mermaid
-
 graph TD
     %% Định nghĩa bảng màu Pastel nguyên bản (Classic Style) %%
     classDef sd fill:#F3E5F5,stroke:#9C27B0,color:#4A148C;

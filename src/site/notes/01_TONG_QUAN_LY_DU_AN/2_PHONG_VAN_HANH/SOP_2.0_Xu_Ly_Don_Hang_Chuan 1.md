@@ -2,16 +2,6 @@
 {"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-0-xu-ly-don-hang-chuan-1/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
 ---
 
-<style>
-/* Xóa khung trắng nhưng giữ phong cách Pastel của sếp */
-.mermaid, .mermaid svg, .mermaid-container {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-svg[id^="mermaid-"] {
-    background: transparent !important;
-}
-</style>
 # 📦 SOP 02 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG
 
 > **Dự án:** Web ETZ — Khotot.vn
