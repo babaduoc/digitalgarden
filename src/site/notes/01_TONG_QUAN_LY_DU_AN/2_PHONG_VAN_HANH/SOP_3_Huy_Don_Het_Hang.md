@@ -3,7 +3,7 @@
 ---
 
 
-# 📦 SOP 02 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
+# 📦 SOP 03 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 1.0 | **Cập nhật:** 2026-03-30
@@ -20,6 +20,7 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 ## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ (FLOWCHART)
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'background': 'transparent'}}}%%
 graph TD
     %% Định nghĩa bảng màu Tương phản cao %%
     classDef admin fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#0D47A1;
@@ -27,7 +28,7 @@ graph TD
     classDef sd fill:#F3E5F5,stroke:#9C27B0,stroke-width:2px,color:#4A148C;
     classDef highlight fill:#FFF9C4,stroke:#FBC02D,stroke-width:1px,color:#F57F17;
 
-    Start[[SOP 02: Bước Kiểm tra hết hàng]] --> Admin_Call[Admin gọi điện tư vấn SD]
+    Start[[SOP 03: Bước Kiểm tra hết hàng]] --> Admin_Call[Admin gọi điện tư vấn SD]
     click Start "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/"
     
     Admin_Call --> SD_Choice{SD lựa chọn?}
