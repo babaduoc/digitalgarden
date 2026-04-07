@@ -3,6 +3,19 @@
 ---
 
 
+<style>
+/* Cưỡng bách xóa nền trắng của Mermaid trên bản Web */
+.mermaid, .mermaid svg, .mermaid-container {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+/* Đảm bảo hình dạng sơ đồ và màu sắc hài hòa với nền tối */
+svg[id^="mermaid-"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+</style>
+
 # 📦 SOP 03 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
 
 > **Dự án:** Web ETZ — Khotot.vn
