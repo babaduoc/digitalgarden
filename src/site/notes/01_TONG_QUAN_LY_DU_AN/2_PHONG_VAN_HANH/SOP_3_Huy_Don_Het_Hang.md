@@ -20,7 +20,7 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 ## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ 
 
 ```mermaid
-%%{init: { "themeVariables": {"background": "transparent", "mainBkg": "transparent"}}}%%
+%%{init: { "themeVariables": {"background": "transparent","background": "transparent", "mainBkg": "transparent"}}}%%
 graph TD
     %% Định nghĩa bảng màu Pastel nguyên bản (Style Hôm Qua) %%
     classDef admin fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#0D47A1;
