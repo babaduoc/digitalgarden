@@ -66,7 +66,7 @@ graph TD
     %% Nhánh Viettel Post %%
     Ship_Type -- "Viettel Post" --> WH_Pack_3[Kho đóng gói & Gửi hàng]
     WH_Pack_3 --> API_Delivered{Web báo: Đã giao?}
-    API_Delivered -- OK --> Acc_Inv_3[Kế toán xuất HĐ trước 17:00]
+    API_Delivered -- OK --> Acc_Inv_3[Kế toán kiểm tra và xuất HĐ hàng ngày trước 17:00]
 
     class SD_Order,SD_Pick,WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check,WH_Confirm,WH_Confirm_2 sd;
     class Start,SaleAdmin_Check,SaleAdmin_DH,Acc_Reject,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
