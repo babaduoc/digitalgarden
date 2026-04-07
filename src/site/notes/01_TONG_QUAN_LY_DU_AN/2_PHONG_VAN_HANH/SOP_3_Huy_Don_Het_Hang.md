@@ -17,7 +17,7 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 
 ---
 
-## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ (FLOWCHART)
+## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ 
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'background': 'transparent'}}}%%
