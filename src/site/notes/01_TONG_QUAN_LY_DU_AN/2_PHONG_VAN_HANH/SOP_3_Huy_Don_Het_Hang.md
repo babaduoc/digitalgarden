@@ -55,7 +55,7 @@ graph TD
 
 ## 👁️ CHI TIẾT CÁC BƯỚC THỰC HIỆN
 
-### 1. BƯỚC 1: XÁC MINH & LIÊN HỆ (ADMIN)
+### 1. BƯỚC 1: XÁC MINH & LIÊN HỆ 
 - Sau khi Kho báo hết hàng thực tế, Admin tuyệt đối không tự ý hủy đơn ngay.
 - Admin gọi điện trực tiếp cho SD để báo tình trạng và tư vấn:
     - Tìm sản phẩm tương đương về tính năng/giá tiền.
