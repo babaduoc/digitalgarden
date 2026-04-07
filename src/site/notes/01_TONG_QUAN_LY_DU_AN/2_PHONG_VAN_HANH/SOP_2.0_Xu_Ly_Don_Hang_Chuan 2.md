@@ -20,7 +20,7 @@
 ## 🔄 SƠ ĐỒ PHỐI HỢP (SWIMLANE FLOWCHART)
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'background': 'transparent'}}}%%
+
 graph TD
     %% Định nghĩa màu tương phản cao %%
     classDef sd fill:#F3E5F5,stroke:#9C27B0,color:#4A148C;

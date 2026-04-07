@@ -3,6 +3,17 @@
 ---
 
 
+<style>
+/* Xóa khung trắng nhưng giữ phong cách Pastel của sếp */
+.mermaid, .mermaid svg, .mermaid-container {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+svg[id^="mermaid-"] {
+    background: transparent !important;
+}
+</style>
+
 
 # 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
 
@@ -21,8 +32,9 @@
 ## 🔄 SƠ ĐỒ PHỐI HỢP 
 
 ```mermaid
+
 graph TD
-    %% Định nghĩa màu tương phản cao (Classic Style) %%
+    %% Định nghĩa bảng màu Pastel nguyên bản (Classic Style) %%
     classDef sd fill:#F3E5F5,stroke:#9C27B0,color:#4A148C;
     classDef sale_admin fill:#E3F2FD,stroke:#2196F3,color:#0D47A1;
     classDef acc fill:#E8F5E9,stroke:#4CAF50,color:#1B5E20;
