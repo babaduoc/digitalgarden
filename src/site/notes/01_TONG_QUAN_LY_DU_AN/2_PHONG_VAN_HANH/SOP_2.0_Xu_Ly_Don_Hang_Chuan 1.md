@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
+{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-0-xu-ly-don-hang-chuan-1/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
 ---
 
 
-# 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)
+# 📦 SOP 02 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 2.0 | **Cập nhật:** 2026-04-06
@@ -33,8 +33,8 @@ graph TD
     %% Vai trò Sale Admin %%
     SD_Order --> SaleAdmin_Check{Sale Admin kiểm hàng trên MISA}
     
-    SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock["SOP 03: Hủy đơn hết hàng"]
-    click OutOfStock "01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang"
+    SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock["[[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang|SOP 03: Hủy đơn hết hàng]]"]
+    
     SaleAdmin_Check -- "CÒN HÀNG" --> SaleAdmin_DH[Sale Admin tạo đơn MISA mã DH]
     SaleAdmin_DH --> Acc_Notify[Báo Kế toán có đơn mới]
 
@@ -66,7 +66,7 @@ graph TD
     %% Nhánh Viettel Post %%
     Ship_Type -- Viettel Post --> WH_Pack_3[Kho đóng gói & Gửi hàng]
     WH_Pack_3 --> API_Delivered{Web báo: Đã giao?}
-    API_Delivered -- OK --> Acc_Inv_3[Kế toán xuất HĐ trước 17:00]
+    API_Delivered -- OK --> Acc_Inv_3[Kế toán kiểm tra và xuất HĐ hàng ngày trước 17:00]
 
     class SD_Order,SD_Pick sd;
     class SaleAdmin_Check,SaleAdmin_DH,Acc_Reject,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
@@ -86,7 +86,7 @@ graph TD
 ### 2. GIAI ĐOẠN 2: SALE ADMIN KIỂM TRA & TẠO ĐƠN
 - Sale Admin tiếp nhận thông tin đơn hàng từ Dashboard.
 - **Kiểm tra trên MISA:** Xác định tồn kho vật lý và khớp lệnh trên phần mềm MISA.
-- **Tình huống Hết hàng:** Chuyển ngay sang quy trình xử lý tại [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP 03: Hủy đơn hết hàng]].
+- **Tình huống Hết hàng:** Chuyển ngay sang quy trình xử lý tại [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP 02: Hủy đơn hết hàng]].
 - **Tình huống Còn hàng:** 
     1. Tạo đơn hàng trên MISA với **mã đơn DH**.
     2. Thông báo cho bộ phận Kế toán có đơn hàng mới cần kiểm tra thanh toán.

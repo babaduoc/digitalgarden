@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
+{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-0-xu-ly-don-hang-chuan-2/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
 ---
 
 
-# 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)
+# 📦 SOP 02 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 2.0 | **Cập nhật:** 2026-04-06
@@ -27,24 +27,23 @@ graph TD
     classDef acc fill:#E8F5E9,stroke:#4CAF50,color:#1B5E20;
     classDef wh fill:#FFF3E0,stroke:#FF9800,color:#E65100;
     classDef error fill:#FFEBEE,stroke:#D32F2F,color:#B71C1C;
+    classDef system fill:#E0F7FA,stroke:#00BCD4,color:#006064;
 
     Start((Bắt đầu)) --> SD_Order[SD đặt hàng & Chọn kho ETZ]
     
     %% Vai trò Sale Admin %%
     SD_Order --> SaleAdmin_Check{Sale Admin kiểm hàng trên MISA}
     
-    SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock["SOP 03: Hủy đơn hết hàng"]
-    click OutOfStock "01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang"
+    SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock["[[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang|SOP 03: Hủy đơn hết hàng]]"]
+    
     SaleAdmin_Check -- "CÒN HÀNG" --> SaleAdmin_DH[Sale Admin tạo đơn MISA mã DH]
-    SaleAdmin_DH --> Acc_Notify[Báo Kế toán có đơn mới]
+    SaleAdmin_DH --> API_Check{API Khotot: Kiểm tra Thanh toán}
 
-    %% Vai trò Kế toán %%
-    Acc_Notify --> Acc_CheckMoney{Kế toán kiểm tra tiền vào hệ thống}
+    %% Tự động hóa (Hệ thống) %%
+    API_Check -- "OK (Tự động)" --> Acc_BH[Hệ thống tự đẩy đơn MISA mã BH]
+    API_Check -- "LỖI/CHƯA TIỀN" --> Acc_Manual[Kế toán hậu kiểm thủ công]
+    Acc_Manual -- OK --> Acc_BH
     
-    Acc_CheckMoney -- "KHÔNG OK" --> Acc_Reject[Báo Sale Admin kiểm tra lại]
-    Acc_Reject --> SaleAdmin_Check
-    
-    Acc_CheckMoney -- "OK" --> Acc_BH[Đẩy thông tin MISA mã đơn BH]
     Acc_BH --> Ship_Type{Phân loại vận chuyển}
 
     %% Nhánh Chành xe %%
@@ -66,13 +65,14 @@ graph TD
     %% Nhánh Viettel Post %%
     Ship_Type -- Viettel Post --> WH_Pack_3[Kho đóng gói & Gửi hàng]
     WH_Pack_3 --> API_Delivered{Web báo: Đã giao?}
-    API_Delivered -- OK --> Acc_Inv_3[Kế toán xuất HĐ trước 17:00]
+    API_Delivered -- OK --> Acc_Inv_3[Kế toán kiểm tra và xuất HĐ hàng ngày trước 17:00]
 
     class SD_Order,SD_Pick sd;
-    class SaleAdmin_Check,SaleAdmin_DH,Acc_Reject,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
-    class Acc_CheckMoney,Acc_Notify,Acc_BH,Acc_Inv_1,Acc_Inv_2,Acc_Inv_3,Ship_Type,Acc_CheckMoney acc;
+    class SaleAdmin_Check,SaleAdmin_DH,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
+    class Acc_BH,Acc_Manual,Acc_Inv_1,Acc_Inv_2,Acc_Inv_3 acc;
     class WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check,WH_Confirm,WH_Confirm_2 wh;
     class OutOfStock error;
+    class API_Check system;
 ```
 
 ---
@@ -86,33 +86,30 @@ graph TD
 ### 2. GIAI ĐOẠN 2: SALE ADMIN KIỂM TRA & TẠO ĐƠN
 - Sale Admin tiếp nhận thông tin đơn hàng từ Dashboard.
 - **Kiểm tra trên MISA:** Xác định tồn kho vật lý và khớp lệnh trên phần mềm MISA.
-- **Tình huống Hết hàng:** Chuyển ngay sang quy trình xử lý tại [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP 03: Hủy đơn hết hàng]].
+- **Tình huống Hết hàng:** Chuyển ngay sang quy trình xử lý tại [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP 02: Hủy đơn hết hàng]].
 - **Tình huống Còn hàng:** 
     1. Tạo đơn hàng trên MISA với **mã đơn DH**.
     2. Thông báo cho bộ phận Kế toán có đơn hàng mới cần kiểm tra thanh toán.
 
-### 3. GIAI ĐOẠN 3: KẾ TOÁN KIỂM TRA TIỀN & PHÊ DUYỆT (BH)
-- Kế toán tiếp nhận thông báo từ Sale Admin.
-- **Kiểm tra thanh toán:** Xác nhận tiền đã vào hệ thống (SePay hoặc Chuyển khoản).
-- **Phê duyệt:** 
-    - Nếu **OK**: Đẩy thông tin qua MISA với **mã đơn BH**. Đây là lệnh cho phép Kho bắt đầu đóng gói hàng.
-    - Nếu **KHÔNG OK**: Báo Sale Admin kiểm tra lại với khách hàng hoặc hệ thống.
-- **Phân loại vận chuyển:** Dựa trên phương thức vận chuyển của đơn hàng để thực hiện xuất hóa đơn (như quy trình tại Giai đoạn 4).
-
-### 4. GIAI ĐOẠN 4: PHÂN LUỒNG HÓA ĐƠN & VẬN CHUYỂN
+### 3. GIAI ĐOẠN 3: TỰ ĐỘNG XÁC MINH THANH TOÁN & PHÊ DUYỆT (BH)
+- **Hệ thống Web (API):** Tự động liên kết với ngân hàng/cổng thanh toán để xác nhận tiền vào dựa trên mã đơn hàng.
+- **Tự động Phê duyệt:** 
+    - Nếu **OK**: Hệ thống tự động đẩy thông tin qua MISA với **mã đơn BH**. Kho nhận lệnh xuất hàng ngay lập tức mà không cần chờ kế toán.
+    - Nếu **LỖI/CHƯA TIỀN:** Kế toán mới tham gia hậu kiểm thủ công để xử lý các trường hợp treo.
+- **Tối ưu hóa:** Bỏ qua các bước xác nhận thủ công giữa chừng để tăng tốc đóng gói (Kho có thể làm việc ngay khi có đơn BH).
 
 | Hình thức | Kế toán (Hóa đơn) | Kho (Đóng gói & Giao) | Sale Admin (Hoàn tất đơn) |
 |---|---|---|---|
-| **Chành xe** | Sau khi tạo mã BH, xuất HĐ & Phiếu xuất kho ngay. | **Bắt buộc** kèm HĐ & Phiếu xuất kho. Giao xong phải chụp ảnh + báo ngay cho Admin. | **Thủ công:** Upload ảnh lên Web -> Hoàn tất đơn trên Web. |
-| **Lấy tại kho** | Xuất linh hoạt bất kỳ lúc nào trong ngày. | Chuẩn bị hàng sẵn. Khách lấy xong phải báo ngay cho Admin. | **Thủ công:** Xác nhận từ Kho -> Hoàn tất đơn trên Web. |
+| **Chành xe** | Sau khi tạo mã BH, xuất HĐ & Phiếu xuất kho ngay. | **Bắt buộc** kèm HĐ & Phiếu xuất kho. Giao xong chụp ảnh biên nhận báo Admin. | **Thủ công:** Upload ảnh biên nhận -> Hoàn tất đơn trên Web. |
+| **Lấy tại kho** | Xuất linh hoạt bất kỳ lúc nào trong ngày. | Chuẩn bị hàng sẵn. Khách lấy hàng xong báo ngay cho Admin. | **Thủ công:** Xác nhận từ Kho -> Hoàn tất đơn trên Web. |
 | **Viettel Post** | Cuối ngày (trước 17:00), kiểm tra API báo *Đã giao thành công*. | Đóng gói theo chuẩn, gửi hàng cho bưu tá. | **Tự động:** Hệ thống tự đổi trạng thái dựa theo API nhà vận chuyển. |
 
 ---
 
 ## 📊 KPI THEO DÕI
-- **Sale Admin:** Tốc độ tạo đơn DH trên MISA (< 30 phút từ khi có đơn Web). Chịu trách nhiệm theo dõi thông tin từ Kho để hoàn tất đơn hàng thủ công (tránh đơn treo).
-- **Kế toán:** Kiểm tra tiền và đẩy mã BH kịp thời để Kho đóng gói. Mọi đơn Viettel Post thành công phải được xuất HĐ trước 17:00 hàng ngày.
-- **Kho:** Tuyệt đối không đóng gói hàng khi chưa có mã BH trên MISA. Báo cáo Sale Admin ngay sau khi hàng rời kho/khách lấy hàng.
+- **Sale Admin:** Tốc độ tạo đơn DH trên MISA (< 30 phút từ khi có đơn Web). Theo dõi chặt chẽ trạng thái từ Kho để hoàn tất đơn kịp thời.
+- **Kế toán:** Đảm bảo mọi đơn hàng đã rời kho trong ngày đều được xuất hóa đơn VAT trước 17:30. Tỷ lệ sai sót mã BH tự động < 1%.
+- **Kho:** Đóng gói và giao hàng ngay khi có mã BH. Báo cáo trạng thái giao hàng tức thời cho Sale Admin.
 
 ---
 ---

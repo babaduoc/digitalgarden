@@ -5,7 +5,6 @@
 # BÁO CÁO CÔNG VIỆC TUẦN W5 THÁNG 3/2026
 <font color="#8B4513">**Dự án:** Web ETZ - Khotot.vn</font>
 <font color="#8B4513">**Phiên bản:** 1.0</font>
-<font color="#8B4513">**Người soạn:** Antigravity AI</font>
 
 ---
 ## PHẦN A — TỔNG QUAN
