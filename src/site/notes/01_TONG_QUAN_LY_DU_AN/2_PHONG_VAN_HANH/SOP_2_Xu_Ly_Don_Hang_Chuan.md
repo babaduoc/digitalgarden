@@ -2,16 +2,6 @@
 {"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/","title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)","dg-note-properties":{"title":"SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG (ĐA LUỒNG)"}}
 ---
 
-  
-<style>
-
-/* Xóa khung trắng Mermaid trên Web */
-
-.mermaid, .mermaid svg, .mermaid-container { background: #1a1a1a !important; background-color: #1a1a1a !important; }
-
-svg[id^="mermaid-"] { background: #1a1a1a !important; }
-
-</style>
 
 # 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
 
