@@ -2,7 +2,25 @@
 {"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/","title":"SOP 03 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ","dg-note-properties":{"title":"SOP 03 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ"}}
 ---
 
+<style>
 
+/* Xóa khung trắng nhưng giữ phong cách Pastel của sếp */
+
+.mermaid, .mermaid svg, .mermaid-container {
+
+background: transparent !important;
+
+background-color: transparent !important;
+
+}
+
+svg[id^="mermaid-"] {
+
+background: transparent !important;
+
+}
+
+</style>
 # 📦 SOP 03 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
 
 > **Dự án:** Web ETZ — Khotot.vn
