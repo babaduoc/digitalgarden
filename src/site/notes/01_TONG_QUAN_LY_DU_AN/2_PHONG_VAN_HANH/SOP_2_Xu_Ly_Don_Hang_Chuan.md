@@ -3,6 +3,9 @@
 ---
 
 
+<style>
+.mermaid, .mermaid svg, .mermaid-container { background: #1a1a1a !important; }
+</style>
 
 # 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
 
