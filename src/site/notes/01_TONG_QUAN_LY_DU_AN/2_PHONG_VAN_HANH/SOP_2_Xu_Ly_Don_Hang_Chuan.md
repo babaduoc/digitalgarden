@@ -7,9 +7,9 @@
 
 /* Xóa khung trắng Mermaid trên Web */
 
-.mermaid, .mermaid svg, .mermaid-container { background: transparent !important; background-color: transparent !important; }
+.mermaid, .mermaid svg, .mermaid-container { background: #1a1a1a !important; background-color: #1a1a1a !important; }
 
-svg[id^="mermaid-"] { background: transparent !important; }
+svg[id^="mermaid-"] { background: #1a1a1a !important; }
 
 </style>
 
