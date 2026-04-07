@@ -21,7 +21,7 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 
 ```mermaid
 graph TD
-    %% Định nghĩa bảng màu Pastel nguyên bản (Style Hôm Qua) %%
+    %% Định nghĩa bảng màu Pastel nguyên bản %%
     classDef admin fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#0D47A1;
     classDef acc fill:#E8F5E9,stroke:#4CAF50,stroke-width:2px,color:#1B5E20;
     classDef sd fill:#F3E5F5,stroke:#9C27B0,stroke-width:2px,color:#4A148C;
@@ -33,20 +33,20 @@ graph TD
     Admin_Call --> SD_Choice{SD lựa chọn?}
     
     %% Nhánh 1: Đổi sản phẩm %%
-    SD_Choice -- "Đồng ý đổi SP" --> Web_Cancel_1[Hủy đơn trên Web]
-    Web_Cancel_1 --> Offline_Order[Tạo đơn mới xử lý NGOÀI WEB]
-    Offline_Order --> End((Hoàn tất))
+    SD_Choice -- "Đồng ý đổi SP" --> Admin_Web_Cancel[Admin: Hủy đơn & Cập nhật TT Thanh toán là 'ĐỔI ĐƠN']
+    Admin_Web_Cancel --> Offline_Deal[Xử lý chênh lệch & Giao dịch mới NGOÀI WEB]
+    Offline_Deal --> End((Hoàn tất))
 
     %% Nhánh 2: Hủy đơn & Hoàn tiền %%
     SD_Choice -- "Không đồng ý đổi" --> Inform_Refund[Thông báo: Hoàn tiền trong 7 ngày]
     Inform_Refund --> Acc_Process[Kế toán thực hiện hoàn tiền NGOÀI WEB]
-    Acc_Process --> Admin_Web_Update[Admin cập nhật Trạng thái: ĐÃ HOÀN TIỀN + Ghi chú]
+    Acc_Process --> Admin_Web_Update[Admin cập nhật Trạng thái chung: ĐÃ HOÀN TIỀN]
     Admin_Web_Update --> Web_Cancel_2[Admin thực hiện HỦY ĐƠN trên Web]
     Web_Cancel_2 --> End
 
-    class Start,Admin_Call,Web_Cancel_1,Web_Cancel_2 admin;
+    class Start,Admin_Call,Web_Cancel_2,Admin_Web_Cancel admin;
     class Acc_Process,SD_Choice acc;
-    class Offline_Order,End sd;
+    class Offline_Deal,End sd;
     class Inform_Refund highlight;
 ```
 
@@ -63,8 +63,19 @@ graph TD
 ### 2. BƯỚC 2: PHÂN NHÁNH XỬ LÝ THEO Ý KHÁCH (SD)
 
 #### **Trường hợp A: SD đồng ý đổi sản phẩm khác**
-- **Thao tác Web:** Admin nhấn **Hủy đơn** cũ với lý do *"Đổi sang sản phẩm khác"*.
-- **Vận hành:** Mọi giao dịch sau đó (chênh lệch tiền, đóng gói SP mới) sẽ được trao đổi và xử lý **ngoài luồng Web** (qua Zalo/Điện thoại) để đảm bảo linh hoạt.
+Để vận hành được tinh gọn, tránh hệ thống bị phức tạp hóa chéo nhau, Admin sẽ xử lý đơn đổi hoàn toàn theo hình thức **giao dịch ngoài luồng**:
+
+**1. Thao tác đối với ĐƠN HÀNG CŨ trên Web:**
+- **Trạng thái Đơn hàng:** Nhấn **Hủy đơn** cũ với lý do *"Đổi sang sản phẩm khác"*.
+- **Trạng thái Thanh toán (Quan trọng):** Chuyển sang **`Đổi đơn`**. Kế toán sẽ nhìn vào trạng thái này để hiểu dòng tiền này không cần hoàn lại cho khách gốc, mà sẽ được quy hoạch sang đơn ngoài luồng. Tuỳệt đối không chọn trạng thái "Đã hoàn tiền".
+- **Ghi chú (Notes):** Bắt buộc nhập: *"Đổi qua mã sản phẩm [Tên/Mã mới] - Xử lý ngoài luồng"*.
+
+**2. Vận hành Ngoại lệ (Ngoài luồng Web):**
+- Mọi giao dịch sau đó sẽ được Admin trao đổi trực tiếp với SD qua Zalo/Điện thoại.
+- Thiết lập đóng gói, gửi Kho và đẩy mã vận đơn mới hoàn toàn qua kênh nội bộ công ty.
+- **Xử lý chênh tiền:**
+  - Nếu sản phẩm mới **Giá cao hơn:** Yêu cầu khách chuyển thêm và báo Kế toán đối soát.
+  - Nếu sản phẩm mới **Giá thấp hơn:** Lấy STK của khách và báo Kế toán thực hiện chuyển hoàn tiền dư.
 
 #### **Trường hợp B: SD không đồng ý và muốn hủy đơn**
 1.  **Thông báo:** CS báo rõ: *"Tiền đã chuyển khoản sẽ được hoàn trả vào số tài khoản của quý khách trong vòng 7 ngày làm việc"*.
