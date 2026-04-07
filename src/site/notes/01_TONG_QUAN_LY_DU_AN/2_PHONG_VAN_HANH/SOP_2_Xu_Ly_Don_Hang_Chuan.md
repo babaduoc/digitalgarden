@@ -39,7 +39,7 @@ graph TD
     SaleAdmin_DH --> Acc_Notify[Báo Kế toán có đơn mới]
 
     %% Vai trò Kế toán %%
-    Acc_Notify --> Acc_CheckMoney{Kế toán kiểm tra tiền vào hệ thống}
+    Acc_Notify --> Acc_CheckMoney{Kế toán kiểm tra tiền vào hệ thống thật, mặc dù đã có API trả kết quả về WEB}
     
     Acc_CheckMoney -- "KHÔNG OK" --> Acc_Reject[Báo Sale Admin kiểm tra lại]
     Acc_Reject --> SaleAdmin_Check
