@@ -20,13 +20,13 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 ## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ 
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'background': 'transparent'}}}%%
+%%{init: {"theme": "base", "themeVariables": {"background": "transparent", "mainBkg": "transparent", "primaryColor": "#12263f", "primaryTextColor": "#00ffff", "primaryBorderColor": "#00b2a9", "lineColor": "#00b2a9"}}}%%
 graph TD
-    %% Định nghĩa bảng màu Tương phản cao %%
-    classDef admin fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#0D47A1;
-    classDef acc fill:#E8F5E9,stroke:#4CAF50,stroke-width:2px,color:#1B5E20;
-    classDef sd fill:#F3E5F5,stroke:#9C27B0,stroke-width:2px,color:#4A148C;
-    classDef highlight fill:#FFF9C4,stroke:#FBC02D,stroke-width:1px,color:#F57F17;
+    %% Định nghĩa bảng màu Tông Xanh SM (GSM Style) %%
+    classDef admin fill:#12263f,stroke:#00b2a9,stroke-width:2px,color:#00ffff;
+    classDef acc fill:#0d141e,stroke:#4CAF50,stroke-width:2px,color:#4CAF50;
+    classDef sd fill:#1b5e20,stroke:#4caf50,stroke-width:2px,color:#ffffff;
+    classDef highlight fill:#f57f17,stroke:#ffb74d,stroke-width:1px,color:#ffffff;
 
     Start[[SOP 03: Bước Kiểm tra hết hàng]] --> Admin_Call[Admin gọi điện tư vấn SD]
     click Start "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/"
