@@ -3,6 +3,7 @@
 ---
 
 
+
 # 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
 
 > **Dự án:** Web ETZ — Khotot.vn
@@ -20,9 +21,8 @@
 ## 🔄 SƠ ĐỒ PHỐI HỢP 
 
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'background': 'transparent'}}}%%
 graph TD
-    %% Định nghĩa màu tương phản cao %%
+    %% Định nghĩa màu tương phản cao (Classic Style) %%
     classDef sd fill:#F3E5F5,stroke:#9C27B0,color:#4A148C;
     classDef sale_admin fill:#E3F2FD,stroke:#2196F3,color:#0D47A1;
     classDef acc fill:#E8F5E9,stroke:#4CAF50,color:#1B5E20;
@@ -58,21 +58,20 @@ graph TD
     WH_Confirm --> Admin_Finish_1[Sale Admin hoàn tất đơn thủ công]
 
     %% Nhánh Tại kho %%
-    Ship_Type -- Khách lấy tại kho --> WH_Pack_2[Kho chuẩn bị hàng]
+    Ship_Type -- "Khách lấy tại kho" --> WH_Pack_2[Kho chuẩn bị hàng]
     WH_Pack_2 --> SD_Pick[Khách nhận hàng]
     SD_Pick --> WH_Confirm_2[Kho báo Admin khách đã lấy hàng]
     WH_Confirm_2 --> Admin_Finish_2[Sale Admin hoàn tất đơn thủ công]
     SD_Pick --> Acc_Inv_2[Kế toán xuất hóa đơn trong ngày]
 
     %% Nhánh Viettel Post %%
-    Ship_Type -- Viettel Post --> WH_Pack_3[Kho đóng gói & Gửi hàng]
+    Ship_Type -- "Viettel Post" --> WH_Pack_3[Kho đóng gói & Gửi hàng]
     WH_Pack_3 --> API_Delivered{Web báo: Đã giao?}
     API_Delivered -- OK --> Acc_Inv_3[Kế toán xuất HĐ trước 17:00]
 
-    class SD_Order,SD_Pick sd;
-    class SaleAdmin_Check,SaleAdmin_DH,Acc_Reject,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
-    class Acc_CheckMoney,Acc_Notify,Acc_BH,Acc_Inv_1,Acc_Inv_2,Acc_Inv_3,Ship_Type,Acc_CheckMoney acc;
-    class WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check,WH_Confirm,WH_Confirm_2 wh;
+    class SD_Order,SD_Pick,WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check,WH_Confirm,WH_Confirm_2 sd;
+    class Start,SaleAdmin_Check,SaleAdmin_DH,Acc_Reject,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
+    class Acc_Notify,Acc_CheckMoney,Acc_BH,Ship_Type,Acc_Inv_1,Acc_Inv_2,Acc_Inv_3 acc;
     class OutOfStock error;
 ```
 

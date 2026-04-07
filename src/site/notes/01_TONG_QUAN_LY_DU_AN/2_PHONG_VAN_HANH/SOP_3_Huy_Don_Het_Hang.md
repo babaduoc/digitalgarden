@@ -3,18 +3,6 @@
 ---
 
 
-<style>
-/* Cưỡng bách xóa nền trắng của Mermaid trên bản Web */
-.mermaid, .mermaid svg, .mermaid-container {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-/* Đảm bảo hình dạng sơ đồ và màu sắc hài hòa với nền tối */
-svg[id^="mermaid-"] {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-</style>
 
 # 📦 SOP 03 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
 
@@ -33,13 +21,12 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 ## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ 
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"background": "transparent", "mainBkg": "transparent", "primaryColor": "#12263f", "primaryTextColor": "#00ffff", "primaryBorderColor": "#00b2a9", "lineColor": "#00b2a9"}}}%%
 graph TD
-    %% Định nghĩa bảng màu Tông Xanh SM (GSM Style) %%
-    classDef admin fill:#12263f,stroke:#00b2a9,stroke-width:2px,color:#00ffff;
-    classDef acc fill:#0d141e,stroke:#4CAF50,stroke-width:2px,color:#4CAF50;
-    classDef sd fill:#1b5e20,stroke:#4caf50,stroke-width:2px,color:#ffffff;
-    classDef highlight fill:#f57f17,stroke:#ffb74d,stroke-width:1px,color:#ffffff;
+    %% Định nghĩa bảng màu Tương phản cao (Classic Style) %%
+    classDef admin fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#0D47A1;
+    classDef acc fill:#E8F5E9,stroke:#4CAF50,stroke-width:2px,color:#1B5E20;
+    classDef sd fill:#F3E5F5,stroke:#9C27B0,stroke-width:2px,color:#4A148C;
+    classDef highlight fill:#FFF9C4,stroke:#FBC02D,stroke-width:1px,color:#F57F17;
 
     Start[[SOP 03: Bước Kiểm tra hết hàng]] --> Admin_Call[Admin gọi điện tư vấn SD]
     click Start "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/"
@@ -58,9 +45,9 @@ graph TD
     Admin_Web_Update --> Web_Cancel_2[Admin thực hiện HỦY ĐƠN trên Web]
     Web_Cancel_2 --> End
 
-    class Admin_Call,Web_Cancel_1,Web_Cancel_2 admin;
-    class Acc_Process acc;
-    class SD_Choice sd;
+    class Start,Admin_Call,Web_Cancel_1,Web_Cancel_2 admin;
+    class Acc_Process,SD_Choice acc;
+    class Offline_Order,End sd;
     class Inform_Refund highlight;
 ```
 
