@@ -2,25 +2,7 @@
 {"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/","title":"SOP 03 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ","dg-note-properties":{"title":"SOP 03 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ"}}
 ---
 
-<style>
 
-/* Xóa khung trắng nhưng giữ phong cách Pastel của sếp */
-
-.mermaid, .mermaid svg, .mermaid-container {
-
-background: transparent !important;
-
-background-color: transparent !important;
-
-}
-
-svg[id^="mermaid-"] {
-
-background: transparent !important;
-
-}
-
-</style>
 # 📦 SOP 03 -QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ
 
 > **Dự án:** Web ETZ — Khotot.vn
@@ -38,7 +20,6 @@ Hướng dẫn xử lý các tình huống tồn kho thực tế lệch so với
 ## 🔄 SƠ ĐỒ XỬ LÝ NGOẠI LỆ 
 
 ```mermaid
-%%{init: { "themeVariables": {"background": "transparent","background": "transparent", "mainBkg": "transparent"}}}%%
 graph TD
     %% Định nghĩa bảng màu Pastel nguyên bản (Style Hôm Qua) %%
     classDef admin fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#0D47A1;

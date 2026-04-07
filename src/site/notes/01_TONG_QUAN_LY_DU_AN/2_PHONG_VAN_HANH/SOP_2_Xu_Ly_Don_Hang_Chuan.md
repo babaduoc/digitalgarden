@@ -3,17 +3,6 @@
 ---
 
 
-<style>
-/* Xóa khung trắng nhưng giữ phong cách Pastel của sếp */
-.mermaid, .mermaid svg, .mermaid-container {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-svg[id^="mermaid-"] {
-    background: transparent !important;
-}
-</style>
-
 
 # 📦 SOP 01 — QUY TRÌNH XỬ LÝ ĐƠN HÀNG 
 
