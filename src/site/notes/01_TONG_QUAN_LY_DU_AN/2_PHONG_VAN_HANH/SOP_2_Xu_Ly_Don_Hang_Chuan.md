@@ -9,7 +9,7 @@
 > **Dự án:** Web ETZ — Khotot.vn
 > **Phiên bản:** 2.0 | **Cập nhật:** 2026-04-06
 > **Phòng ban:** Phòng Vận Hành
-> **Vùng dữ liệu:** Zone 01 — Tổng Hành Dinh
+> **Vùng dữ liệu:** Zone 01
 
 ---
 
