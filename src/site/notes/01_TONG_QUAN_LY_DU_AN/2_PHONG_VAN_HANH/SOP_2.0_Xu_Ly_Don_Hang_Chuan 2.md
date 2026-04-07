@@ -34,8 +34,8 @@ graph TD
     %% Vai trò Sale Admin %%
     SD_Order --> SaleAdmin_Check{Sale Admin kiểm hàng trên MISA}
     
-    SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock["[[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang|SOP 03: Hủy đơn hết hàng]]"]
-    
+    SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock[["SOP 03: Hủy đơn hết hàng"]]
+    click OutOfStock "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/"
     SaleAdmin_Check -- "CÒN HÀNG" --> SaleAdmin_DH[Sale Admin tạo đơn MISA mã DH]
     SaleAdmin_DH --> API_Check{API Khotot: Kiểm tra Thanh toán}
 

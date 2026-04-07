@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/","title":"SOP 02 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ","dg-note-properties":{"title":"SOP 02 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ"}}
+{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/","title":"SOP 03 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ","dg-note-properties":{"title":"SOP 03 — QUY TRÌNH HỦY ĐƠN VÌ HẾT HÀNG THỰC TẾ"}}
 ---
 
 
@@ -28,7 +28,7 @@ graph TD
     classDef highlight fill:#FFF9C4,stroke:#FBC02D,stroke-width:1px,color:#F57F17;
 
     Start[[SOP 02: Bước Kiểm tra hết hàng]] --> Admin_Call[Admin gọi điện tư vấn SD]
-    click Start "/01-tong-hanh-dinh-quan-ly/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/"
+    click Start "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-xu-ly-don-hang-chuan/"
     
     Admin_Call --> SD_Choice{SD lựa chọn?}
     
