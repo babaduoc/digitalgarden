@@ -34,7 +34,7 @@ graph TD
     SD_Order --> SaleAdmin_Check{Sale Admin kiểm hàng trên MISA, vì hiện tại chưa kết nối misa}
 
     SaleAdmin_Check -- "HẾT HÀNG" --> OutOfStock[["SOP 03: Hủy đơn hết hàng"]]
-    click OutOfStock "/01-tong-hanh-dinh-quan-ly/2-phong-van-hanh/sop-3-huy-don-het-hang/"
+    click OutOfStock "/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-3-huy-don-het-hang/"
     SaleAdmin_Check -- "CÒN HÀNG" --> SaleAdmin_DH[Sale Admin tạo đơn MISA mã DH]
     SaleAdmin_DH --> Acc_Notify[Báo Kế toán có đơn mới]
 

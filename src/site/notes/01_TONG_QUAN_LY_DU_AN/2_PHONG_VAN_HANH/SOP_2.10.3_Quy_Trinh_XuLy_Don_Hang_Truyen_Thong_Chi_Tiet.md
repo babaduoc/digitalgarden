@@ -204,8 +204,8 @@ Dựa vào **Giá trị đơn hàng** để phân luồng:
 
 ## 6. LIÊN KẾT TÀI LIỆU LIÊN QUAN
 
-- [[00_BO_NAO_AI_INTERNAL/02_Context_Dictionaries/DAI_TU_DIEN_SOP_ETZ\|📖 Đại Từ Điển SOP ETZ]]
-- [[01_TONG_QUAN_LY_DU_AN/00_Dashboard/README_HE_THONG\|🏠 README Hệ Thống]]
+- [[DAI_TU_DIEN_SOP_ETZ\|📖 Đại Từ Điển SOP ETZ]]
+- [[README_HE_THONG\|🏠 README Hệ Thống]]
 - [[SOP 2.1 — Quy Trình Tiếp Nhận Đơn Hàng\|SOP 2.1 — Quy Trình Tiếp Nhận Đơn Hàng]]
 - [[SOP 2.2 — Quy Trình Kiểm Soát Công Nợ\|SOP 2.2 — Quy Trình Kiểm Soát Công Nợ]]
 - [[SOP 2.4 — Quy Trình Trả Hàng & Đổi Hàng\|SOP 2.4 — Quy Trình Trả Hàng & Đổi Hàng]]
