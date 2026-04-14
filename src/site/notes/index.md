@@ -17,9 +17,11 @@
 👉 [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/00_DANH_MUC_CHIEN_LUOC\|Truy cập chi tiết thư mục >>]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
->  | File                                                                                       | Ngày cập nhật  |
-> | ------------------------------------------------------------------------------------------ | -------------- |
-> | [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]] | March 29, 2026 |
+>  | File                                                                                                                               | Ngày cập nhật  |
+> | ---------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+> | [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/[07.25] TL Kết nối API Viettel TMĐT.docx\|[07.25] TL Kết nối API Viettel TMĐT.docx]] | April 10, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/BAO_CAO_TICH_HOP_VIETTEL_POST\|BAO_CAO_TICH_HOP_VIETTEL_POST]]                       | April 13, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]]                                         | March 29, 2026 |
 > 
 { .block-language-dataview}
 
@@ -45,6 +47,7 @@
 > | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra\|SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra]]                                                   | April 02, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]]                                           | April 07, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD\|SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD]]                                         | April 14, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_12_Quy_Trinh_Doi_Soat_Ke_Toan_Hang_Thang\|SOP_12_Quy_Trinh_Doi_Soat_Ke_Toan_Hang_Thang]]                         | April 10, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                             | April 10, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Xu_Ly_Don_Hang_API\|SOP_2.1_Xu_Ly_Don_Hang_API]]                                                             | April 08, 2026 |
@@ -88,8 +91,9 @@
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/HSUV_Thu_Huyen_Detail\|HSUV_Thu_Huyen_Detail]]                                     | March 31, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/HSUV_Tran_Khanh_Loc_Detail\|HSUV_Tran_Khanh_Loc_Detail]]                           | March 30, 2026 |
-> | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | March 30, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | April 13, 2026 |
 > | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Nhan_Vien_Van_Hanh_Website_ETZ\|MTCV_Nhan_Vien_Van_Hanh_Website_ETZ]]                        | March 31, 2026 |
+> | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Sales_Admin_Web_ETZ\|MTCV_Sales_Admin_Web_ETZ]]                                              | April 13, 2026 |
 > 
 { .block-language-dataview}
 

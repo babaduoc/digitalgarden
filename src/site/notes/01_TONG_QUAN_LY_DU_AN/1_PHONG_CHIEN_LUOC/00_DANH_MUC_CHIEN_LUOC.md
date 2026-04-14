@@ -17,9 +17,11 @@
 ## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
 Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
 
-| File                                                                                       | Ngày cập nhật gần nhất |
-| ------------------------------------------------------------------------------------------ | ---------------------- |
-| [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]] | March 29, 2026         |
+| File                                                                                                                               | Ngày cập nhật gần nhất |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/[07.25] TL Kết nối API Viettel TMĐT.docx\|[07.25] TL Kết nối API Viettel TMĐT.docx]] | April 10, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/BAO_CAO_TICH_HOP_VIETTEL_POST\|BAO_CAO_TICH_HOP_VIETTEL_POST]]                       | April 13, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/1_PHONG_CHIEN_LUOC/Tai_Lieu_Du_An_Chuan\|Tai_Lieu_Du_An_Chuan]]                                         | March 29, 2026         |
 
 { .block-language-dataview}
 

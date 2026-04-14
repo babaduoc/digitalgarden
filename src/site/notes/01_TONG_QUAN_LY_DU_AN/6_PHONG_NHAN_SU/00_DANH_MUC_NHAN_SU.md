@@ -29,8 +29,9 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/CV_Mai_Thi_Kim_Loan\|CV_Mai_Thi_Kim_Loan]]                                         | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/HSUV_Thu_Huyen_Detail\|HSUV_Thu_Huyen_Detail]]                                     | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/01_DS_Ung_Vien/HSUV_Tran_Khanh_Loc_Detail\|HSUV_Tran_Khanh_Loc_Detail]]                           | March 30, 2026         |
-| [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | March 30, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | April 13, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Nhan_Vien_Van_Hanh_Website_ETZ\|MTCV_Nhan_Vien_Van_Hanh_Website_ETZ]]                        | March 31, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Sales_Admin_Web_ETZ\|MTCV_Sales_Admin_Web_ETZ]]                                              | April 13, 2026         |
 
 { .block-language-dataview}
 

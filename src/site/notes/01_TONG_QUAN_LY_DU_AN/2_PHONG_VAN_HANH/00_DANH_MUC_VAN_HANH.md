@@ -21,6 +21,7 @@ Các chính sách và lộ trình hoạt động chung:
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra\|SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra]]                                                   | April 02, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]]                                           | April 07, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD\|SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD]]                                         | April 14, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_12_Quy_Trinh_Doi_Soat_Ke_Toan_Hang_Thang\|SOP_12_Quy_Trinh_Doi_Soat_Ke_Toan_Hang_Thang]]                         | April 10, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                             | April 10, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Xu_Ly_Don_Hang_API\|SOP_2.1_Xu_Ly_Don_Hang_API]]                                                             | April 08, 2026 |

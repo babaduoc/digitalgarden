@@ -17,8 +17,10 @@
 ## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
 Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
 
-| File | Ngày cập nhật gần nhất |
-| ---- | ---------------------- |
+| File                                                                                                                       | Ngày cập nhật gần nhất |
+| -------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [[01_TONG_QUAN_LY_DU_AN/3_PHONG_PHAP_CHE/viettel/CHINH_SACH_VA_HOP_DONG_VTP_DETAIL\|CHINH_SACH_VA_HOP_DONG_VTP_DETAIL]] | April 13, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/3_PHONG_PHAP_CHE/HOP_DONG_FREELANCE_DETAIL\|HOP_DONG_FREELANCE_DETAIL]]                         | April 13, 2026         |
 
 { .block-language-dataview}
 
