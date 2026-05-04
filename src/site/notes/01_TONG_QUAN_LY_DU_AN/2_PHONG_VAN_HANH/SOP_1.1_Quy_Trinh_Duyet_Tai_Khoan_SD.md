@@ -44,7 +44,7 @@ graph TD
     Check_HasG -- KHÔNG CÓ --> Admin_CheckDSS[Bước 3 - Kiểm tra App DSS Club]
     Admin_CheckDSS --> Has_DSS{Tài khoản đã đăng ký<br/>App DSS Club?}
     
-    Has_DSS -- CÓ --> Check_DSS_Cond{Thỏa 3 điều kiện?<br/>Khởi tạo từ năm 2023<br/>Số điểm quét trên 100<br/>Đăng nhập cuối cách đây 6 tháng}
+    Has_DSS -- CÓ --> Check_DSS_Cond{Quét trên 200 mã}
     Check_DSS_Cond -- ĐẠT --> Admin_Approve
 
     Has_DSS -- KHÔNG --> Admin_Contact
@@ -90,10 +90,8 @@ Từ bước này, Sale Admin theo dõi xem Đại lý có cung cấp Giấy ph�
 
 * **Luồng 2: Khách hàng KHÔNG CÓ Giấy phép kinh doanh (Chỉ tải CCCD)**
   * **Hành động:** Chuyển sang kiểm tra bằng nền tảng tín nhiệm lịch sử thông qua Ứng dụng quản lý mã vạch nội bộ (App DSS Club). Sale Admin dùng SĐT của khách để tra soát.
-  * **Điều kiện thay thế GPKD (Yêu cầu ĐỒNG THỜI 3 mục):**
-    1. **Thời gian khởi tạo:** Tài khoản phải được mở từ năm **2023** trở về trước.
-    2. **Khối lượng tích lũy:** Tổng số thiết bị (serial) đã quét phải đạt mức **trên 100 series**.
-    3. **Thời gian tương tác:** Lần đăng nhập cuối cùng cách đây là **6 tháng**.
+  * **Điều kiện thay thế GPKD:**
+    * **Khối lượng tích lũy:** Tổng số thiết bị (serial) đã quét phải đạt mức **trên 200 mã**.
   * **Quyết định:** Nếu đạt toàn bộ tín nhiệm, tiến hành **[Phê duyệt]**. Nếu không đạt hoặc khách hàng không dùng App, liên lạc thông báo buộc khách hàng phải cung cấp GPKD thủ công.
 
 ---
@@ -110,7 +108,7 @@ Từ bước này, Sale Admin theo dõi xem Đại lý có cung cấp Giấy ph�
   * **Nội dung trao đổi cần nêu bật hướng dẫn:**
     * *"Căn cước công dân của anh/chị cung cấp bị lóa số, phiền anh/chị chụp lại giúp em."*
     * *"Tên trên GPKD không khớp với chủ thẻ CCCD, anh chị cung cấp CCCD của người đứng đầu GPKD giúp chi nhánh."*
-    * *"Do anh/chị chưa có Giấy phép kinh doanh, mà lịch sử quét trên App DSS chưa đủ tín nhiệm (ví dụ thiếu 100 điểm series) nên hệ thống chưa cấp được tài khoản Đại lý, anh chị bổ sung thêm GPKD giúp em nhé."*
+    * *"Do anh/chị chưa có Giấy phép kinh doanh, mà lịch sử quét trên App DSS chưa đủ tín nhiệm (ví dụ chưa đạt trên 200 mã) nên hệ thống chưa cấp được tài khoản Đại lý, anh chị bổ sung thêm GPKD giúp em nhé."*
   * **Hướng xử lý hệ thống:** Thao tác chuyển hồ sơ về trạng thái **[Chờ cập nhật / Bổ sung thông tin]** và lưu vết để tiện theo dõi các lần sau.
 
 ---

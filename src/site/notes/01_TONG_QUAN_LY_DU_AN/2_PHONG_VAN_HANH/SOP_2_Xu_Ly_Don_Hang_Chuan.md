@@ -46,15 +46,13 @@ graph TD
     Acc_BH --> Ship_Type{Phân loại vận chuyển}
 
     %% Nhánh Chành xe %%
-    Ship_Type -- "Chành xe" --> Check_5M{Đơn hàng trên 5 triệu?}
-    Check_5M -- "Dưới 5 triệu" --> Reject_Chanh[Báo SD: Không đủ điều kiện chành xe]
-    Check_5M -- "Trên 5 triệu" --> Acc_Inv_1[Kế toán xuất HĐ & Phiếu xuất kho]
+    Ship_Type -- "Chành xe" --> Acc_Inv_1[Kế toán xuất HĐ & Phiếu xuất kho]
     Acc_Inv_1 --> WH_Pack_1[Kho Admin đóng gói kèm HĐ & Phiếu xuất kho]
     WH_Pack_1 --> WH_Check[Kho Admin kiểm hàng & Giao Chành]
     WH_Check --> WH_Photo[Người chuyển hàng ra chành chụp ảnh Biên nhận & Kiện hàng]
     WH_Photo --> Admin_Upload[Sale Admin Upload ảnh lên Web & Báo SD]
-    Admin_Upload --> Rule_2D{Sau 2 ngày không phản hồi?}
-    Rule_2D -- "Tự động/Admin" --> Admin_Finish_1[Hoàn tất đơn hàng]
+    Admin_Upload --> Rule_3D{Sau 3 ngày không phản hồi?}
+    Rule_3D -- "Tự động/Admin" --> Admin_Finish_1[Hoàn tất đơn hàng]
 
     %% Nhánh Tại kho %%
     Ship_Type -- "Khách lấy tại kho" --> WH_Print_PXK_2[Kho Admin tự in Phiếu xuất kho từ MISA]
@@ -77,7 +75,7 @@ graph TD
     class SD_Order,SD_Pick,WH_Pack_1,WH_Pack_2,WH_Pack_3,WH_Check,WH_Confirm,WH_Confirm_2 sd;
     class Start,SaleAdmin_Check,SaleAdmin_DH,Acc_Reject,Admin_Upload,Admin_Finish_1,Admin_Finish_2 sale_admin;
     class Acc_Notify,Acc_CheckMoney,Acc_BH,Ship_Type,Acc_Inv_1,Acc_Inv_2,Acc_Inv_3 acc;
-    class OutOfStock,Reject_Chanh error;
+    class OutOfStock error;
 ```
 
 ---
@@ -89,6 +87,7 @@ graph TD
 
 ### 2. GIAI ĐOẠN 2: SALE ADMIN KIỂM TRA & TẠO ĐƠN
 - Sale Admin tiếp nhận thông tin đơn hàng từ Dashboard.
+- **Lưu ý thời gian chốt đơn:** Hệ thống ngắt thời gian xử lý giao hàng trong ngày vào lúc **16:00**. Các đơn phát sinh sau 16:00 sẽ được dời lịch đóng gói và giao hàng sang ngày hôm sau.
 - Kiểm tra trên MISA: Xác định tồn kho vật lý và khớp lệnh trên phần mềm MISA.
 - Tình huống Hết hàng: Chuyển ngay sang quy trình xử lý tại [SOP 03: Hủy đơn hết hàng](https://brain.kholink.vn/01-tong-hanh-dinh-quan-ly/2-phong-van-hanh/sop-3-huy-don-het-hang/).
 - Tình huống Còn hàng:
@@ -115,7 +114,7 @@ graph TD
 
 ## 👁️ IV. CHI TIẾT GIAO HÀNG CHÀNH XE (ĐẶC THÙ)
 Đối với các đơn hàng SD yêu cầu gửi qua nhà xe/xe khách:
-1. **Điều kiện vận chuyển:** Chỉ áp dụng cho đơn hàng có giá trị từ **5.000.000 VNĐ trở lên**. Khotot hỗ trợ chi phí vận chuyển từ kho ra chành gom.
+1. **Điều kiện vận chuyển:** Áp dụng cho **mọi giá trị đơn hàng** (không giới hạn số tiền tối thiểu). Khotot hỗ trợ chi phí vận chuyển từ kho ra chành gom.
 2. Hồ sơ đi đường: Kế toán phải hoàn tất Hóa đơn và Phiếu xuất kho trước khi hàng rời kho để đảm bảo tính pháp lý và đối soát sản phẩm khi nhà xe giao hàng.
 3. Đóng gói & Nhãn: Kho Admin dán nhãn khổ lớn ghi rõ: Tên SD - SĐT SD - Tên Chành - Nơi đến.
 4. Xác thực giao hàng (Bằng chứng):
@@ -126,8 +125,8 @@ graph TD
    - Lưu ý thanh toán: SD (Người nhận) có trách nhiệm tự thanh toán tiền cước vận chuyển trực tiếp cho nhà xe khi nhận hàng.
 6. Quy tắc hoàn tất & Miễn trừ trách nhiệm:
    - SD **phải quay video khi mở hàng** ngay khi nhận hàng để được hỗ trợ khiếu nại.
-   - Sau 02 ngày kể từ khi Kho Admin xác nhận đã gửi hàng (upload biên nhận), nếu khách hàng không phản hồi, đơn hàng được xem là đã nhận thành công.
-   - Khotot sẽ không chịu trách nhiệm về bất kỳ khiếu nại nào liên quan đến hàng hóa sau thời hạn 02 ngày này.
+   - Sau **03 ngày** kể từ khi Kho Admin xác nhận đã gửi hàng (upload biên nhận), nếu khách hàng không phản hồi, đơn hàng được xem là đã nhận thành công.
+   - Khotot sẽ không chịu trách nhiệm về bất kỳ khiếu nại nào liên quan đến hàng hóa sau thời hạn **03 ngày** này.
    - Hệ thống sẽ tự động chuyển trạng thái hoặc Sale Admin thực hiện cập nhật thủ công thành "Hoàn thành".
 
 ---

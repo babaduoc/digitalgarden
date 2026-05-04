@@ -21,18 +21,19 @@ Các chính sách và lộ trình hoạt động chung:
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra\|SOP_07_Xu_Ly_Khieu_Nai_Hoan_Tra]]                                                   | April 02, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD]]                                           | April 07, 2026 |
-| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD\|SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD]]                                         | April 14, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD\|SOP_1.1_Quy_Trinh_Duyet_Tai_Khoan_SD]]                                         | April 28, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_12_Quy_Trinh_Doi_Soat_Ke_Toan_Hang_Thang\|SOP_12_Quy_Trinh_Doi_Soat_Ke_Toan_Hang_Thang]]                         | April 10, 2026 |
-| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                             | April 10, 2026 |
-| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Xu_Ly_Don_Hang_API\|SOP_2.1_Xu_Ly_Don_Hang_API]]                                                             | April 08, 2026 |
-| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.10.1_Quy_Trinh_Mua_Hang_Truyen_Thong\|SOP_2.10.1_Quy_Trinh_Mua_Hang_Truyen_Thong]]                             | April 08, 2026 |
-| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.10.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|SOP_2.10.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te]]                               | April 08, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP_2_Xu_Ly_Don_Hang_Chuan]]                                                             | April 16, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.1_Xu_Ly_Don_Hang_API_Nang_Cap_Sau\|SOP_2.1_Xu_Ly_Don_Hang_API_Nang_Cap_Sau]]                                   | April 08, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.10.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te\|SOP_2.10.2_Quy_Trinh_Van_Hanh_Web_Thuc_Te]]                               | April 16, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.10.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet\|SOP_2.10.3_Quy_Trinh_XuLy_Don_Hang_Truyen_Thong_Chi_Tiet]] | April 08, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2.10.4_Quy_Trinh_Ap_Dung_Thuc_Te\|SOP_2.10.4_Quy_Trinh_Ap_Dung_Thuc_Te]]                                         | April 08, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP_3_Huy_Don_Het_Hang]]                                                                     | April 07, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong]]                                                 | April 07, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian\|SOP_5_Tao_Khuyen_Mai_Theo_Thoi_Gian]]                                           | April 07, 2026 |
 | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_6_Huy_Don_Hang\|SOP_6_Huy_Don_Hang]]                                                                             | April 01, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_8_Quy_Trinh_Cap_Nhat_Gia_Ton_Kho\|SOP_8_Quy_Trinh_Cap_Nhat_Gia_Ton_Kho]]                                         | April 24, 2026 |
+| [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_9_Quy_Trinh_Cap_Nhat_San_Pham_Moi\|SOP_9_Quy_Trinh_Cap_Nhat_San_Pham_Moi]]                                       | April 24, 2026 |
 
 { .block-language-dataview}
 

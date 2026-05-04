@@ -17,8 +17,9 @@
 ## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
 Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
 
-| File | Ngày cập nhật gần nhất |
-| ---- | ---------------------- |
+| File                                                                                        | Ngày cập nhật gần nhất |
+| ------------------------------------------------------------------------------------------- | ---------------------- |
+| [[01_TONG_QUAN_LY_DU_AN/4_PHONG_MARKETING/Khotot_Brand_Identity\|Khotot_Brand_Identity]] | April 28, 2026         |
 
 { .block-language-dataview}
 

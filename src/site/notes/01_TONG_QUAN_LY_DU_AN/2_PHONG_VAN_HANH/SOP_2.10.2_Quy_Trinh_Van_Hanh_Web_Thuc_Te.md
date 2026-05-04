@@ -1,99 +1,220 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-10-2-quy-trinh-van-hanh-web-thuc-te/","title":"SOP 02.10.2 — QUY TRÌNH VẬN HÀNH WEBSITE CHI TIẾT (WEB ETZ - HYBRID V3.6)","dg-note-properties":{"title":"SOP 02.10.2 — QUY TRÌNH VẬN HÀNH WEBSITE CHI TIẾT (WEB ETZ - HYBRID V3.6)"}}
+{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sop-2-10-2-quy-trinh-van-hanh-web-thuc-te/","title":"SOP 02.10.2 — QUY TRÌNH VẬN HÀNH WEBSITE THỰC TẾ (WEB ETZ - v3.7)","dg-note-properties":{"title":"SOP 02.10.2 — QUY TRÌNH VẬN HÀNH WEBSITE THỰC TẾ (WEB ETZ - v3.7)"}}
 ---
 
 
-# 🚀 SOP 02.10.2 — QUY TRÌNH VẬN HÀNH WEBSITE CHI TIẾT (WEB ETZ - HYBRID v3.6)
+# 🚀 SOP 02.10.2 — QUY TRÌNH VẬN HÀNH WEBSITE THỰC TẾ (WEB ETZ - v3.7)
 
 > **Dự án:** Web ETZ — Khotot.vn
-> **Mô hình:** Hybrid (Thanh toán 100% Web) — **CHUẨN HÓA HÓA ĐƠN THEO SOP 2**.
-> **Quy tắc vàng:** Thanh toán 100% - Thủ công Misa - **Thời điểm xuất Hóa đơn theo Vận chuyển**.
-> **Phiên bản:** v3.6 | **Ngày cập nhật:** 2026-04-02
+> **Mô hình:** Hybrid (Thanh toán 100% Web) — Chuẩn hóa theo SOP 02
+> **Quy tắc vàng:** Thanh toán 100% → Thủ công MISA → Xuất hóa đơn đúng luồng vận chuyển
+> **Phiên bản:** v3.7 | **Ngày cập nhật:** 2026-04-16
 
 ---
 
-## 🎯 I. MỤC TIÊU & CHỈ SỐ KPI (SLA)
-- **Mục tiêu:** Đồng bộ chính xác đơn hàng Web sang Misa và tuân thủ quy chuẩn xuất hóa đơn linh hoạt theo từng đơn vị vận chuyển.
-- **KPI Chốt đơn:** 15 - 30 phút.
-- **KPI Tài chính:** 100% Thu đủ tiền (Web 100%) & Xuất hóa đơn đúng luồng pháp lý.
+## 👥 PHÂN CÔNG NHÂN SỰ PHỤ TRÁCH
+
+| Vai trò | Người phụ trách | Trách nhiệm chính |
+|---|---|---|
+| **Kế toán** | **Quyên** | Xác nhận tiền, chuyển mã BH, xuất hóa đơn trước 17:00 |
+| **Kho Admin** | **Thúy** | Đóng gói, xuất kho, giao hàng, cập nhật trạng thái |
+| **Admin / Vận hành** | **Admin** (phối hợp MKT + Sale Admin + Vận hành) | Tiếp nhận đơn Web, tạo đơn MISA, upload bằng chứng, rà soát đơn treo, hoàn tất đơn |
+
+> ⚠️ **Admin** là đầu mối trung tâm: phối hợp trực tiếp với bộ phận MKT (chăm sóc khách hàng), Sale Admin (tạo đơn MISA), và Vận hành (theo dõi tiến độ giao hàng).
 
 ---
 
-## 🔄 II. SƠ ĐỒ PHỐI HỢP & THỜI ĐIỂM XUẤT HÓA ĐƠN (SOP 2 FOCUS)
+## 🎯 MỤC TIÊU & KPI
+
+| Chỉ số | Mục tiêu | Người chịu trách nhiệm |
+|---|---|---|
+| Tốc độ tạo đơn DH trên MISA | < 30 phút từ khi có đơn Web | Admin |
+| Chuyển mã BH sau khi xác nhận tiền | Kịp thời trong ngày | Quyên |
+| Xuất hóa đơn Viettel Post | Trước 17:00 hàng ngày | Quyên |
+| Không đóng gói khi chưa có mã BH | 100% tuân thủ | Thúy |
+| Báo cáo sau khi hàng rời kho | Ngay lập tức | Thúy → Admin |
+
+---
+
+## ⏰ QUY TẮC THỜI GIAN CHỐT ĐƠN
+
+> 🕐 **Thời gian chốt:** **16:00 mỗi ngày**
+> - Đơn hàng đặt **trước 16:00** → Xử lý & giao hàng **trong ngày**.
+> - Đơn hàng đặt **sau 16:00** → Dời lịch đóng gói và giao hàng sang **ngày hôm sau**.
+
+---
+
+## 🔄 SƠ ĐỒ PHỐI HỢP (THEO SOP 02)
 
 ```mermaid
 graph TD
-    %% Định nghĩa Màu sắc %%
-    classDef client fill:#F3E5F5,stroke:#9C27B0,color:#4A148C;
-    classDef sa fill:#E3F2FD,stroke:#2196F3,color:#0D47A1;
-    classDef kt fill:#FFF3E0,stroke:#FF9800,color:#E65100;
-    classDef shipment fill:#ECEFF1,stroke:#607D8B,color:#263238;
+    classDef sd fill:#F3E5F5,stroke:#9C27B0,color:#4A148C;
+    classDef admin fill:#E3F2FD,stroke:#2196F3,color:#0D47A1;
+    classDef acc fill:#E8F5E9,stroke:#4CAF50,color:#1B5E20;
+    classDef kho fill:#FFF3E0,stroke:#FF9800,color:#E65100;
+    classDef error fill:#FFEBEE,stroke:#D32F2F,color:#B71C1C;
 
-    %% Luồng chính %%
-    START([🛒 Khách đặt & Thanh toán 100% trên Web]) --> SA_MISA[Sale Admin: Lên ĐƠN ĐẶT HÀNG thủ công trên MISA]
-    
-    SA_MISA --> KT_CHECK[Kế toán: Xác nhận tiền ngân hàng/SePay]
-    
-    KT_CHECK --> SHIP_TYPE{Loại vận chuyển?}
+    Start((Bắt đầu)) --> SD_Order["SD đặt hàng trên Khotot.vn<br/>⚠️ BẮT BUỘC: Quay video khi mở hàng"]
 
-    %% Nhánh 1: Xuất Hóa đơn TRƯỚC khi giao %%
-    SHIP_TYPE -->|"Chành xe / Grab / Khách lấy"| KT_INV_NOW["📄 Kế toán: Xuất HÓA ĐƠN & PHIẾU BÁN HÀNG ngay"]
-    KT_INV_NOW --> KHO_SHIP_1["🏭 Kho: Gói hàng & Kèm Bộ Chứng từ đi đường"]
-    KHO_SHIP_1 --> DONE_1([✅ Hoàn tất đơn hàng])
+    SD_Order --> Admin_Check{"Admin kiểm hàng trên MISA<br/>(chưa kết nối tự động)"}
+    Admin_Check -- "HẾT HÀNG" --> OutOfStock[["SOP 03: Hủy đơn hết hàng"]]
+    Admin_Check -- "CÒN HÀNG" --> Admin_DH["Admin tạo đơn MISA — Mã DH<br/>📌 Phối hợp: MKT + Sale Admin"]
+    Admin_DH --> Notify_Quyen["Báo Quyên: Có đơn mới cần xác nhận tiền"]
 
-    %% Nhánh 2: Xuất Hóa đơn SAU khi giao %%
-    SHIP_TYPE -->|"Viettel Post (VTP)"| KT_INV_LATER["📝 Kế toán: CHƯA xuất hóa đơn ngay"]
-    KT_INV_LATER --> KHO_SHIP_2["🏭 Kho: Gói hàng & Gửi Bưu tá (Chỉ kèm Phiếu bán hàng)"]
-    KHO_SHIP_2 --> API_CHECK{17:00 Hàng ngày: API VTP báo 'Đã giao'?}
-    API_CHECK -->|Thanh toán thành công| KT_INV_VTP["📄 Kế toán: Xuất HÓA ĐƠN cuối ngày"]
-    KT_INV_VTP --> DONE_2([✅ Hoàn tất đơn hàng])
+    Notify_Quyen --> Quyen_Check{"Quyên kiểm tra tiền<br/>vào hệ thống (SePay/CK)"}
+    Quyen_Check -- "KHÔNG OK" --> Quyen_Reject["Báo Admin kiểm tra lại với khách"]
+    Quyen_Reject --> Admin_Check
+    Quyen_Check -- "OK" --> Quyen_BH["Quyên chuyển MISA → Mã BH<br/>✅ Lệnh cho phép Thúy đóng gói"]
+    Quyen_BH --> Ship_Type{"Phân loại vận chuyển"}
 
-    %% Gán class %%
-    class START client;
-    class SA_MISA sa;
-    class KT_CHECK,KT_INV_NOW,KT_INV_LATER,KT_INV_VTP kt;
-    class KHO_SHIP_1,KHO_SHIP_2,API_CHECK shipment;
+    %% Nhánh Chành xe %%
+    Ship_Type -- "Chành xe" --> Quyen_Inv1["Quyên xuất HĐ & Phiếu xuất kho<br/>⚠️ Phải xong TRƯỚC khi hàng rời kho"]
+    Quyen_Inv1 --> Thuy_Pack1["Thúy đóng gói — kèm HĐ & Phiếu xuất kho<br/>Dán nhãn: Tên SD - SĐT - Tên Chành - Nơi đến"]
+    Thuy_Pack1 --> Thuy_Chanh["Thúy (hoặc người được phân công)<br/>chụp ảnh Biên nhận & Kiện hàng tại Chành"]
+    Thuy_Chanh --> Admin_Upload["Admin upload ảnh bằng chứng lên Web<br/>Báo SD đã gửi hàng"]
+    Admin_Upload --> Rule3D{"Sau 03 ngày SD không phản hồi?"}
+    Rule3D -- "Hệ thống tự động / Admin xử lý thủ công" --> Done1["✅ Hoàn tất đơn hàng"]
+
+    %% Nhánh Khách lấy tại kho %%
+    Ship_Type -- "Khách lấy tại kho" --> Thuy_Print2["Thúy in Phiếu xuất kho từ MISA"]
+    Thuy_Print2 --> Thuy_Pack2["Thúy đóng gói — kèm Phiếu xuất kho"]
+    Thuy_Pack2 --> SD_Pick["Khách đến nhận hàng tại kho"]
+    SD_Pick --> Thuy_Verify["Thúy xác nhận đúng người mua tới nhận"]
+    Thuy_Verify --> SD_Sign["Khách ký & ghi họ tên vào Phiếu xuất kho"]
+    SD_Sign --> Thuy_Web["Thúy cập nhật trạng thái 'Hoàn thành' trên Khotot.vn"]
+    Thuy_Web --> Admin_Soat["Admin rà soát đơn treo cuối buổi"]
+    Admin_Soat --> Quyen_Inv2["Quyên xuất HĐ điện tử hàng loạt trước 17:00"]
+
+    %% Nhánh Viettel Post %%
+    Ship_Type -- "Viettel Post" --> Thuy_Print3["Thúy in Phiếu xuất kho từ MISA/Web"]
+    Thuy_Print3 --> Thuy_Pack3["Thúy đóng gói — kèm Phiếu xuất kho"]
+    Thuy_Pack3 --> Thuy_VT["Thúy in vận đơn (Web Viettel Post / dss.khotot.vn)<br/>Gọi bưu tá lấy hàng"]
+    Thuy_VT --> API_Check{"Web báo: Đã giao thành công?"}
+    API_Check -- "OK" --> Quyen_Inv3["Quyên xuất HĐ điện tử hàng loạt trước 17:00"]
+    Quyen_Inv3 --> Done3["✅ Hoàn tất đơn hàng"]
+
+    class SD_Order,SD_Pick sd;
+    class Admin_Check,Admin_DH,Notify_Quyen,Quyen_Reject,Admin_Upload,Admin_Soat,Rule3D,Done1 admin;
+    class Quyen_Check,Quyen_BH,Quyen_Inv1,Quyen_Inv2,Quyen_Inv3 acc;
+    class Thuy_Pack1,Thuy_Pack2,Thuy_Pack3,Thuy_Chanh,Thuy_Print2,Thuy_Print3,Thuy_Verify,SD_Sign,Thuy_Web,Thuy_VT kho;
+    class OutOfStock error;
 ```
 
 ---
 
-## 📝 III. QUY CHUẨN XUẤT HÓA ĐƠN (Áp dụng SOP 2)
+## 📝 CHI TIẾT TỪNG GIAI ĐOẠN
 
-Dựa trên hình thức vận chuyển, Kế toán thực hiện theo 2 kịch bản xuất hóa đơn khác nhau để tối ưu hóa pháp lý và tránh sai sót:
+### GIAI ĐOẠN 1 — KHÁCH HÀNG (SD) ĐẶT HÀNG
 
-### 1. Kịch bản A: Xuất hóa đơn TRƯỚC KHI GIAO (Bắt buộc)
-- **Áp dụng:** Gửi hàng qua **Chành xe (Xe khách)**, **Grab/Ahamove**, hoặc **Khách lấy tại kho**.
-- **Lý do:** Đảm bảo hồ sơ đi đường hợp lệ cho Shipper và Nhà xe; tránh rủi ro kiểm tra của Quản lý thị trường.
-- **Thành phần bộ chứng từ:** 01 Phiếu bán hàng (Misa) + 01 Hóa đơn điện tử (Bản giấy).
-
-### 2. Kịch bản B: Xuất hóa đơn SAU KHI GIAO THÀNH CÔNG (Viettel Post)
-- **Áp dụng:** Duy nhất cho đơn vị vận chuyển hỗ trợ API (Viettel Post).
-- **Quy trình:**
-    - Bước 1: Admin duyệt lệnh gọi vận chuyển trên Web. Kho gởi hàng đi (Chưa kèm hóa đơn).
-    - Bước 2: Kế toán kiểm tra danh sách đơn Viettel Post vào lúc **17:00 hàng ngày**.
-    - Bước 3: Nếu API báo "Đã giao thành công", Kế toán thực hiện xuất hóa đơn đồng loạt cho khách.
+- SD chọn sản phẩm, chọn Kho ETZ Miền Nam, chọn phương thức vận chuyển và thanh toán 100% trên Web.
+- **YÊU CẦU BẮT BUỘC:** SD phải quay video khi mở hàng để Khotot.vn chấp nhận khiếu nại (nếu có).
 
 ---
 
-## 📝 IV. CHI TIẾT CÔNG VIỆC (MISA & WEB)
+### GIAI ĐOẠN 2 — ADMIN TIẾP NHẬN & TẠO ĐƠN
 
-### 1. Sale Admin (Khâu nạp liệu)
-- **Hành động:** Nhập PO (Đơn đặt hàng) từ Web sang Misa.
-- **Yêu cầu CCCD:** Thu thập CCCD ngay tại thời điểm khách đặt đơn (nếu là khách lẻ).
+**Người thực hiện: Admin** (phối hợp MKT + Sale Admin + Vận hành)
 
-### 2. Kế toán (Khâu điều phối hóa đơn)
-- **Hành động:** Tuân thủ đúng thời điểm xuất HĐ (Ngay lập tức vs Cuối ngày) theo bảng chuẩn ở Mục III.
-- **Phối hợp:** Nhắn tin lệnh xuất cho Kho qua Microsoft Teams.
-
-### 3. Kho (Khâu thực thi)
-- **Hành động:** In phiếu bán hàng từ Misa. Chụp ảnh biên nhận nhà xe (nếu đi Chành).
-- **Hành động:** Cập nhật trạng thái/Mã bưu vận lên Web Admin.
+- Tiếp nhận đơn từ Dashboard Web Khotot.vn.
+- **⏰ Kiểm tra thời gian:** Nếu đơn phát sinh **sau 16:00** → ghi chú chuyển xử lý sang ngày hôm sau.
+- Kiểm tra tồn kho thực tế trên MISA:
+  - **Hết hàng** → Chuyển sang [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP 03: Hủy đơn hết hàng]]
+  - **Còn hàng** → Tạo đơn MISA mã **DH..**, báo ngay cho **Quyên** xác nhận tiền.
 
 ---
 
-## 🛡️ V. QUY TRÌNH HỦY/TRẢ HÀNG
-- **Quy tắc:** Hóa đơn đã xuất không hủy. Nếu trả hàng, thực hiện **Biên bản Điều chỉnh giảm HĐ**.
-- **Yêu cầu:** Khách hàng ký giấy biên bản điều chỉnh mới thực hiện hoàn tiền/trừ nợ trên Misa.
+### GIAI ĐOẠN 3 — QUYÊN XÁC NHẬN TIỀN & CHUYỂN MÃ BH
+
+**Người thực hiện: Quyên (Kế toán)**
+
+- Nhận thông báo từ Admin, kiểm tra tiền đã vào hệ thống (SePay hoặc chuyển khoản).
+- **Tiền OK** → Chuyển đơn MISA sang mã **BH..** → Đây là lệnh cho phép **Thúy** bắt đầu đóng gói.
+- **Tiền KHÔNG OK** → Báo Admin kiểm tra lại với khách.
+- Phân luồng xuất hóa đơn theo phương thức vận chuyển (xem Giai đoạn 4A/4B/4C).
+
+> 🚨 **Thúy tuyệt đối không đóng gói khi đơn chưa chuyển sang mã BH.**
 
 ---
-*Mọi nhân sự lưu ý: Bản SOP v3.6 là chuẩn quy trình cuối cùng về Hóa đơn và Vận chuyển cho dự án Web ETZ.*
+
+### GIAI ĐOẠN 4A — CHÀNH XE (Xuất HĐ TRƯỚC khi giao)
+
+**Quyên** xuất Hóa đơn điện tử + Phiếu xuất kho **ngay sau khi duyệt mã BH** — bắt buộc hoàn tất trước khi hàng rời kho.
+
+**Thúy (Kho):**
+1. Đóng gói hàng, kèm đầy đủ HĐ + Phiếu xuất kho vào kiện hàng.
+2. Dán nhãn khổ lớn: **Tên SD — SĐT SD — Tên Chành — Nơi đến**.
+3. Mang hàng ra Chành, chụp ảnh **Biên nhận** và **Kiện hàng** tại văn phòng nhà xe.
+4. Gửi ảnh về cho **Admin**.
+
+**Admin:**
+- Upload ảnh bằng chứng lên Web Khotot.vn, báo SD đã gửi hàng.
+- Theo dõi: **Sau 03 ngày** SD không phản hồi → Hệ thống tự động hoàn tất hoặc Admin cập nhật thủ công thành "Hoàn thành".
+
+> 📌 **Điều kiện chành xe: KHÔNG GIỚI HẠN giá trị đơn hàng.** Mọi đơn đều được gửi chành xe theo yêu cầu của SD.
+> SD (người nhận) tự thanh toán cước vận chuyển trực tiếp cho nhà xe khi nhận hàng.
+> Khotot không chịu trách nhiệm khiếu nại sau **03 ngày** kể từ ngày upload biên nhận.
+
+---
+
+### GIAI ĐOẠN 4B — KHÁCH LẤY TẠI KHO
+
+**Thúy (Kho):**
+1. In Phiếu xuất kho từ MISA ngay khi có mã BH.
+2. Đóng gói hàng, kèm Phiếu xuất kho.
+3. Khi khách đến: xác nhận đúng người mua (theo mã đơn hàng).
+4. Yêu cầu khách **ký và ghi rõ họ tên** vào Phiếu xuất kho.
+5. Cập nhật trạng thái "Hoàn thành" trên Web Khotot.vn **ngay lập tức** sau khi giao hàng.
+
+**Admin:**
+- Cuối buổi rà soát danh sách đơn "Chờ nhận hàng" — nếu có đơn treo quá lâu báo ngay Thúy kiểm tra.
+
+**Quyên:**
+- Kiểm tra danh sách đơn "Hoàn thành", xuất hóa đơn điện tử hàng loạt **trước 17:00**.
+
+---
+
+### GIAI ĐOẠN 4C — VIETTEL POST (Xuất HĐ SAU khi giao)
+
+**Thúy (Kho):**
+1. In Phiếu xuất kho từ MISA/Web ngay khi có mã BH.
+2. Đóng gói, đặt Phiếu xuất kho vào bên trong kiện trước khi dán băng keo.
+3. Truy cập Web Viettel Post hoặc [dss.khotot.vn](http://dss.khotot.vn) → Nhập thông tin, in vận đơn, dán lên kiện hàng.
+4. Gọi bưu tá lấy hàng, theo dõi trạng thái "Đang vận chuyển".
+
+**Quyên:**
+- Kiểm tra danh sách đơn Viettel Post lúc **17:00 hàng ngày**.
+- API báo "Đã giao thành công" → Xuất hóa đơn điện tử hàng loạt.
+
+---
+
+## 📊 BẢNG TÓM TẮT PHÂN CÔNG THEO LUỒNG
+
+| Bước                                     | Chành xe           | Tại kho              | Viettel Post  | Người thực hiện  |
+| ---------------------------------------- | ------------------ | -------------------- | ------------- | ---------------- |
+| Tiếp nhận đơn Web                        | ✅                  | ✅                    | ✅             | **Admin**        |
+| Tạo đơn MISA (mã DH)                     | ✅                  | ✅                    | ✅             | **Admin**        |
+| Xác nhận tiền → mã BH                    | ✅                  | ✅                    | ✅             | **Quyên**        |
+| Xuất HĐ + Phiếu xuất kho                 | Trước giao         | Sau giao             | Sau giao      | **Quyên**        |
+| Đóng gói & dán nhãn                      | ✅                  | ✅                    | ✅             | **Thúy**         |
+| Giao chành / gọi bưu tá / xác nhận khách | ✅                  | ✅                    | ✅             | **Thúy**         |
+| Chụp ảnh biên nhận & upload Web          | ✅                  | —                    | —             | **Thúy → Admin** |
+| Cập nhật "Hoàn thành" trên Web           | Admin (sau 3 ngày) | Thúy (ngay lúc giao) | Tự động (API) | **Thúy / Admin** |
+| Rà soát đơn treo                         | ✅                  | ✅                    | ✅             | **Admin**        |
+
+---
+
+## 🚨 QUY TẮC BẮT BUỘC
+
+| # | Quy tắc | Người chịu trách nhiệm |
+|---|---|---|
+| 1 | **Thúy** tuyệt đối không đóng gói khi đơn chưa có mã BH | **Thúy** |
+| 2 | Đơn chành xe: **KHÔNG giới hạn** giá trị đơn hàng | **Admin / Quyên** |
+| 3 | Đơn phát sinh **sau 16:00** → xử lý & giao hàng **ngày hôm sau** | **Admin** |
+| 4 | Chành xe: SD không phản hồi sau **03 ngày** → hoàn tất đơn | **Admin** |
+| 5 | **Quyên** xuất HĐ Viettel Post và Tại kho trước **17:00** hàng ngày | **Quyên** |
+| 6 | Chành xe: **Quyên** xuất HĐ **trước khi hàng rời kho** | **Quyên** |
+| 7 | SD phải quay video khi mở hàng để được hỗ trợ khiếu nại | SD |
+
+---
+
+*Phiên bản v3.7 — Cập nhật theo kết quả họp 2026-04-14 | Người cập nhật: DSS*

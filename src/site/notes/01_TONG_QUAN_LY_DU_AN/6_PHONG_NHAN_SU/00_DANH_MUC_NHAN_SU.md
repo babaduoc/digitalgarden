@@ -32,6 +32,7 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\|MTCV_Admin_Van_Hanh_Web_ETZ]]                                        | April 13, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Nhan_Vien_Van_Hanh_Website_ETZ\|MTCV_Nhan_Vien_Van_Hanh_Website_ETZ]]                        | March 31, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Sales_Admin_Web_ETZ\|MTCV_Sales_Admin_Web_ETZ]]                                              | April 13, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/Onboarding_SaleAdmin\|Onboarding_SaleAdmin]]                                                      | May 04, 2026           |
 
 { .block-language-dataview}
 
