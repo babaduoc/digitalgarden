@@ -26,6 +26,7 @@
 { .block-language-dataview}
 
 ### 📦 2. PHÒNG VẬN HÀNH 
+[[01_TONG_QUAN_LY_DU_AN/6_PHONG_NHAN_SU/MTCV_Admin_Van_Hanh_Web_ETZ\| Mô tả công việc Minh Nguyên]]
 
 > [!quote] 📄 TÀI LIỆU VĂN BẢN QUAN TRỌNG
 >  | File                                                                                                                                                             | Ngày cập nhật  |
