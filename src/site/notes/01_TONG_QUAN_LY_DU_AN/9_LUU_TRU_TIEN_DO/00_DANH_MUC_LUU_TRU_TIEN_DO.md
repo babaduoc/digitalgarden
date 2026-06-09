@@ -22,7 +22,11 @@ Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được
 | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-10_BienBanHop_Lan6\|2026-03-10_BienBanHop_Lan6]]                 | March 29, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-27_BaoCaoHop_NoiBo_KhongIT\|2026-03-27_BaoCaoHop_NoiBo_KhongIT]] | March 28, 2026         |
 | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/2026-03-29_Bao_Cao_Tuan_W5\|2026-03-29_Bao_Cao_Tuan_W5]]                 | April 07, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/BC_Tuan_2026-W23\|BC_Tuan_2026-W23]]                                     | June 02, 2026          |
+| [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/cong_viec_ca_nhan\|cong_viec_ca_nhan]]                                   | June 08, 2026          |
+| [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/giao_viec_nguyen\|giao_viec_nguyen]]                                     | May 26, 2026           |
 | [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/ROAD_TO_PILOT_2026_04_20\|ROAD_TO_PILOT_2026_04_20]]                     | April 16, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/9_LUU_TRU_TIEN_DO/tien_do_tuan\|tien_do_tuan]]                                             | June 08, 2026          |
 
 { .block-language-dataview}
 

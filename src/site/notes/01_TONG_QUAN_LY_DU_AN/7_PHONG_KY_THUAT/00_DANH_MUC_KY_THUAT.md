@@ -17,9 +17,10 @@
 ## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
 Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
 
-| File                                                                                             | Ngày cập nhật gần nhất |
-| ------------------------------------------------------------------------------------------------ | ---------------------- |
-| [[01_TONG_QUAN_LY_DU_AN/7_PHONG_KY_THUAT/SOP_Tro_Ten_Mien_Mat_Bao\|SOP_Tro_Ten_Mien_Mat_Bao]] | March 31, 2026         |
+| File                                                                                                         | Ngày cập nhật gần nhất |
+| ------------------------------------------------------------------------------------------------------------ | ---------------------- |
+| [[01_TONG_QUAN_LY_DU_AN/7_PHONG_KY_THUAT/SOP_Tro_Ten_Mien_Mat_Bao\|SOP_Tro_Ten_Mien_Mat_Bao]]             | March 31, 2026         |
+| [[01_TONG_QUAN_LY_DU_AN/7_PHONG_KY_THUAT/SPEC_ThongTinHoaDon_2026-05-18\|SPEC_ThongTinHoaDon_2026-05-18]] | May 18, 2026           |
 
 { .block-language-dataview}
 

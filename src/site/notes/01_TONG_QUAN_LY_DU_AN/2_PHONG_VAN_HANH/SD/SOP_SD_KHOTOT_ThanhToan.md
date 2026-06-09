@@ -1,12 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sd/sop-sd-khotot-thanh-toan/","title":"SOP-SD-03 | Thanh Toán (Checkout) — khotot.vn","dg-note-properties":{"title":"SOP-SD-03 | Thanh Toán (Checkout) — khotot.vn","cap_nhat":"2026-03-31","loai":"SOP","phong_ban":"Vận Hành","he_thong":"khotot.vn"}}
+{"dg-publish":true,"permalink":"/01-tong-quan-ly-du-an/2-phong-van-hanh/sd/sop-sd-khotot-thanh-toan/","title":"SOP-SD-03 | Thanh Toán (Checkout) — khotot.vn","dg-note-properties":{"title":"SOP-SD-03 | Thanh Toán (Checkout) — khotot.vn","cap_nhat":"2026-05-18","loai":"SOP","phong_ban":"Vận Hành","he_thong":"khotot.vn"}}
 ---
 
 
 # SOP-SD-03 | Thanh Toán (Checkout) SD
 > **Áp dụng cho:** Đại lý lẻ / Khách hàng (SD) tại `khotot.vn`
-> **Phiên bản:** v1.0 | **Ngày tạo:** 31/03/2026
+> **Phiên bản:** v1.1 | **Ngày tạo:** 31/03/2026 | **Cập nhật:** 18/05/2026
 > **Nguồn:** Tổng hợp từ UAT kiểm thử thực tế (Phase 3 SD)
+> **Thay đổi v1.1:** Thêm bước thu thập thông tin hóa đơn VAT tại trang Xác nhận đơn hàng
 
 ---
 
@@ -44,7 +45,12 @@ flowchart TD
     L -- Nhận tại cửa hàng --> M2[Đến cửa hàng\nKhotot nhận trực tiếp]
     L -- Giao chành xe --> M3[Giao qua chành\nPhù hợp đơn số lượng lớn]
     M1 & M2 & M3 --> N[Điền Ghi chú đơn hàng\nnếu có yêu cầu đặc biệt]
-    N --> O[Xem tóm tắt đơn:\nSP + Phí ship + Tổng thanh toán]
+    N --> HD[Phần HÓA ĐƠN VAT\nBắt buộc chọn CÓ hoặc KHÔNG]
+    HD -- KHÔNG --> HD_No[Đọc cảnh báo miễn trách nhiệm\nTick xác nhận không cần HĐ]
+    HD -- CÓ --> HD_Yes{Chọn loại hóa đơn}
+    HD_Yes -- Cá nhân --> HD_P[Điền: Họ tên + CCCD + Email]
+    HD_Yes -- DN / HKD --> HD_B[Điền: Tên đơn vị + MST\n+ Địa chỉ + Email]
+    HD_No & HD_P & HD_B --> O[Xem tóm tắt đơn:\nSP + Phí ship + Tổng thanh toán]
     O --> P[Nhấn 'Xác nhận đặt hàng']
     P --> Q[Màn hình QR Thanh Toán\nhiển thị mã QR SePay]
     Q --> R[SD mở app ngân hàng\nQuét mã QR]
@@ -90,6 +96,22 @@ flowchart TD
 ├─────────────────────────────────────────────────┤
 │ 📝 GHI CHÚ ĐƠN HÀNG                             │
 │    [Ô nhập ghi chú]                             │
+├═════════════════════════════════════════════════╡
+│ 🧾 HÓA ĐƠN VAT                                  │
+│    Bạn có cần xuất hóa đơn VAT không?           │
+│    ┌──────────┐  ┌────────────┐                 │
+│    │  ✅ CÓ   │  │  ❌ KHÔNG  │                 │
+│    └──────────┘  └────────────┘                 │
+│    (Bắt buộc chọn — nút đặt hàng bị khóa)      │
+│                                                 │
+│    ── Khi chọn KHÔNG: ──                        │
+│    ⚠️ Cảnh báo miễn trách nhiệm                 │
+│    ☐ Tôi xác nhận không cần hóa đơn            │
+│                                                 │
+│    ── Khi chọn CÓ: ──                           │
+│    Loại: ○ Cá nhân  ○ DN/HKD                    │
+│    [Form tương ứng — xem mục bên dưới]          │
+│    ☐ Lưu thông tin vào hồ sơ để dùng lần sau   │
 ├─────────────────────────────────────────────────┤
 │ 💰 TÓM TẮT THANH TOÁN                           │
 │    Tổng SP:          [X]đ                       │
@@ -101,6 +123,38 @@ flowchart TD
 │         [ XÁC NHẬN ĐẶT HÀNG ]                   │
 └─────────────────────────────────────────────────┘
 ```
+
+---
+
+## 🧾 Hướng Dẫn Phần Hóa Đơn VAT
+
+> Phần này bắt buộc phải chọn trước khi đặt hàng. Nút **"Xác nhận đặt hàng"** bị khóa cho đến khi hoàn thành bước này.
+
+### Trường hợp KHÔNG cần hóa đơn
+
+Sau khi nhấn "KHÔNG", hệ thống hiển thị cảnh báo — SD phải tick xác nhận:
+
+> ⚠️ **Khotot.vn sẽ không xuất hóa đơn VAT cho đơn hàng này.** Theo Nghị định 70/2025/NĐ-CP, hóa đơn chỉ được lập tại thời điểm giao hàng — không thể bổ sung sau khi đơn hoàn thành.
+> ☐ *Tôi đã hiểu, xác nhận không cần hóa đơn*
+
+### Trường hợp CÓ cần hóa đơn — Loại Cá nhân
+
+| Trường | Bắt buộc | Ghi chú |
+|---|---|---|
+| Họ và tên người mua | ✅ | Tự điền từ hồ sơ nếu đã có |
+| Số CCCD/CMND | ✅ | 12 chữ số |
+| Email nhận hóa đơn điện tử | ✅ | Để nhận file hóa đơn |
+
+### Trường hợp CÓ cần hóa đơn — Loại DN/HKD
+
+| Trường | Bắt buộc | Ghi chú |
+|---|---|---|
+| Tên đơn vị (tên pháp lý đầy đủ) | ✅ | Tự điền từ hồ sơ nếu đã có |
+| Mã số thuế (MST) | ✅ | 10 số (DN) hoặc 12 số (CCCD thay MST từ 01/07/2025) |
+| Địa chỉ đăng ký kinh doanh | ✅ | Tự điền từ hồ sơ nếu đã có |
+| Email nhận hóa đơn điện tử | ✅ | Để nhận file hóa đơn |
+
+> **Lưu ý:** Nếu đã từng điền thông tin hóa đơn trước đây, hệ thống tự động điền sẵn và hiển thị: *"Đã điền từ hồ sơ — vui lòng kiểm tra lại"*. SD kiểm tra và chỉnh sửa nếu cần trước khi xác nhận.
 
 ---
 
@@ -119,10 +173,11 @@ flowchart TD
 - **QR có thời hạn:** Mã QR thanh toán chỉ có hiệu lực trong thời gian nhất định — quét ngay sau khi đặt hàng
 - **Đơn tự hủy:** Nếu không thanh toán trong thời hạn, đơn sẽ tự động hủy
 - **Xác nhận Zalo:** Sau khi thanh toán thành công, SD nhận thông báo qua Zalo OA — kiểm tra để chắc chắn
+- **Hóa đơn bắt buộc chọn:** Phần HÓA ĐƠN VAT phải được điền hoàn chỉnh trước khi đặt hàng — sau khi đơn hoàn thành **không thể yêu cầu bổ sung hóa đơn**
+- **MST từ 01/07/2025:** Hộ cá thể không có MST riêng được dùng số CCCD (12 chữ số) thay thế
 
 ---
 
 ## 📞 Liên quan
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_TimKiemMuaHang\|SOP-SD-02: Tìm Kiếm & Mua Hàng]]
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SD/SOP_SD_KHOTOT_QuanLyDonHang\|SOP-SD-04: Quản Lý Đơn Hàng SD]]
-- [[UAT_CHECKLIST_KHOTOT_2026-03-31\|📋 UAT Checklist khotot.vn SD (31/03/2026)]]

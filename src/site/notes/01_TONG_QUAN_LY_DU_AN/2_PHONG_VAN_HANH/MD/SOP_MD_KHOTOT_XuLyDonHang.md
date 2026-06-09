@@ -133,4 +133,3 @@ Khi click icon 👁️ xem đơn, modal hiển thị:
 ## 📞 Liên quan
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_QuanLyKho\|SOP-MD-02: Quản lý Kho hàng]]
 - [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/MD/SOP_MD_KHOTOT_MaGiamGia\|SOP-MD-04: Tạo Mã Giảm Giá & Khuyến Mãi]]
-- [[UAT_CHECKLIST_MD_KHOTOT_2026-03-31\|📋 UAT Checklist MD (31/03/2026)]]

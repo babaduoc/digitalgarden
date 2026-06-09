@@ -17,8 +17,9 @@
 ## 📄 I. TÀI LIỆU VĂN BẢN QUAN TRỌNG (.MD)
 Tất cả các tài liệu chuẩn (SOP, Quyết định, Biên bản) được hệ thống tự động nhận diện dưới đây:
 
-| File | Ngày cập nhật gần nhất |
-| ---- | ---------------------- |
+| File                                                                                       | Ngày cập nhật gần nhất |
+| ------------------------------------------------------------------------------------------ | ---------------------- |
+| [[01_TONG_QUAN_LY_DU_AN/00_Dashboard/KIEM_TRA_SUC_KHOE_DU_AN\|KIEM_TRA_SUC_KHOE_DU_AN]] | May 12, 2026           |
 
 { .block-language-dataview}
 

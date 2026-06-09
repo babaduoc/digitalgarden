@@ -7,7 +7,7 @@
 
 > **Dự án:** Web ETZ — Khotot.vn
 > **Mục tiêu:** Xử lý nhanh chóng các khiếu nại về hàng lỗi, tem hỏng và thực hiện quy trình hoàn tiền/trừ nợ chính xác.
-> **Phiên bản:** 1.0 | **Cập nhật:** 2026-04-02
+> **Phiên bản:** 1.1 | **Cập nhật:** 2026-05-11
 
 ---
 
@@ -78,6 +78,7 @@ graph TD
 ## ⚠️ LƯU Ý QUAN TRỌNG
 - **Yếu tố Video:** Đây là bằng chứng quan trọng nhất để Admin duyệt khiếu nại. Tuyệt đối không duyệt nếu thiếu video quét SN/Tem BH.
 - **Xác nhận Kho:** Chỉ được báo Kế toán hoàn tiền khi đã có xác nhận "Đã nhận hàng - OK" từ Kho.
+- **⏱️ SLA Hoàn tiền:** Tối đa **07 ngày làm việc** kể từ khi khiếu nại được xử lý hoàn tất (Kho xác nhận nhận lại hàng thành công). Kế toán phải cập nhật trạng thái và thông báo cho khách trong thời hạn này.
 
 ---
-*Tài liệu này là quy chuẩn xử lý khiếu nại chính thức của Web ETZ.*
+*Tài liệu này là quy chuẩn xử lý khiếu nại chính thức của Web ETZ. Phiên bản 1.1 — Bổ sung SLA hoàn tiền 07 ngày làm việc.*

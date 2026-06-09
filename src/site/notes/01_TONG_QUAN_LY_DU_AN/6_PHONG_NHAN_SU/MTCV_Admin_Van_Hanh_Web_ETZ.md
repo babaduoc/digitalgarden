@@ -146,4 +146,4 @@ Website Khotot.vn là kênh bán hàng B2B dành riêng cho mạng lưới **Sub
 ---
 
 *📎 Tài liệu liên quan:*
-*[[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Xu_Ly_Don_Hang_Chuan\|SOP Xử lý Đơn hàng]] | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP Hủy đơn Hết hàng]] | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP Xác thực SD]] | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP Bảo hành]]*
+*[[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_2_Quy_Trinh_Xuly_Don_Chuan_Khotot\|SOP Xử lý Đơn hàng]] | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_3_Huy_Don_Het_Hang\|SOP Hủy đơn Hết hàng]] | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_1_Quy_Trinh_Dang_Ky_Xac_Thuc_SD\|SOP Xác thực SD]] | [[01_TONG_QUAN_LY_DU_AN/2_PHONG_VAN_HANH/SOP_4_Bao_Hanh_Xy_Ly_Ngoai_Luong\|SOP Bảo hành]]*
